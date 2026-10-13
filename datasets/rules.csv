@@ -1,0 +1,199 @@
+family;origin;behaviour;node;icd10;status;rationale;source
+skin.melanocyte;primary;malignant;lip;C43.0;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;eyelid;C43.1;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;ear;C43.2;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;face;C43.3;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;scalp_neck;C43.4;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;trunk;C43.5;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;upper_limb;C43.6;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;lower_limb;C43.7;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;unspecified;C43.9;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;lip;C44.0;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;eyelid;C44.1;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;ear;C44.2;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;face;C44.3;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;scalp_neck;C44.4;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;trunk;C44.5;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;upper_limb;C44.6;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;lower_limb;C44.7;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;malignant;unspecified;C44.9;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;lip;D03.0;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;eyelid;D03.1;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;ear;D03.2;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;face;D03.3;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;scalp_neck;D03.4;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;trunk;D03.5;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;upper_limb;D03.6;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;lower_limb;D03.7;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;in_situ;unspecified;D03.9;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;lip;D04.0;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;eyelid;D04.1;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;ear;D04.2;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;face;D04.3;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;scalp_neck;D04.4;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;trunk;D04.5;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;upper_limb;D04.6;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;lower_limb;D04.7;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;in_situ;unspecified;D04.9;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;lip;D22.0;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;eyelid;D22.1;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;ear;D22.2;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;face;D22.3;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;scalp_neck;D22.4;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;trunk;D22.5;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;upper_limb;D22.6;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;lower_limb;D22.7;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.melanocyte;primary;benign;unspecified;D22.9;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;lip;D23.0;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;eyelid;D23.1;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;ear;D23.2;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;face;D23.3;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;scalp_neck;D23.4;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;trunk;D23.5;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;upper_limb;D23.6;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;lower_limb;D23.7;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+skin.other;primary;benign;unspecified;D23.9;resolved;"Agrupación cutánea específica de la familia; no se cambia el tejido de origen.";WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;head_neck;C49.0;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;upper_limb;C49.1;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;lower_limb;C49.2;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;thorax;C49.3;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;abdomen;C49.4;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;pelvis;C49.5;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;trunk;C49.6;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;malignant;unspecified;C49.9;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;head_neck;D21.0;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;upper_limb;D21.1;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;lower_limb;D21.2;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;thorax;D21.3;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;abdomen;D21.4;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;pelvis;D21.5;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;trunk;D21.6;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+soft_tissue.other;primary;benign;unspecified;D21.9;resolved;Región de tejido conectivo y otros tejidos blandos.;WHO ICD-10 2019 tabular
+adipose.superficial;primary;benign;head_neck;D17.0;resolved;"D17 agrupa piel y subcutáneo por región; ambas extremidades se reúnen en D17.2.";WHO ICD-10 2019 tabular
+adipose.superficial;primary;benign;trunk;D17.1;resolved;"D17 agrupa piel y subcutáneo por región; ambas extremidades se reúnen en D17.2.";WHO ICD-10 2019 tabular
+adipose.superficial;primary;benign;upper_limb;D17.2;resolved;"D17 agrupa piel y subcutáneo por región; ambas extremidades se reúnen en D17.2.";WHO ICD-10 2019 tabular
+adipose.superficial;primary;benign;lower_limb;D17.2;resolved;"D17 agrupa piel y subcutáneo por región; ambas extremidades se reúnen en D17.2.";WHO ICD-10 2019 tabular
+adipose.superficial;primary;benign;limb;D17.2;resolved;"D17 agrupa piel y subcutáneo por región; ambas extremidades se reúnen en D17.2.";WHO ICD-10 2019 tabular
+adipose.superficial;primary;benign;unspecified;D17.3;resolved;"D17 agrupa piel y subcutáneo por región; ambas extremidades se reúnen en D17.2.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;head_neck;C47.0;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;upper_limb;C47.1;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;lower_limb;C47.2;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;thorax;C47.3;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;abdomen;C47.4;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;pelvis;C47.5;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;trunk;C47.6;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;malignant;unspecified;C47.9;resolved;"Topografía de nervios periféricos y sistema autónomo; excluir nervios craneales.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;head_neck;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;head_neck;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;head_neck;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;upper_limb;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;upper_limb;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;upper_limb;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;lower_limb;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;lower_limb;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;lower_limb;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;thorax;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;thorax;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;thorax;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;abdomen;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;abdomen;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;abdomen;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;pelvis;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;pelvis;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;pelvis;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;trunk;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;trunk;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;trunk;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;benign;unspecified;D36.1;resolved;Neoplasia benigna de nervios periféricos y sistema autónomo.;WHO ICD-10 2019 tabular
+peripheral_nerve;primary;uncertain;unspecified;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+peripheral_nerve;primary;unknown;unspecified;D48.2;resolved;"ICD-10 OMS reúne comportamiento incierto y desconocido; el atributo fuente se conserva.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;external_upper;C00.0;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;external_upper;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;external_upper;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;external_upper;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;external_upper;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;external_lower;C00.1;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;external_lower;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;external_lower;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;external_lower;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;external_lower;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;external_unspecified;C00.2;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;external_unspecified;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;external_unspecified;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;external_unspecified;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;external_unspecified;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;inner_upper;C00.3;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;inner_upper;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;inner_upper;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;inner_upper;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;inner_upper;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;inner_lower;C00.4;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;inner_lower;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;inner_lower;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;inner_lower;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;inner_lower;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;inner_unspecified;C00.5;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;inner_unspecified;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;inner_unspecified;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;inner_unspecified;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;inner_unspecified;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;commissure;C00.6;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;commissure;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;commissure;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;commissure;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;commissure;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;malignant;unspecified;C00.9;resolved;C00 comprende borde bermellón y cara interna. La piel del labio se resuelve en familia cutánea.;WHO ICD-10 2019 tabular
+lip.mucosal;primary;benign;unspecified;D10.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;in_situ;unspecified;D00.0;resolved;"Labio mucoso o bermellón; excluir piel del labio.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;uncertain;unspecified;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+lip.mucosal;primary;unknown;unspecified;D37.0;resolved;"Labio, cavidad bucal y faringe; incierto o desconocido según ICD-10 OMS.";WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_0;C71.0;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_1;C71.1;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_2;C71.2;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_3;C71.3;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_4;C71.4;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_5;C71.5;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_6;C71.6;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_7;C71.7;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;malignant;brain_9;C71.9;resolved;Sitio cerebral, independientemente del tipo histológico una vez resuelto el comportamiento.;WHO ICD-10 2019 tabular
+brain;primary;benign;supratentorial;D33.0;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;benign;infratentorial;D33.1;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;benign;unspecified;D33.2;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;uncertain;supratentorial;D43.0;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;uncertain;infratentorial;D43.1;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;uncertain;unspecified;D43.2;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;unknown;supratentorial;D43.0;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;unknown;infratentorial;D43.1;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+brain;primary;unknown;unspecified;D43.2;resolved;La división supra/infratentorial se conserva como perfil propio.;WHO ICD-10 2019 tabular
+meninges;primary;malignant;cerebral;C70.0;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;malignant;spinal;C70.1;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;malignant;unspecified;C70.9;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;benign;cerebral;D32.0;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;benign;spinal;D32.1;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;benign;unspecified;D32.9;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;uncertain;cerebral;D42.0;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;uncertain;spinal;D42.1;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;uncertain;unspecified;D42.9;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;unknown;cerebral;D42.0;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;unknown;spinal;D42.1;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+meninges;primary;unknown;unspecified;D42.9;resolved;Topografía meníngea según compartimento.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C51.1;C51.1;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C51.1;C51.1;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C52;C52;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C52;C52;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C60.0;C60.0;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C60.0;C60.0;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C51.2;C51.2;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C51.2;C51.2;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C60.9;C60.9;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C60.9;C60.9;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C51.0;C51.0;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C51.0;C51.0;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C60.1;C60.1;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C60.1;C60.1;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C60.2;C60.2;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C60.2;C60.2;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C51.9;C51.9;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C51.9;C51.9;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.melanocyte;primary;malignant;genital_C63.2;C63.2;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular
+skin.other;primary;malignant;genital_C63.2;C63.2;resolved;Exclusión expresa de piel genital en C43/C44. Usar el sitio genital específico.;WHO ICD-10 2019 tabular

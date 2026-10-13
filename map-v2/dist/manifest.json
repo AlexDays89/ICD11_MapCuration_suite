@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1",
+  "version": "v2.0-compiler-2026-10-13",
+  "generatedAt": "2026-10-13T23:21:01.347Z",
+  "releases": {
+    "icd11": {
+      "linearization": "mms",
+      "release": "2026-01",
+      "language": "es"
+    },
+    "icd10": {
+      "edition": "2019",
+      "variant": "WHO",
+      "language": "en"
+    },
+    "icdo3": {
+      "edition": "3.2",
+      "sourceRef": null
+    },
+    "icdo4": {
+      "edition": "4",
+      "sourceRef": null
+    }
+  },
+  "sourceManifest": {
+    "generatedAt": "2026-10-13T23:21:01.348Z",
+    "sourceDir": "datasets",
+    "files": {
+      "stems": {
+        "filename": "icd11_stem_defaults.csv",
+        "sha256": "2e3ca9b75984e439027820dcb37d65f1400ca642d5c7b8b27a04b10f5509d455",
+        "rowCount": 1290,
+        "headers": [
+          "id",
+          "Foundation URI",
+          "Linearization URI",
+          "Code",
+          "DepthInKind",
+          "IsResidual",
+          "isLeaf",
+          "icd11_title_en",
+          "icd11_title_es",
+          "origin",
+          "behaviour",
+          "domain",
+          "subdomain",
+          "precoordinated_topography",
+          "precoordinated_morphology",
+          "icd10_default",
+          "icd10_needs_refinement",
+          "icd10_refinement_axis",
+          "icdo3_topography_default",
+          "icdo4_topography_default",
+          "ICDO_3_morphology_code",
+          "ICD_O_3_behaviour_code",
+          "ICDO_4_morphology_code",
+          "ICD_O_4_behaviour_code"
+        ]
+      },
+      "icd10Domains": {
+        "filename": "ICD10_domains.csv",
+        "sha256": "7e3a28f442f2d99381d153addc10ca0e96537affe1d47d70aa8102a7102e131b",
+        "rowCount": 899,
+        "headers": [
+          "code",
+          "kind",
+          "preferred",
+          "preferred_long",
+          "domain_ltree",
+          "origin",
+          "behaviour",
+          "domain",
+          "subdomain",
+          "ICD11_top_node",
+          "profile",
+          "nodes",
+          "claml_parent_codes",
+          "claml_child_codes",
+          "is_leaf_claml",
+          "claml_depth",
+          "claml_path_codes",
+          "claml_path_titles",
+          "top_node_exclusion",
+          "definition",
+          "note",
+          "coding_hint",
+          "text",
+          "meta_json",
+          "rubrics_json"
+        ]
+      },
+      "anatomyMapping": {
+        "filename": "anatomy_mapping.csv",
+        "sha256": "a429caf8aad49ab00d54b759a47d80dea1f237da42ec657f7ceb915b4de7752b",
+        "rowCount": 3538,
+        "headers": [
+          "id",
+          "Foundation URI",
+          "Linearization URI",
+          "Code",
+          "TitleEN",
+          "TitleES",
+          "ClassKind",
+          "DepthInKind",
+          "browser",
+          "isLeaf",
+          "top_node",
+          "nodes",
+          "node_relations",
+          "uri_anatomy_ltree",
+          "anatomy_ltree",
+          "ICD10_malignant_primary",
+          "ICD10_malignant_secondary",
+          "ICD10_benign",
+          "ICD10_in_situ",
+          "ICD10_uncertain",
+          "ICD10_unknown",
+          "ICDO_3_2",
+          "ICDO_4"
+        ]
+      },
+      "anatomyRelations": {
+        "filename": "anatomy_relations.csv",
+        "sha256": "7774532488e303d91ea2faf73846218e1adcee6f74ea64d2aa14f78bbbf830ef",
+        "rowCount": 1411,
+        "headers": [
+          "anatomy_code",
+          "foundation_uri",
+          "profile",
+          "node",
+          "status"
+        ]
+      },
+      "rules": {
+        "filename": "rules.csv",
+        "sha256": "1b2e4fee19d29eeb141145dd96114638d9cb7985a83d25fd8671e466fd6d2129",
+        "rowCount": 198,
+        "headers": [
+          "family",
+          "origin",
+          "behaviour",
+          "node",
+          "icd10",
+          "status",
+          "rationale",
+          "source"
+        ]
+      },
+      "anatomyTreeIcd10": {
+        "filename": "icd11_anatomy_tree_icd10.csv",
+        "sha256": "e680b8daf2a33d7b558ad1e08841d66cc71879ace76c75d34619ec387d7f7431",
+        "rowCount": 1285,
+        "headers": [
+          "anatomy_extension",
+          "stem_ltree",
+          "foundation_uri",
+          "linearization_uri",
+          "icd11_label_EN",
+          "icd11_label_ES",
+          "icd11_extension_uripath_ltree",
+          "top_parent_for_terminal",
+          "icd11_extension_semantic_ltree",
+          "ICD-10",
+          "icd10_label",
+          "composite_ltree",
+          "",
+          "__2"
+        ]
+      },
+      "histopathologyAxis": {
+        "filename": "ICD11_histopathology_axis.csv",
+        "sha256": "ffaa281e37e7778ad883aea1d14d44818d50a0c847144d262d977edfc567ec5f",
+        "rowCount": 1885,
+        "headers": [
+          "id",
+          "Foundation URI",
+          "Linearization URI",
+          "Code",
+          "TitleEN",
+          "TitleES",
+          "ClassKind",
+          "DepthInKind",
+          "isLeaf",
+          "BrowserLink",
+          "Linearization_URI_Code",
+          "icdo3_morpho_code",
+          "icdo3_behaviour_code",
+          "icdo4_morpho_code",
+          "icdo4_behaviour_code"
+        ]
+      },
+      "icdoTopoGroups": {
+        "filename": "icdo_topo_groups.csv",
+        "sha256": "35b35e66db75ee7feb2d285ecfcc691c0d2d69034744681d9ff12fb3d33b8ef3",
+        "rowCount": 22,
+        "headers": [
+          "key",
+          "icdo3_topography",
+          "source",
+          "status"
+        ]
+      },
+      "icd10DomainNotes": {
+        "filename": "icd10_domain_notes.csv",
+        "sha256": "1a4072764a1a014cdafc059561966768a62f2bcdcdde5191696a48f3a7fbaf54",
+        "rowCount": 905,
+        "headers": [
+          "code",
+          "kind",
+          "note"
+        ]
+      }
+    },
+    "referenceDir": "map-v2/sources",
+    "referenceFiles": {
+      "icdo3TopographyLabels": {
+        "filename": "icdo3.2\\icdo3_topography_labels.csv",
+        "sha256": "9ad3e90ada5d27f11de80675723d713dc91a711604a1e9bf3baeb649ffb9b810",
+        "rowCount": 406,
+        "headers": [
+          "code",
+          "label",
+          "source_level"
+        ]
+      },
+      "icdo4MorphologyLabels": {
+        "filename": "icdo4\\icdo4_morphology_labels.csv",
+        "sha256": "a7d02d445e0d3e20525d9de7b41bb0d625f4f46ab9163a6f4aad07e0b66df584",
+        "rowCount": 2308,
+        "headers": [
+          "code",
+          "label"
+        ]
+      },
+      "icdo4MorphologyTerms": {
+        "filename": "icdo4\\icdo4_morphology_terms.csv",
+        "sha256": "6d2ca3fb5b98f220c1f3a761a786f74b489ed24271377e3b85e88f2aaa8487f4",
+        "rowCount": 4600,
+        "headers": [
+          "code",
+          "level",
+          "term"
+        ]
+      }
+    }
+  },
+  "counts": {
+    "stems_with_code": 1247,
+    "anatomy_identities": 3506,
+    "anatomy_relation_rows": 1411,
+    "rules": 198,
+    "anatomy_tree_terminal_mappings": 1278,
+    "histology_extensions": 1700,
+    "icdo_topo_groups": 22,
+    "icd10_catalog_entries": 899
+  },
+  "problems": [],
+  "outputHashes": {
+    "map.ttl": "2082be396b5445beb0384dd4c4c29c8258cfc961c09855a3994948c47f3d5300",
+    "map.rdf": "3e827c4d002dd5c7ba9edfe54919f6566000aec01b9af8e79e10a4a656bebec2",
+    "map.normalized.yaml": "f543117e0be4c4a21908d8a38b533c87f3239ac76ac023face426ddf695cdbb9",
+    "map.bundle.json": "b3e195f79755f6a0fe5c2ec061787eebc63815236487a2d46b60e4390ed72b40"
+  }
+}

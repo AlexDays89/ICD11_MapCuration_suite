@@ -1,0 +1,11 @@
+{
+  "property": "PENDIENTE DE DATOS (mover a cases/ tras vaciar behaviour y precoordinated_morphology de 2A01.0Y en icd11_stem_defaults): un residual .Y obliga a especificar la histopatologia, no hereda el default NOS benigno del padre; con histologia maligna postcoordinada resuelve sin conflicto.",
+  "selection": {
+    "code": "2A01.0Y&XH0324"
+  },
+  "expect": {
+    "status": "resolved",
+    "icd10.code": "C70.9",
+    "icdoMorphology.code": "9530/3"
+  }
+}

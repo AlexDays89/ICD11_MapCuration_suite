@@ -1,0 +1,10 @@
+{
+  "property": "Curacion SNC 2026-10: 2A02.10 (tumor maligno de la vaina del nervio periferico de nervios craneales o paraespinales) toma la morfologia de su histologia precoordinada XH2XP8: 9540/3 en CIE-O-3.2 y 95400/3 en CIE-O-4 (antes 9364/3 y 93641/3).",
+  "selection": {
+    "code": "2A02.10"
+  },
+  "expect": {
+    "icdoMorphology.code": "9540/3",
+    "icdoMorphology4.code": "95400/3"
+  }
+}

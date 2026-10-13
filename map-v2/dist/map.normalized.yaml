@@ -1,0 +1,83 @@
+# Generado por compiler/build.js. Vista de inspección, no editable a mano.
+schema_version: "1"
+map_version: "v2.0-compiler-2026-10-13"
+releases:
+  icd11:
+    linearization: mms
+    release: "2026-01"
+    language: es
+  icd10:
+    edition: "2019"
+    variant: WHO
+    language: en
+  icdo3:
+    edition: "3.2"
+    sourceRef: null
+  icdo4:
+    edition: "4"
+    sourceRef: null
+authoring:
+  clinical_facts: source_csv
+  source_dir: datasets
+  files:
+    stems:
+      filename: icd11_stem_defaults.csv
+      sha256: 2e3ca9b75984e439027820dcb37d65f1400ca642d5c7b8b27a04b10f5509d455
+      rows: 1290
+    icd10Domains:
+      filename: ICD10_domains.csv
+      sha256: 7e3a28f442f2d99381d153addc10ca0e96537affe1d47d70aa8102a7102e131b
+      rows: 899
+    anatomyMapping:
+      filename: anatomy_mapping.csv
+      sha256: a429caf8aad49ab00d54b759a47d80dea1f237da42ec657f7ceb915b4de7752b
+      rows: 3538
+    anatomyRelations:
+      filename: anatomy_relations.csv
+      sha256: 7774532488e303d91ea2faf73846218e1adcee6f74ea64d2aa14f78bbbf830ef
+      rows: 1411
+    rules:
+      filename: rules.csv
+      sha256: 1b2e4fee19d29eeb141145dd96114638d9cb7985a83d25fd8671e466fd6d2129
+      rows: 198
+    anatomyTreeIcd10:
+      filename: icd11_anatomy_tree_icd10.csv
+      sha256: e680b8daf2a33d7b558ad1e08841d66cc71879ace76c75d34619ec387d7f7431
+      rows: 1285
+    histopathologyAxis:
+      filename: ICD11_histopathology_axis.csv
+      sha256: ffaa281e37e7778ad883aea1d14d44818d50a0c847144d262d977edfc567ec5f
+      rows: 1885
+    icdoTopoGroups:
+      filename: icdo_topo_groups.csv
+      sha256: 35b35e66db75ee7feb2d285ecfcc691c0d2d69034744681d9ff12fb3d33b8ef3
+      rows: 22
+    icd10DomainNotes:
+      filename: icd10_domain_notes.csv
+      sha256: 1a4072764a1a014cdafc059561966768a62f2bcdcdde5191696a48f3a7fbaf54
+      rows: 905
+policies:
+  preserve_declared_terminal_fallback: true
+  unresolved_selected_specificity: pending_with_baseline
+  conflicting_equal_scope_rules: conflict
+  missing_target_version: pending_per_output
+profiles_alias_note: "domain 'ns' (nervous system) stems use family 'brain' when no dedicated meninges anatomy extension is postcoordinated; a meninges-specific extension code overrides the family to 'meninges' purely from its own anatomy_relations.csv profile -- see compiler/resolve.js effectiveFamily() and reports/gap-analysis.md."
+rules_families_observed:
+  - adipose.superficial
+  - brain
+  - lip.mucosal
+  - meninges
+  - peripheral_nerve
+  - skin.melanocyte
+  - skin.other
+  - soft_tissue.other
+counts:
+  stems_with_code: 1247
+  anatomy_identities: 3506
+  anatomy_relation_rows: 1411
+  rules: 198
+  anatomy_tree_terminal_mappings: 1278
+  histology_extensions: 1700
+  icdo_topo_groups: 22
+  icd10_catalog_entries: 899
+problems: []

@@ -1,0 +1,23 @@
+{
+  "name": "poc-coding-tool",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "copy-map-v2": "node scripts/copy-map-v2.mjs",
+    "predev": "pnpm run copy-map-v2",
+    "dev": "vite",
+    "prebuild": "pnpm run copy-map-v2",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@whoicd/icd11ect": "^1.8.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.2.2"
+  }
+}

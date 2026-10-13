@@ -1,0 +1,11 @@
+{
+  "property": "Curacion SNC 2026-10: una anatomia postcoordinada con topografia CIE-O propia (XA84W1 cola de caballo -> C72.1) prevalece sobre el default topografico del stem (2A02.2 -> C72.0).",
+  "selection": {
+    "code": "2A02.2&XA84W1"
+  },
+  "expect": {
+    "icdoTopography.code": "C72.1",
+    "icdoTopography.source": "anatomy_mapping.csv",
+    "icd10.code": null
+  }
+}

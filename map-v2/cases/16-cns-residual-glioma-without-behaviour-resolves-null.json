@@ -1,0 +1,12 @@
+{
+  "property": "Curacion SNC 2026-10: un residual .Y sin comportamiento propio no asume perfil 'nonmalignant' por postcoordinar solo anatomia (2A00.0Y&XA92Y6 daba D43.0); el CIE-10 queda null y la topografia CIE-O si se resuelve.",
+  "selection": {
+    "code": "2A00.0Y&XA92Y6"
+  },
+  "expect": {
+    "icd10.code": null,
+    "icd10.status": "unmapped",
+    "anatomy.profile": null,
+    "icdoTopography.code": "C71.3"
+  }
+}

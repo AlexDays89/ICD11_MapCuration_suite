@@ -1,0 +1,114 @@
+[
+  {
+    "feedbackId": "0295d6f2716f31145729679dcda5dcbb",
+    "revision": 1,
+    "createdAt": "2026-09-24T03:42:56.047Z",
+    "updatedAt": "2026-09-24T03:42:56.047Z",
+    "selectionId": "c66033b2049839e161ce61767185eb54",
+    "textOriginal": "No debe ofrecerse la posibilidad de postcoordinar histopatología en el residual .Z, ya que este tiene precoordinado el atributo CNS embryonal tumour, NEC/NOS (NEC si los estudios moleculares salieron negativos y NOS si no se pudieron realizar). Asi mismo, no se debe ofrecer como posibilidad de postcoordinacion 9473/3 CNS embryonal tumour, NEC/NOS en la entidad residual .Y",
+    "note": "No debe ofrecerse la posibilidad de postcoordinar histopatología en el residual .Z, ya que este tiene precoordinado el atributo CNS embryonal tumour, NEC/NOS (NEC si los estudios moleculares salieron negativos y NOS si no se pudieron realizar). Asi mismo, no se debe ofrecer como posibilidad de postcoordinacion 9473/3 CNS embryonal tumour, NEC/NOS en la entidad residual .Y",
+    "tags": [
+      "postcoordination",
+      "histopathology"
+    ],
+    "verdict": "review",
+    "rawSelectionPayload": {
+      "iNo": "browser_1",
+      "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+      "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+      "foundationUri": "http://id.who.int/icd/entity/1994022806",
+      "code": "2A00.1Z",
+      "title": "Tumores embrionarios del cerebro, sin especificación",
+      "bestMatchText": "Tumores embrionarios del cerebro, sin especificación",
+      "selectedText": "Tumores embrionarios del cerebro, sin especificación"
+    },
+    "captureRecord": {
+      "selectionId": "c66033b2049839e161ce61767185eb54",
+      "instance": "browser",
+      "timestamp": "2026-09-24T03:41:05.909Z",
+      "entity": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "code": "2A00.1Z",
+        "title": "Tumores embrionarios del cerebro, sin especificación",
+        "bestMatchText": "Tumores embrionarios del cerebro, sin especificación",
+        "selectedText": "Tumores embrionarios del cerebro, sin especificación"
+      },
+      "query": {
+        "original": null,
+        "normalized": ""
+      },
+      "searchCandidates": [],
+      "describeData": {
+        "code": "2A00.1Z",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "label": "Tumores embrionarios del cerebro, sin especificación"
+      },
+      "indexTerm": null,
+      "otherPostcoordinationEnabled": false,
+      "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+    },
+    "otherPostcoordinationEnabled": false,
+    "mapVersion": "v2.0-compiler-2026-09-22",
+    "instance": "browser"
+  },
+  {
+    "feedbackId": "d463a74f266181e0fca30a6f1e2608c1",
+    "revision": 4,
+    "createdAt": "2026-09-24T03:34:53.041Z",
+    "updatedAt": "2026-09-24T03:40:54.554Z",
+    "selectionId": "e5c662590026a9823e7b549fb4313f56",
+    "textOriginal": "Reducir postcoordinacion de histopatología:\nEmbryonal tumours\nMedulloblastomas, molecularly defined\n9475/3          Medulloblastoma, WNT-activated\n9471/3          Medulloblastoma, SHH-activated and TP53-wildtype\n9476/3          Medulloblastoma, SHH-activated and TP53-mutant\n9477/3          Medulloblastoma, non-WNT/non-SHH\nMedulloblastomas, histologically defined\n9470/3          Medulloblastoma, histologically defined\n9471/3                Desmoplastic nodular medulloblastoma\n9471/3                Medulloblastoma with extensive nodularity\n9474/3                Large cell medulloblastoma\n9474/3                Anaplastic medulloblastoma \nOther CNS embryonal tumours\n9508/3          Atypical teratoid/rhabdoid tumour\nn/a                 Cribriform neuroepithelial tumour (provisional entity)\n9478/3          Embryonal tumour with multilayered rosettes\n9500/3          CNS neuroblastoma, FOXR2-activated†\n9500/3          CNS tumour with BCOR internal tandem duplication†\n9473/3          CNS embryonal tumour, NEC/NOS",
+    "note": "Reducir postcoordinacion de histopatología:\nEmbryonal tumours\nMedulloblastomas, molecularly defined\n9475/3          Medulloblastoma, WNT-activated\n9471/3          Medulloblastoma, SHH-activated and TP53-wildtype\n9476/3          Medulloblastoma, SHH-activated and TP53-mutant\n9477/3          Medulloblastoma, non-WNT/non-SHH\nMedulloblastomas, histologically defined\n9470/3          Medulloblastoma, histologically defined\n9471/3                Desmoplastic nodular medulloblastoma\n9471/3                Medulloblastoma with extensive nodularity\n9474/3                Large cell medulloblastoma\n9474/3                Anaplastic medulloblastoma \nOther CNS embryonal tumours\n9508/3          Atypical teratoid/rhabdoid tumour\nn/a                 Cribriform neuroepithelial tumour (provisional entity)\n9478/3          Embryonal tumour with multilayered rosettes\n9500/3          CNS neuroblastoma, FOXR2-activated†\n9500/3          CNS tumour with BCOR internal tandem duplication†",
+    "tags": [
+      "postcoordination",
+      "histopathology"
+    ],
+    "verdict": "review",
+    "rawSelectionPayload": {
+      "iNo": "browser_1",
+      "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+      "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+      "foundationUri": "http://id.who.int/icd/entity/1994022806",
+      "code": "2A00.1Y",
+      "title": "Otros tumores embrionarios especificados del cerebro",
+      "bestMatchText": "Otros tumores embrionarios especificados del cerebro",
+      "selectedText": "Otros tumores embrionarios especificados del cerebro"
+    },
+    "captureRecord": {
+      "selectionId": "e5c662590026a9823e7b549fb4313f56",
+      "instance": "browser",
+      "timestamp": "2026-09-24T03:40:52.229Z",
+      "entity": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "code": "2A00.1Y",
+        "title": "Otros tumores embrionarios especificados del cerebro",
+        "bestMatchText": "Otros tumores embrionarios especificados del cerebro",
+        "selectedText": "Otros tumores embrionarios especificados del cerebro"
+      },
+      "query": {
+        "original": null,
+        "normalized": ""
+      },
+      "searchCandidates": [],
+      "describeData": {
+        "code": "2A00.1Y",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "label": "Otros tumores embrionarios especificados del cerebro"
+      },
+      "indexTerm": null,
+      "otherPostcoordinationEnabled": false,
+      "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+    },
+    "otherPostcoordinationEnabled": false,
+    "mapVersion": "v2.0-compiler-2026-09-22",
+    "instance": "browser"
+  }
+]

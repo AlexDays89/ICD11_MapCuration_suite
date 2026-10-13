@@ -1,0 +1,12 @@
+{
+  "property": "XA5S78 (region anatomica de muslo/miembro inferior) tiene TRES filas de perfil en anatomy_relations.csv para el mismo nodo (skin, soft_tissue, adipose.superficial) -- un stem de sarcoma de tejido blando (family mesenchymal.soft_tissue) debe desambiguar por su propio anclaje tisular, no por el orden de fila (bug real reportado por el usuario: caia en 'skin.other'/C44.7 en vez de 'soft_tissue.other'/C49.2).",
+  "selection": { "code": "2B59.0&XA5S78" },
+  "expect": {
+    "status": "resolved",
+    "family": "soft_tissue.other",
+    "node": "lower_limb",
+    "icd10.code": "C49.2",
+    "icd10.route": "F4",
+    "icdoTopography.code": "C49.2"
+  }
+}

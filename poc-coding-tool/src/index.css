@@ -1,0 +1,180 @@
+/* App shell: full-viewport, no page scroll on desktop. Column 1 = WHO
+   widget, column 2 = tabbed side panel (map+curation / feedback / entity),
+   each pane with its own single scroll. Below 1180px it stacks. */
+:root {
+  --header-h: 48px;
+  --widget-h: calc(100vh - 150px);
+  --widget-results-h: calc(100vh - 170px);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #1a1a1a; background: #fff; }
+.app { display: flex; flex-direction: column; height: 100vh; }
+.app-header { display: flex; align-items: stretch; gap: 1.25rem; padding: 0 16px; min-height: var(--header-h); border-bottom: 1px solid #ddd; flex-wrap: wrap; }
+.app-header h1 { margin: 0; font-size: 1rem; align-self: center; }
+.subtitle { margin: 0 0 0 auto; align-self: center; color: #777; font-size: 0.78rem; }
+.page-tabs { display: flex; gap: 0.25rem; }
+.page-tabs button { padding: 0 1rem; border: none; background: none; cursor: pointer; font-size: 0.92rem; color: #555; border-bottom: 2px solid transparent; }
+.page-tabs button.active { color: #1976d2; border-bottom-color: #1976d2; font-weight: 600; }
+.tab-count { margin-left: 0.4rem; padding: 0 0.45rem; border-radius: 999px; background: #e3edfb; color: #1976d2; font-size: 0.75rem; font-weight: 600; }
+.app-main { flex: 1; min-height: 0; padding: 12px 16px; }
+.page { height: 100%; }
+.page[hidden] { display: none; }
+
+.tool-page { display: grid; grid-template-columns: minmax(780px, 3fr) minmax(380px, 2fr); gap: 12px; height: 100%; }
+.tool-page-main { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+.tool-page-side { min-width: 0; min-height: 0; }
+.tool-page-toolbar { display: flex; justify-content: flex-end; margin-bottom: 0.5rem; }
+.other-postcoordination-toggle { padding: 0.3rem 0.75rem; border-radius: 999px; border: 1px solid #ccc; cursor: pointer; font-size: 0.82rem; background: #f5f5f5; }
+.other-postcoordination-toggle.on { background: #fff4d6; border-color: #d99a00; color: #8a5a00; }
+/* The widget keeps a full column of its own -- never squeeze it beside a
+   sibling in a flex row (its popups assume width; see ECT gotchas). */
+.tool-page-widget { flex: 1; min-height: 0; width: 100%; border: 1px solid #ddd; border-radius: 6px; padding: 0.6rem; box-sizing: border-box; overflow: hidden; }
+
+.side-tabs { display: flex; flex-direction: column; height: 100%; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+.side-tabs-strip { display: flex; border-bottom: 1px solid #e5e7eb; padding: 0 0.5rem; flex-shrink: 0; }
+.side-tabs-strip button { padding: 0.55rem 0.8rem; border: none; background: none; cursor: pointer; font-size: 0.85rem; color: #555; border-bottom: 2px solid transparent; }
+.side-tabs-strip button.active { color: #1976d2; border-bottom-color: #1976d2; font-weight: 600; }
+.side-tabs-pane { flex: 1; min-height: 0; overflow: auto; padding: 0.75rem; }
+.side-tabs-pane[hidden] { display: none; }
+
+/* WHO Browser: its hierarchy column is `width: 31vw` (viewport, not
+   container), which starves the entity/postcoordination column inside a
+   narrower container. Size both columns relative to the widget instead. */
+.ctw-eb-window .ectComponent .browser .browserBody { grid-template-columns: minmax(200px, 34%) minmax(420px, 1fr); }
+.ctw-eb-window .ectComponent .browser .browserBodyLeft { width: auto; min-width: 0; resize: none; }
+
+@media (max-width: 1180px) {
+  :root { --widget-h: 78vh; --widget-results-h: 60vh; }
+  .app { height: auto; min-height: 100vh; }
+  .tool-page { grid-template-columns: minmax(0, 1fr); height: auto; }
+  .tool-page-widget { overflow: auto; }
+  .tool-page-side { height: 85vh; }
+  .subtitle { display: none; }
+}
+
+.ctw-input { width: 100%; padding: 0.5rem; box-sizing: border-box; }
+.ctw-window { position: relative; }
+.ctw-eb-window { border: 1px solid #eee; border-radius: 4px; }
+.browser-title { font-weight: 600; margin: 0 0 0.25rem; }
+.browser-subtitle { color: #777; font-size: 0.85rem; margin: 0 0 0.5rem; }
+
+/* EntityDetail: 5-tab lateral JSON panel, shared by Browser and Coding Tool pages */
+.entity-detail { display: flex; flex-direction: column; font-size: 0.85rem; }
+.entity-detail-empty { padding: 1rem; color: #999; font-style: italic; }
+.entity-detail-tabs { display: flex; flex-wrap: wrap; border-bottom: 1px solid #e5e7eb; margin-bottom: 0.5rem; }
+.entity-detail-tab { padding: 0.25rem 0.75rem; font-size: 0.8rem; cursor: pointer; color: #666; background: none; border: none; border-bottom: 2px solid transparent; }
+.entity-detail-tab.active { color: #1976d2; border-bottom-color: #1976d2; }
+.entity-detail-field { margin-bottom: 0.4rem; }
+.entity-detail-field-label { font-weight: 600; color: #555; }
+.entity-detail-field-value { color: #222; word-break: break-all; }
+.entity-detail-pre, .entity-detail-panel pre { background: #1e1e1e; color: #d4d4d4; padding: 0.6rem; border-radius: 4px; font-size: 0.7rem; overflow-x: auto; margin: 0; }
+.entity-detail-note { padding: 0.5rem; color: #666; font-size: 0.8rem; }
+.entity-detail-note.muted { color: #9ca3af; font-style: italic; }
+.entity-detail-error { padding: 0.5rem; color: #dc2626; font-size: 0.8rem; }
+.entity-detail-history-item { margin-bottom: 0.3rem; }
+.entity-detail-history-item summary { cursor: pointer; font-size: 0.75rem; padding: 0.2rem 0.4rem; background: #f3f4f6; border-radius: 3px; }
+
+/* MapPanel: dynamic resolution panel, bounded height so it never fills the page */
+.map-panel-stem { color: #888; font-size: 0.78rem; }
+.map-panel-empty { color: #999; font-style: italic; padding: 2rem 0; text-align: center; }
+.map-panel-error { color: #b00020; }
+.map-panel-header { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.map-panel-header code { font-weight: 700; }
+.map-panel-header h3 { margin: 0; font-size: 1rem; }
+.map-status { padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.75rem; background: #eee; }
+.map-status-resolved { background: #e3f7e3; color: #1a6b1a; }
+.map-status-conflict, .map-status-unmapped { background: #fde3e3; color: #a11; }
+.map-status-candidate, .map-status-needs_refinement, .map-status-partial { background: #fff4d6; color: #8a5a00; }
+.map-panel-grid { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.map-result-card { flex: 1 1 160px; border: 1px solid #eee; border-radius: 4px; padding: 0.5rem; }
+.map-result-card h4 { margin: 0 0 0.25rem; font-size: 0.75rem; color: #666; }
+.map-result-card strong { display: block; font-family: monospace; }
+.map-result-label { margin: 0.2rem 0 0; font-size: 0.8rem; color: #555; }
+.map-result-status { display: inline-block; margin-top: 0.3rem; padding: 0.05rem 0.4rem; border-radius: 999px; font-size: 0.7rem; background: #eee; color: #666; }
+.map-result-status.map-status-resolved { background: #e3f7e3; color: #1a6b1a; }
+.map-result-status.map-status-conflict, .map-result-status.map-status-unmapped { background: #fde3e3; color: #a11; }
+.map-result-status.map-status-candidate, .map-result-status.map-status-fallback { background: #fff4d6; color: #8a5a00; }
+.map-panel-rationale p { font-size: 0.8rem; color: #555; margin: 0.2rem 0; }
+.map-panel-technical summary { cursor: pointer; font-size: 0.8rem; color: #666; margin-top: 0.4rem; }
+.map-panel-technical pre { background: #1e1e1e; color: #d4d4d4; padding: 0.6rem; border-radius: 4px; font-size: 0.7rem; overflow-x: auto; }
+
+/* FeedbackBox: per-instance local-cache feedback, separate for browser/codingtool */
+.feedback-box-target { font-size: 0.85rem; margin: 0 0 0.5rem; color: #555; }
+.feedback-box-target code { font-weight: 700; color: #1a1a1a; background: #f1f3f5; padding: 0.05rem 0.35rem; border-radius: 3px; }
+.feedback-box-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.feedback-box-header h3 { margin: 0; font-size: 0.95rem; }
+.feedback-box textarea { width: 100%; box-sizing: border-box; padding: 0.5rem; font-family: inherit; }
+.feedback-box-controls { display: flex; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
+.feedback-box-controls input { flex: 1; min-width: 160px; padding: 0.3rem 0.5rem; }
+.feedback-box-message { font-size: 0.8rem; color: #1a6b1a; margin: 0.4rem 0 0; }
+
+/* CurationPanel: accept/change/flag + rationale for the current resolution */
+.curation-panel { border: 1px dashed #b0b8ff; border-radius: 6px; padding: 0.75rem; margin-top: 0.75rem; background: #f7f8ff; }
+.curation-panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.curation-panel-header h3 { margin: 0; font-size: 0.9rem; }
+.curation-panel-header h3 code { background: #fff; padding: 0 0.3rem; border-radius: 3px; }
+.curation-panel-controls { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; font-size: 0.85rem; flex-wrap: wrap; }
+.curation-panel-controls select { margin-left: 0.4rem; }
+.curation-proposed code { font-weight: 600; }
+.curation-panel-rawentity-note { font-size: 0.78rem; color: #666; font-style: italic; margin: 0 0 0.5rem; }
+.curation-panel-decision { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.85rem; margin-bottom: 0.5rem; }
+.curation-panel-decision label { display: flex; align-items: center; gap: 0.3rem; }
+.curation-code-input { width: 100%; box-sizing: border-box; padding: 0.4rem 0.5rem; margin-bottom: 0.5rem; font-family: monospace; }
+.curation-panel textarea { width: 100%; box-sizing: border-box; padding: 0.5rem; font-family: inherit; }
+.curation-panel-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+.curation-panel-message { font-size: 0.8rem; color: #2b3a9c; margin: 0.4rem 0 0; }
+.curation-panel-list { margin-top: 0.6rem; font-size: 0.8rem; }
+.curation-panel-list summary { cursor: pointer; color: #2b3a9c; }
+.curation-panel-item { display: block; width: 100%; text-align: left; padding: 0.4rem; margin-top: 0.3rem; border: 1px solid #dde; border-radius: 4px; background: #fff; cursor: pointer; }
+.curation-panel-item code { font-weight: 600; margin-right: 0.4rem; }
+.curation-panel-item small { display: block; color: #999; }
+
+/* Feedback tab: table of everything cached + edit modal */
+.feedback-page { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+.feedback-page-toolbar { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.segmented { display: inline-flex; border: 1px solid #ccc; border-radius: 6px; overflow: hidden; }
+.segmented button { border: none; background: #fff; padding: 0.35rem 0.75rem; cursor: pointer; font-size: 0.85rem; border-right: 1px solid #ccc; }
+.segmented button:last-child { border-right: none; }
+.segmented button.active { background: #1976d2; color: #fff; }
+.feedback-page-search { flex: 1; min-width: 200px; padding: 0.35rem 0.6rem; }
+.feedback-page-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.feedback-page-actions button, .modal-footer button { padding: 0.35rem 0.75rem; cursor: pointer; }
+button.danger { color: #a11; border: 1px solid #e0b4b4; background: #fff5f5; border-radius: 4px; }
+button.primary { color: #fff; background: #1976d2; border: 1px solid #1976d2; border-radius: 4px; }
+.feedback-page-message { font-size: 0.85rem; color: #1a6b1a; margin: 0 0 0.5rem; }
+.feedback-page-empty { color: #999; font-style: italic; padding: 2rem 0; text-align: center; }
+.feedback-table-wrap { flex: 1; min-height: 0; overflow: auto; border: 1px solid #ddd; border-radius: 6px; }
+.feedback-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.feedback-table th { position: sticky; top: 0; background: #f7f7f8; text-align: left; font-weight: 600; padding: 0.45rem 0.6rem; border-bottom: 1px solid #ddd; white-space: nowrap; }
+.feedback-table td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #eee; vertical-align: top; }
+.feedback-table tbody tr { cursor: pointer; }
+.feedback-table tbody tr:hover, .feedback-table tbody tr:focus { background: #f3f7fd; outline: none; }
+.feedback-table .code-cell code { font-weight: 700; white-space: nowrap; }
+.feedback-table .text-clamp { max-width: 560px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.feedback-table .date-cell { white-space: nowrap; color: #777; }
+.muted { color: #aaa; }
+.kind-badge { display: inline-block; padding: 0.05rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
+.kind-feedback { background: #e3edfb; color: #1557a0; }
+.kind-curation { background: #ecebff; color: #3b3598; }
+
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 1000; }
+.modal { background: #fff; border-radius: 8px; width: min(820px, 100%); max-height: calc(100vh - 32px); display: flex; flex-direction: column; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25); }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding: 0.9rem 1rem 0.6rem; border-bottom: 1px solid #eee; }
+.modal-header h3 { margin: 0.3rem 0 0; font-size: 1.1rem; }
+.modal-subtitle { margin: 0.2rem 0 0; color: #666; font-size: 0.85rem; }
+.modal-close { border: none; background: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #888; }
+.modal-body { padding: 0.8rem 1rem; overflow: auto; flex: 1; min-height: 0; }
+.modal-meta { display: grid; grid-template-columns: max-content 1fr; gap: 0.2rem 0.8rem; font-size: 0.82rem; margin: 0 0 0.8rem; }
+.modal-meta dt { color: #777; }
+.modal-meta dd { margin: 0; }
+.modal-row { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+.modal-row input { flex: 1; min-width: 160px; padding: 0.3rem 0.5rem; }
+.modal-row input.mono { font-family: monospace; }
+.modal textarea { width: 100%; box-sizing: border-box; padding: 0.5rem; font-family: inherit; }
+.modal-error { color: #b00020; font-size: 0.82rem; margin: 0.3rem 0 0; }
+.modal-json { margin-top: 0.6rem; font-size: 0.82rem; }
+.modal-json summary { cursor: pointer; color: #666; }
+.modal-json pre { background: #1e1e1e; color: #d4d4d4; padding: 0.6rem; border-radius: 4px; font-size: 0.7rem; overflow-x: auto; }
+.modal-original { white-space: pre-wrap; color: #555; }
+.modal-footer { display: flex; gap: 0.5rem; padding: 0.7rem 1rem; border-top: 1px solid #eee; }
+.modal-footer .spacer { flex: 1; }

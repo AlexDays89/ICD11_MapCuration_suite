@@ -1,0 +1,906 @@
+code;kind;note
+C00;exclusion;skin of lip C43.0 C44.0
+C00.0;inclusion;Upper lip: NOS
+C00.0;inclusion;Upper lip: lipstick area
+C00.0;inclusion;Upper lip: vermilion border
+C00.1;inclusion;Lower lip: NOS
+C00.1;inclusion;Lower lip: lipstick area
+C00.1;inclusion;Lower lip: vermilion border
+C00.2;inclusion;Vermilion border NOS
+C00.3;inclusion;Upper lip: buccal aspect
+C00.3;inclusion;Upper lip: frenulum
+C00.3;inclusion;Upper lip: mucosa
+C00.3;inclusion;Upper lip: oral aspect
+C00.4;inclusion;Lower lip: buccal aspect
+C00.4;inclusion;Lower lip: frenulum
+C00.4;inclusion;Lower lip: mucosa
+C00.4;inclusion;Lower lip: oral aspect
+C00.5;inclusion;Lip, not specified whether upper or lower: buccal aspect
+C00.5;inclusion;Lip, not specified whether upper or lower: frenulum
+C00.5;inclusion;Lip, not specified whether upper or lower: mucosa
+C00.5;inclusion;Lip, not specified whether upper or lower: oral aspect
+C01;inclusion;Dorsal surface of base of tongue
+C01;inclusion;Fixed part of tongue NOS
+C01;inclusion;Posterior third of tongue
+C02.0;inclusion;Anterior two-thirds of tongue, dorsal surface
+C02.0;exclusion;dorsal surface of base of tongue C01
+C02.0;exclusion;base of tongue C01
+C02.1;inclusion;Tip of tongue
+C02.2;inclusion;Anterior two-thirds of tongue, ventral surface
+C02.2;inclusion;Frenulum linguae
+C02.3;inclusion;Middle third of tongue NOS
+C02.3;inclusion;Mobile part of tongue NOS
+C02.4;exclusion;tonsil NOS C09.9
+C02.8;inclusion;Malignant neoplasm of tongue whose point of origin cannot be classified to any one of the categories C01-C02.4
+C03;inclusion;alveolar (ridge) mucosa
+C03;inclusion;gingiva
+C03;exclusion;malignant odontogenic neoplasms C41.0-C41.1
+C04.0;inclusion;Anterior to the premolar-canine junction
+C05.1;exclusion;nasopharyngeal surface of soft palate C11.3
+C05.9;inclusion;Roof of mouth
+C06.0;inclusion;Buccal mucosa NOS
+C06.0;inclusion;Internal cheek
+C06.1;inclusion;Buccal sulcus (upper)(lower)
+C06.1;inclusion;Labial sulcus (upper)(lower)
+C06.9;inclusion;Minor salivary gland, unspecified site
+C06.9;inclusion;Oral cavity NOS
+C08;exclusion;malignant neoplasms of specified minor salivary glands which are classified according to their anatomical location
+C08;exclusion;malignant neoplasms of minor salivary glands NOS C06.9
+C08;exclusion;parotid gland C07
+C08.0;inclusion;Submaxillary gland
+C08.8;inclusion;Malignant neoplasm of major salivary glands whose point of origin cannot be classified to any one of the categories C07-C08.1
+C08.9;inclusion;Salivary gland (major) NOS
+C09;exclusion;lingual tonsil C02.4
+C09;exclusion;pharyngeal tonsil C11.1
+C09.9;inclusion;Tonsil: NOS
+C09.9;inclusion;Tonsil: faucial
+C09.9;inclusion;Tonsil: palatine
+C10;exclusion;tonsil C09.-
+C10.1;inclusion;Epiglottis, free border [margin]
+C10.1;inclusion;Glossoepiglottic fold(s)
+C10.1;exclusion;epiglottis (suprahyoid portion) NOS C32.1
+C10.4;inclusion;Branchial cyst [site of neoplasm]
+C10.8;inclusion;Junctional region of oropharynx
+C11.0;inclusion;Roof of nasopharynx
+C11.1;inclusion;Adenoid
+C11.1;inclusion;Pharyngeal tonsil
+C11.2;inclusion;Fossa of Rosenmüller
+C11.2;inclusion;Opening of auditory tube
+C11.2;inclusion;Pharyngeal recess
+C11.3;inclusion;Floor of nasopharynx
+C11.3;inclusion;Nasopharyngeal (anterior)(posterior) surface of soft palate
+C11.3;inclusion;Posterior margin of nasal: choana
+C11.3;inclusion;Posterior margin of nasal: septum
+C11.9;inclusion;Nasopharyngeal wall NOS
+C12;inclusion;Piriform fossa
+C13;exclusion;piriform sinus C12
+C13.1;inclusion;Aryepiglottic fold: NOS
+C13.1;inclusion;Aryepiglottic fold: marginal zone
+C13.1;exclusion;aryepiglottic fold, laryngeal aspect C32.1
+C13.9;inclusion;Hypopharyngeal wall NOS
+C14;exclusion;oral cavity NOS C06.9
+C14.8;inclusion;Malignant neoplasm of lip, oral cavity and pharynx whose point of origin cannot be classified to any one of the categories C00-C14.2
+C16.0;inclusion;Cardiac orifice
+C16.0;inclusion;Cardio-oesophageal junction
+C16.0;inclusion;Gastro-oesophageal junction
+C16.0;inclusion;Oesophagus and stomach
+C16.3;inclusion;Gastric antrum
+C16.4;inclusion;Prepylorus
+C16.4;inclusion;Pyloric canal
+C16.5;inclusion;Lesser curvature of stomach, not classifiable to C16.1-C16.4
+C16.6;inclusion;Greater curvature of stomach, not classifiable to C16.0-C16.4
+C16.9;inclusion;Gastric cancer NOS
+C17.2;exclusion;ileocaecal valve C18.0
+C18.0;inclusion;Ileocaecal valve
+C18.7;inclusion;Sigmoid (flexure)
+C18.7;exclusion;rectosigmoid junction C19
+C18.9;inclusion;Large intestine NOS
+C19;inclusion;Colon with rectum
+C19;inclusion;Rectosigmoid (colon)
+C20;inclusion;Rectal ampulla
+C21.0;exclusion;anal: margin C43.5 C44.5
+C21.0;exclusion;anal: skin C43.5 C44.5
+C21.0;exclusion;perianal skin C43.5 C44.5
+C21.1;inclusion;Anal sphincter
+C21.8;inclusion;Anorectal junction
+C21.8;inclusion;Anorectum
+C21.8;inclusion;Malignant neoplasm of rectum, anus and anal canal whose point of origin cannot be classified to any one of the categories C20-C21.2
+C22;exclusion;biliary tract NOS C24.9
+C22;exclusion;secondary malignant neoplasm of liver C78.7
+C22.0;inclusion;Hepatocellular carcinoma
+C22.0;inclusion;Hepatoma
+C22.1;inclusion;Cholangiocarcinoma
+C22.3;inclusion;Kupffer cell sarcoma
+C24;exclusion;intrahepatic bile duct C22.1
+C24.0;inclusion;Biliary duct or passage NOS
+C24.0;inclusion;Common bile duct
+C24.0;inclusion;Cystic duct
+C24.0;inclusion;Hepatic duct
+C24.8;inclusion;Malignant neoplasm involving both intrahepatic and extrahepatic bile ducts
+C24.8;inclusion;Malignant neoplasm of biliary tract whose point of origin cannot be classified to any one of the categories C22.0-C24.1
+C25.4;inclusion;Islets of Langerhans
+C25.7;inclusion;Neck of pancreas
+C26;exclusion;peritoneum and retroperitoneum C48.-
+C26.0;inclusion;Intestine NOS
+C26.1;exclusion;follicular lymphoma C82.-
+C26.1;exclusion;Hodgkin lymphoma C81.-
+C26.1;exclusion;mature T/NK-cell lymphomas C84.-
+C26.1;exclusion;non-follicular lymphoma C83.-
+C26.1;exclusion;non-Hodgkin lymphoma, other and unspecified types C85.-
+C26.8;inclusion;Malignant neoplasm of digestive organs whose point of origin cannot be classified to any one of the categories C15-C26.1
+C26.8;exclusion;cardio-oesophageal junction C16.0
+C26.9;inclusion;Alimentary canal or tract NOS
+C26.9;inclusion;Gastrointestinal tract NOS
+C30-C39;inclusion;middle ear
+C30-C39;exclusion;mesothelioma C45.-
+C30.0;inclusion;Cartilage of nose
+C30.0;inclusion;Concha, nasal
+C30.0;inclusion;Internal nose
+C30.0;inclusion;Septum of nose
+C30.0;inclusion;Vestibule of nose
+C30.0;exclusion;nasal bone C41.0
+C30.0;exclusion;nose NOS C76.0
+C30.0;exclusion;olfactory bulb C72.2
+C30.0;exclusion;posterior margin of nasal septum and choana C11.3
+C30.0;exclusion;skin of nose C43.3 C44.3
+C30.1;inclusion;Eustachian tube
+C30.1;inclusion;Inner ear
+C30.1;inclusion;Mastoid air cells
+C30.1;exclusion;auricular canal (external) C43.2 C44.2
+C30.1;exclusion;bone of ear (meatus) C41.0
+C30.1;exclusion;cartilage of ear C49.0
+C30.1;exclusion;skin of (external) ear C43.2 C44.2
+C31.0;inclusion;Antrum (Highmore)(maxillary)
+C32.0;inclusion;Intrinsic larynx
+C32.0;inclusion;Vocal cord (true) NOS
+C32.1;inclusion;Aryepiglottic fold, laryngeal aspect
+C32.1;inclusion;Epiglottis (suprahyoid portion) NOS
+C32.1;inclusion;Extrinsic larynx
+C32.1;inclusion;False vocal cord
+C32.1;inclusion;Posterior (laryngeal) surface of epiglottis
+C32.1;inclusion;Ventricular bands
+C32.1;exclusion;anterior surface of epiglottis C10.1
+C32.1;exclusion;aryepiglottic fold: NOS C13.1
+C32.1;exclusion;aryepiglottic fold: hypopharyngeal aspect C13.1
+C32.1;exclusion;aryepiglottic fold: marginal zone C13.1
+C34.0;inclusion;Carina
+C34.0;inclusion;Hilus (of lung)
+C38;exclusion;mesothelioma C45.-
+C38.0;inclusion;Pericardium
+C38.0;exclusion;great vessels C49.3
+C39;exclusion;intrathoracic NOS C76.1
+C39;exclusion;thoracic NOS C76.1
+C39.8;inclusion;Malignant neoplasm of respiratory and intrathoracic organs whose point of origin cannot be classified to any one of the categories C30-C39.0
+C39.9;inclusion;Respiratory tract NOS
+C40-C41;exclusion;bone marrow NOS C96.7
+C40-C41;exclusion;synovia C49.-
+C41;exclusion;bones of limbs C40.-
+C41;exclusion;cartilage of: ear C49.0
+C41;exclusion;cartilage of: larynx C32.3
+C41;exclusion;cartilage of: limbs C40.-
+C41;exclusion;cartilage of: nose C30.0
+C41.0;inclusion;Maxilla (superior)
+C41.0;inclusion;Orbital bone
+C41.0;exclusion;carcinoma, any type except intraosseous or odontogenic of: maxillary sinus C31.0
+C41.0;exclusion;carcinoma, any type except intraosseous or odontogenic of: upper jaw C03.0
+C41.0;exclusion;jaw bone (lower) C41.1
+C41.1;inclusion;Lower jaw bone
+C41.1;exclusion;carcinoma, any type except intraosseous or odontogenic of: jaw NOS C03.9
+C41.1;exclusion;carcinoma, any type except intraosseous or odontogenic of: jaw NOS lower C03.1
+C41.1;exclusion;upper jaw bone C41.0
+C41.2;exclusion;sacrum and coccyx C41.4
+C41.8;inclusion;Malignant neoplasm of bone and articular cartilage whose point of origin cannot be classified to any one of the categories C40-C41.4
+C43;inclusion;morphology codes M872-M879 with behaviour code /3
+C43;exclusion;malignant melanoma of skin of genital organs C51-C52 C60.- C63.-
+C43.0;exclusion;vermilion border of lip C00.0-C00.2
+C43.5;inclusion;Anal: margin
+C43.5;inclusion;Anal: skin
+C43.5;inclusion;Perianal skin
+C43.5;inclusion;Skin of breast
+C43.5;exclusion;anus NOS C21.0
+C43.9;inclusion;Melanoma (malignant) NOS
+C44;inclusion;malignant neoplasm of: sebaceous glands
+C44;inclusion;malignant neoplasm of: sweat glands
+C44;exclusion;Kaposi sarcoma C46.-
+C44;exclusion;malignant melanoma of skin C43.-
+C44;exclusion;skin of genital organs C51-C52 C60.- C63.-
+C44.0;inclusion;Basal cell carcinoma of lip
+C44.0;exclusion;malignant neoplasm of lip C00.-
+C44.1;exclusion;connective tissue of eyelid C49.0
+C44.2;exclusion;connective tissue of ear C49.0
+C44.5;inclusion;Anal: margin
+C44.5;inclusion;Anal: skin
+C44.5;inclusion;Perianal skin
+C44.5;inclusion;Skin of breast
+C44.5;exclusion;anus NOS C21.0
+C45;inclusion;morphology code M905 with behaviour code /3
+C45.0;exclusion;other malignant neoplasms of pleura C38.4
+C45.1;inclusion;Mesentery
+C45.1;inclusion;Mesocolon
+C45.1;inclusion;Omentum
+C45.1;inclusion;Peritoneum (parietal)(pelvic)
+C45.1;exclusion;other malignant neoplasms of peritoneum C48.-
+C45.2;exclusion;other malignant neoplasms of pericardium C38.0
+C46;inclusion;morphology code M9140 with behaviour code /3
+C47;inclusion;sympathetic and parasympathetic nerves and ganglia
+C47.0;exclusion;peripheral nerves of orbit C69.6
+C48;exclusion;Kaposi sarcoma C46.1
+C48;exclusion;mesothelioma C45.-
+C48.1;inclusion;Mesentery
+C48.1;inclusion;Mesocolon
+C48.1;inclusion;Omentum
+C48.1;inclusion;Peritoneum: parietal
+C48.1;inclusion;Peritoneum: pelvic
+C49;inclusion;blood vessel
+C49;inclusion;bursa
+C49;inclusion;cartilage
+C49;inclusion;fascia
+C49;inclusion;fat
+C49;inclusion;ligament, except uterine
+C49;inclusion;lymphatic vessel
+C49;inclusion;muscle
+C49;inclusion;synovia
+C49;inclusion;tendon (sheath)
+C49;exclusion;cartilage (of): articular C40-C41
+C49;exclusion;cartilage (of): larynx C32.3
+C49;exclusion;cartilage (of): nose C30.0
+C49;exclusion;connective tissue of breast C50.-
+C49;exclusion;Kaposi sarcoma C46.-
+C49;exclusion;mesothelioma C45.-
+C49;exclusion;peripheral nerves and autonomic nervous system C47.-
+C49;exclusion;peritoneum C48.-
+C49;exclusion;retroperitoneum C48.0
+C49.0;inclusion;Connective tissue of: ear
+C49.0;inclusion;Connective tissue of: eyelid
+C49.0;exclusion;connective tissue of orbit C69.6
+C49.3;inclusion;Axilla
+C49.3;inclusion;Diaphragm
+C49.3;inclusion;Great vessels
+C49.3;exclusion;breast C50.-
+C49.3;exclusion;heart C38.0
+C49.3;exclusion;mediastinum C38.1-C38.3
+C49.3;exclusion;thymus C37
+C49.4;inclusion;Abdominal wall
+C49.4;inclusion;Hypochondrium
+C49.5;inclusion;Buttock
+C49.5;inclusion;Groin
+C49.5;inclusion;Perineum
+C49.6;inclusion;Back NOS
+C49.8;inclusion;Malignant neoplasm of connective and soft tissue whose point of origin cannot be classified to any one of the categories C47-C49.6
+C50;inclusion;connective tissue of breast
+C50;exclusion;skin of breast C43.5 C44.5
+C51-C58;inclusion;skin of female genital organs
+C51.0;inclusion;Bartholin [greater vestibular] gland
+C51.9;inclusion;External female genitalia NOS
+C51.9;inclusion;Pudendum
+C54.0;inclusion;Lower uterine segment
+C57.0;inclusion;Oviduct
+C57.0;inclusion;Uterine tube
+C57.3;inclusion;Uterine ligament NOS
+C57.7;inclusion;Wolffian body or duct
+C57.8;inclusion;Malignant neoplasm of female genital organs whose point of origin cannot be classified to any one of the categories C51-C57.7, C58
+C57.8;inclusion;Tubo-ovarian
+C57.8;inclusion;Utero-ovarian
+C57.9;inclusion;Female genitourinary tract NOS
+C58;inclusion;Choriocarcinoma NOS
+C58;inclusion;Chorionepithelioma NOS
+C58;exclusion;chorioadenoma (destruens) D39.2
+C58;exclusion;hydatidiform mole: NOS O01.9
+C58;exclusion;hydatidiform mole: invasive D39.2
+C58;exclusion;hydatidiform mole: malignant D39.2
+C60-C63;inclusion;skin of male genital organs
+C60.0;inclusion;Foreskin
+C60.2;inclusion;Corpus cavernosum
+C60.9;inclusion;Skin of penis NOS
+C62.0;inclusion;Ectopic testis [site of neoplasm]
+C62.0;inclusion;Retained testis [site of neoplasm]
+C62.1;inclusion;Scrotal testis
+C63.2;inclusion;Skin of scrotum
+C63.7;inclusion;Seminal vesicle
+C63.7;inclusion;Tunica vaginalis
+C63.8;inclusion;Malignant neoplasm of male genital organs whose point of origin cannot be classified to any one of the categories C60-C63.7
+C63.9;inclusion;Male genitourinary tract NOS
+C64;exclusion;renal: calyces C65
+C64;exclusion;renal: pelvis C65
+C65;inclusion;Pelviureteric junction
+C65;inclusion;Renal calyces
+C66;exclusion;ureteric orifice of bladder C67.6
+C67.5;inclusion;Internal urethral orifice
+C68;exclusion;genitourinary tract NOS: female C57.9
+C68;exclusion;genitourinary tract NOS: male C63.9
+C68.0;exclusion;urethral orifice of bladder C67.5
+C68.8;inclusion;Malignant neoplasm of urinary organs whose point of origin cannot be classified to any one of the categories C64-C68.1
+C68.9;inclusion;Urinary system NOS
+C69;exclusion;connective tissue of eyelid C49.0
+C69;exclusion;eyelid (skin) C43.1 C44.1
+C69;exclusion;optic nerve C72.3
+C69.5;inclusion;Lacrimal sac
+C69.5;inclusion;Nasolacrimal duct
+C69.6;inclusion;Connective tissue of orbit
+C69.6;inclusion;Extraocular muscle
+C69.6;inclusion;Peripheral nerves of orbit
+C69.6;inclusion;Retrobulbar tissue
+C69.6;inclusion;Retro-ocular tissue
+C69.6;exclusion;orbital bone C41.0
+C69.9;inclusion;Eyeball
+C71;exclusion;cranial nerves C72.2-C72.5
+C71;exclusion;retrobulbar tissue C69.6
+C71.0;inclusion;Supratentorial NOS
+C71.5;exclusion;fourth ventricle C71.7
+C71.7;inclusion;Fourth ventricle
+C71.7;inclusion;Infratentorial NOS
+C72;exclusion;meninges C70.-
+C72;exclusion;peripheral nerves and autonomic nervous system C47.-
+C72.2;inclusion;Olfactory bulb
+C72.5;inclusion;Cranial nerve NOS
+C72.8;inclusion;Malignant neoplasm of brain and other parts of central nervous system whose point of origin cannot be classified to any one of the categories C70-C72.5
+C72.9;inclusion;Nervous system NOS
+C75;exclusion;adrenal gland C74.-
+C75;exclusion;endocrine pancreas C25.4
+C75;exclusion;ovary C56
+C75;exclusion;testis C62.-
+C75;exclusion;thymus C37
+C75;exclusion;thyroid gland C73
+C76;exclusion;malignant neoplasm of: genitourinary tract NOS: female C57.9
+C76;exclusion;malignant neoplasm of: genitourinary tract NOS: male C63.9
+C76;exclusion;malignant neoplasm of: lymphoid, haematopoietic and related tissue C81-C96
+C76;exclusion;malignant neoplasm of: unspecified site C80.-
+C76.0;inclusion;Cheek NOS
+C76.0;inclusion;Nose NOS
+C76.1;inclusion;Axilla NOS
+C76.1;inclusion;Intrathoracic NOS
+C76.1;inclusion;Thoracic NOS
+C76.3;inclusion;Groin NOS
+C76.3;inclusion;Sites overlapping systems within the pelvis, such as: rectovaginal (septum)
+C76.3;inclusion;Sites overlapping systems within the pelvis, such as: rectovesical (septum)
+C77;exclusion;malignant neoplasm of lymph nodes, specified as primary C81-C86 C96.-
+C77.0;inclusion;Supraclavicular lymph nodes
+C77.3;inclusion;Pectoral lymph nodes
+C78.2;inclusion;Malignant pleural effusion NOS
+C78.6;inclusion;Malignant ascites NOS
+C79.9;inclusion;Carcinomatosis (secondary)
+C79.9;inclusion;Disseminated (secondary): cancer NOS
+C79.9;inclusion;Disseminated (secondary): malignancy NOS
+C79.9;inclusion;Generalized (secondary): cancer NOS
+C79.9;inclusion;Generalized (secondary): malignancy NOS
+C79.9;inclusion;Multiple secondary cancer NOS
+C79.9;inclusion;Sarcomatosis (secondary) NOS
+C80.0;inclusion;Primary site unknown
+C80.9;inclusion;Cancer NOS
+C80.9;inclusion;Carcinoma NOS
+C80.9;inclusion;Malignancy NOS
+C80.9;inclusion;Malignant cachexia NOS
+C80.9;inclusion;Multiple cancer NOS
+C80.9;exclusion;multiple secondary cancer NOS C79.9
+C80.9;exclusion;secondary malignant neoplasm, unspecified site C79.9
+C81-C96;exclusion;secondary and unspecified neoplasm of lymph nodes C77.-
+C81.4;exclusion;nodular lymphocyte predominant Hodgkin lymphoma C81.0
+C81.7;inclusion;Classic Hodgkin lymphoma, type not specified
+C82;inclusion;follicular lymphoma with or without diffuse areas
+C82;exclusion;mature T/NK-cell lymphoma C84.-
+C82.9;inclusion;Nodular lymphoma NOS
+C83.0;inclusion;Lymphoplasmacytic lymphoma
+C83.0;inclusion;Nodal marginal zone lymphoma
+C83.0;inclusion;Non-leukaemic variant of B-CLL
+C83.0;inclusion;Splenic marginal zone lymphoma
+C83.0;exclusion;Chronic lymphocytic leukaemia C91.1
+C83.0;exclusion;Waldenström macroglobulinaemia C88.0
+C83.0;exclusion;mature T/NK-cell lymphomas C84.-
+C83.1;inclusion;Centrocytic lymphoma
+C83.1;inclusion;Malignant lymphomatous polyposis
+C83.3;inclusion;Anaplastic diffuse large B-cell lymphoma
+C83.3;inclusion;CD30-positive diffuse large B-cell lymphoma
+C83.3;inclusion;Centroblastic diffuse large B-cell lymphoma
+C83.3;inclusion;Plasmablastic diffuse large B-cell lymphoma
+C83.3;inclusion;Immunoblastic diffuse large B-cell lymphoma
+C83.3;inclusion;Subtype not specified diffuse large B-cell lymphoma
+C83.3;inclusion;T-cell rich diffuse large B-cell lymphoma
+C83.3;exclusion;mediastinal (thymic) large B-cell lymphoma C85.2
+C83.3;exclusion;mature T/NK-cell lymphomas C84.-
+C83.5;inclusion;B-cell precursor lymphoma
+C83.5;inclusion;Lymphoblastic B-cell lymphoma
+C83.5;inclusion;Lymphoblastic lymphoma NOS
+C83.5;inclusion;Lymphoblastic T-cell lymphoma
+C83.5;inclusion;T-cell precursor lymphoma
+C83.7;inclusion;Atypical Burkitt lymphoma
+C83.7;inclusion;“Burkitt-like” lymphoma
+C83.7;exclusion;mature B-cell leukaemia Burkitt-type C91.8
+C83.8;inclusion;Primary effusion B-cell lymphoma
+C83.8;inclusion;Intravascular large B-cell lymphoma
+C83.8;inclusion;Lymphoid granulomatosis
+C83.8;exclusion;mediastinal (thymic) large B-cell lymphoma C85.2
+C83.8;exclusion;T-cell rich B-cell lymphoma C83.3
+C84.4;inclusion;Lennert’s lymphoma
+C84.4;inclusion;Lymphoepithelioid lymphoma
+C84.5;exclusion;angioimmunoblastic T-cell lymphoma C86.5
+C84.5;exclusion;blastic NK-cell lymphoma C86.4
+C84.5;exclusion;enteropathy-type T-cell lymphoma C86.2
+C84.5;exclusion;extranodal NK-cell lymphoma, nasal type C86.0
+C84.5;exclusion;hepatosplenic T-cell lymphoma C86.1
+C84.5;exclusion;primary cutaneous CD30-positive T-cell proliferations C86.6
+C84.5;exclusion;subcutaneous panniculitis-like T-cell lymphoma C86.3
+C84.5;exclusion;T-cell leukaemia C91.-
+C84.6;inclusion;Anaplastic large cell lymphoma, CD30-positive
+C84.7;exclusion;primary cutaneous CD30-positive T-cell proliferations C86.6
+C84.9;inclusion;NK/T cell lymphoma NOS
+C84.9;exclusion;mature T-cell lymphoma, not elsewhere classified C84.4
+C85.9;inclusion;Lymphoma NOS
+C85.9;inclusion;Malignant lymphoma NOS
+C85.9;inclusion;Non-Hodgkin lymphoma NOS
+C86;exclusion;anaplastic large cell lymphoma, ALK negative C84.7
+C86;exclusion;anaplastic large cell lymphoma, ALK positive C84.6
+C86.1;inclusion;Alpha-beta and gamma-delta types
+C86.2;inclusion;Enteropathy associated T-cell lymphoma
+C86.5;inclusion;Angioimmunoblastic lymphadenopathy with dysproteinaemia [AILD]
+C86.6;inclusion;Lymphomatoid papulosis
+C86.6;inclusion;Primary cutaneous anaplastic large-cell lymphoma
+C86.6;inclusion;Primary cutaneous CD30-positive large T-cell lymphoma
+C88.0;inclusion;Lymphoplasmacytic lymphoma with IgM-production
+C88.0;inclusion;Macroglobulinaemia (primary)(idiopathic)
+C88.0;exclusion;small cell B-cell lymphoma C83.0
+C88.2;inclusion;Franklin disease
+C88.2;inclusion;Gamma heavy chain disease
+C88.2;inclusion;Mu (µ) heavy chain disease
+C88.3;inclusion;Alpha heavy chain disease
+C88.3;inclusion;Mediterranean lymphoma
+C88.4;inclusion;Lymphoma of skin-associated lymphoid tissue (SALT-lymphoma)
+C88.4;inclusion;Lymphoma of bronchial-associated lymphoid tissue (BALT-lymphoma)
+C88.9;inclusion;Immunoproliferative disease NOS
+C90.0;inclusion;Kahler disease
+C90.0;inclusion;Medullary plasmacytoma
+C90.0;inclusion;Myelomatosis
+C90.0;inclusion;Plasma cell myeloma
+C90.0;exclusion;solitary plasmacytoma C90.3
+C90.1;inclusion;Plasmacytic leukaemia
+C90.3;inclusion;Localized malignant plasma cell tumour NOS
+C90.3;inclusion;Plasmacytoma NOS
+C90.3;inclusion;Solitary myeloma
+C91.1;inclusion;Lymphoplasmacytic leukaemia
+C91.1;inclusion;Richter syndrome
+C91.1;exclusion;lymphoplasmacytic lymphoma C83.0
+C91.4;inclusion;Leukaemic reticuloendotheliosis
+C91.5;inclusion;Acute variant
+C91.5;inclusion;Chronic variant
+C91.5;inclusion;Lymphomatoid variant
+C91.5;inclusion;Smouldering variant
+C91.7;inclusion;T-cell large granular lymphocytic leukaemia (associated with rheumatoid arthritis)
+C91.8;exclusion;Burkitt lymphoma with little or no bone marrow infiltration C83.7
+C92;inclusion;leukaemia: granulocytic
+C92;inclusion;leukaemia: myelogenous
+C92.0;inclusion;Acute myeloblastic leukaemia, minimal differentiation
+C92.0;inclusion;Acute myeloblastic leukaemia (with maturation)
+C92.0;inclusion;AML1/ETO
+C92.0;inclusion;AML M0
+C92.0;inclusion;AML M1
+C92.0;inclusion;AML M2
+C92.0;inclusion;"AML with t(8;21)"
+C92.0;inclusion;AML (without a FAB classification) NOS
+C92.0;inclusion;Refractory anaemia with excess blasts in transformation
+C92.0;exclusion;acute exacerbation of chronic myeloid leukaemia C92.1
+C92.1;inclusion;Chronic myelogenous leukaemia: Philadelphia chromosome (Ph1) positive
+C92.1;inclusion;"Chronic myelogenous leukaemia: t(9:22)(q34; q11)"
+C92.1;inclusion;Chronic myelogenous leukaemia: with crisis of blast cells
+C92.1;exclusion;atypical chronic myeloid leukaemia, BCR/ABL-negative C92.2
+C92.1;exclusion;chronic myelomonocytic leukaemia C93.1
+C92.1;exclusion;unclassified myeloproliferative disease D47.1
+C92.3;inclusion;Chloroma
+C92.3;inclusion;Granulocytic sarcoma
+C92.4;inclusion;AML M3
+C92.4;inclusion;"AML Me with t(15; 17) and variants"
+C92.5;inclusion;AML M4
+C92.5;inclusion;"AML M4 Eo with inv(16) or t(16;16)"
+C92.6;inclusion;Acute myeloid leukaemia with variation of MLL-gene
+C92.7;exclusion;chronic eosinophilic leukaemia [hypereosinophilic syndrome] D47.5
+C93;inclusion;monocytoid leukaemia
+C93.0;inclusion;AML M5a
+C93.0;inclusion;AML M5b
+C93.0;inclusion;AML M5
+C93.1;inclusion;Chronic monocytic leukaemia
+C93.1;inclusion;CMML-1
+C93.1;inclusion;CMML-2
+C93.1;inclusion;CMML with eosinophilia
+C94;exclusion;leukaemic reticuloendotheliosis C91.4
+C94;exclusion;plasma cell leukaemia C90.1
+C94.0;inclusion;Acute myeloid leukaemia M6 (a)(b)
+C94.0;inclusion;Erythroleukaemia
+C94.2;inclusion;Acute myeloid leukaemia, M7
+C94.2;inclusion;Acute megakaryocytic leukaemia
+C94.4;inclusion;Acute myelofibrosis
+C94.7;inclusion;Aggressive NK-cell leukaemia
+C94.7;inclusion;Acute basophilic leukaemia
+C95.0;inclusion;Acute bilineal leukaemia
+C95.0;inclusion;Acute mixed lineage leukaemia
+C95.0;inclusion;Biphenotypic acute leukaemia
+C95.0;inclusion;Stem cell leukaemia of unclear lineage
+C95.0;exclusion;acute exacerbation of unspecified chronic leukaemia C95.1
+C96.0;inclusion;Histiocytosis X, multisystemic
+C96.2;inclusion;Aggressive systemic mastocytosis
+C96.2;inclusion;Mast cell sarcoma
+C96.2;exclusion;indolent mastocytosis D47.0
+C96.2;exclusion;mast cell leukaemia C94.3
+C96.2;exclusion;mastocytosis (congenital) (cutaneous) Q82.2
+C96.4;inclusion;Interdigiting dendritic cell sarcoma
+C96.4;inclusion;Langerhans-cell sarcoma
+C96.4;inclusion;Sarcoma of follicular dendritic cells
+C96.5;inclusion;Hand-Schüller-Christian disease
+C96.5;inclusion;Histiocytosis X, multifocal
+C96.6;inclusion;Eosinophilic granuloma
+C96.6;inclusion;Histiocytosis X, unifocal
+C96.6;inclusion;Histiocytosis X NOS
+C96.6;inclusion;Langerhans-cell histiocytosis NOS
+C96.8;inclusion;Malignant Histiocytosis
+D00-D09;inclusion;Bowen disease
+D00-D09;inclusion;erythroplasia
+D00-D09;inclusion;morphology codes with behaviour code /2
+D00-D09;inclusion;Queyrat erythroplasia
+D00;exclusion;melanoma in situ D03.-
+D00.0;inclusion;Aryepiglottic fold: NOS
+D00.0;inclusion;Aryepiglottic fold: hypopharyngeal aspect
+D00.0;inclusion;Aryepiglottic fold: marginal zone
+D00.0;inclusion;Vermilion border of lip
+D00.0;exclusion;aryepiglottic fold, laryngeal aspect D02.0
+D00.0;exclusion;epiglottis: NOS D02.0
+D00.0;exclusion;epiglottis: suprahyoid portion D02.0
+D00.0;exclusion;skin of lip D03.0 D04.0
+D01;exclusion;melanoma in situ D03.-
+D01.0;exclusion;rectosigmoid junction D01.1
+D01.3;exclusion;anal: margin D03.5 D04.5
+D01.3;exclusion;anal: skin D03.5 D04.5
+D01.3;exclusion;perianal skin D03.5 D04.5
+D01.4;exclusion;ampulla of Vater D01.5
+D01.5;inclusion;Ampulla of Vater
+D01.7;inclusion;Pancreas
+D02;exclusion;melanoma in situ D03.-
+D02.0;inclusion;Aryepiglottic fold, laryngeal aspect
+D02.0;inclusion;Epiglottis (suprahyoid portion)
+D02.0;exclusion;aryepiglottic fold: NOS D00.0
+D02.0;exclusion;aryepiglottic fold: hypopharyngeal aspect D00.0
+D02.0;exclusion;aryepiglottic fold: marginal zone D00.0
+D02.3;inclusion;Accessory sinuses
+D02.3;inclusion;Middle ear
+D02.3;inclusion;Nasal cavities
+D02.3;exclusion;ear (external)(skin) D03.2 D04.2
+D02.3;exclusion;nose: NOS D09.7
+D02.3;exclusion;nose: skin D03.3 D04.3
+D03;inclusion;morphology codes M872-M879 with behaviour code /2
+D03.5;inclusion;Anal: margin
+D03.5;inclusion;Anal: skin
+D03.5;inclusion;Breast (skin)(soft tissue)
+D03.5;inclusion;Perianal skin
+D04;exclusion;erythroplasia of Queyrat (penis) NOS D07.4
+D04;exclusion;melanoma in situ D03.-
+D04.0;exclusion;vermilion border of lip D00.0
+D04.5;inclusion;Anal: margin
+D04.5;inclusion;Anal: skin
+D04.5;inclusion;Perianal skin
+D04.5;inclusion;Skin of breast
+D04.5;exclusion;anus NOS D01.3
+D04.5;exclusion;skin of genital organs D07.-
+D05;exclusion;carcinoma in situ of skin of breast D04.5
+D05;exclusion;melanoma in situ of breast (skin) D03.5
+D06;inclusion;cervical intraepithelial neoplasia [CIN], grade III, with or without mention of severe dysplasia
+D06;exclusion;melanoma in situ of cervix D03.5
+D06;exclusion;severe dysplasia of cervix NOS N87.2
+D07;exclusion;melanoma in situ D03.5
+D07.1;inclusion;Vulvar intraepithelial neoplasia [VIN], grade III, with or without mention of severe dysplasia
+D07.1;exclusion;severe dysplasia of vulva NOS N90.2
+D07.2;inclusion;Vaginal intraepithelial neoplasia [VAIN], grade III, with or without mention of severe dysplasia
+D07.2;exclusion;severe dysplasia of vagina NOS N89.2
+D07.4;inclusion;Erythroplasia of Queyrat NOS
+D07.5;exclusion;low-grade dysplasia of prostate N42.3
+D09;exclusion;melanoma in situ D03.-
+D09.2;exclusion;skin of eyelid D04.1
+D09.3;exclusion;endocrine pancreas D01.7
+D09.3;exclusion;ovary D07.3
+D09.3;exclusion;testis D07.6
+D10-D36;inclusion;morphology codes with behaviour code /0
+D10.0;inclusion;Lip (frenulum)(inner aspect)(mucosa)(vermilion border)
+D10.0;exclusion;skin of lip D22.0 D23.0
+D10.1;inclusion;Lingual tonsil
+D10.3;inclusion;Minor salivary gland NOS
+D10.3;exclusion;benign odontogenic neoplasms D16.4-D16.5
+D10.3;exclusion;mucosa of lip D10.0
+D10.3;exclusion;nasopharyngeal surface of soft palate D10.6
+D10.4;inclusion;Tonsil (faucial)(palatine)
+D10.4;exclusion;lingual tonsil D10.1
+D10.4;exclusion;pharyngeal tonsil D10.6
+D10.4;exclusion;tonsillar: fossa D10.5
+D10.4;exclusion;tonsillar: pillars D10.5
+D10.5;inclusion;Epiglottis, anterior aspect
+D10.5;inclusion;Tonsillar: fossa
+D10.5;inclusion;Tonsillar: pillars
+D10.5;inclusion;Vallecula
+D10.5;exclusion;epiglottis: NOS D14.1
+D10.5;exclusion;epiglottis: suprahyoid portion D14.1
+D10.6;inclusion;Pharyngeal tonsil
+D10.6;inclusion;Posterior margin of septum and choanae
+D11;exclusion;benign neoplasms of specified minor salivary glands which are classified according to their anatomical location
+D11;exclusion;benign neoplasms of minor salivary glands NOS D10.3
+D11.7;inclusion;Gland: sublingual
+D11.7;inclusion;Gland: submandibular
+D12.0;inclusion;Ileocaecal valve
+D12.3;inclusion;Hepatic flexure
+D12.3;inclusion;Splenic flexure
+D12.6;inclusion;Adenomatosis of colon
+D12.6;inclusion;Large intestine NOS
+D12.6;inclusion;Polyposis (hereditary) of colon
+D12.9;exclusion;anal: margin D22.5 D23.5
+D12.9;exclusion;anal: skin D22.5 D23.5
+D12.9;exclusion;perianal skin D22.5 D23.5
+D13.4;inclusion;Intrahepatic bile ducts
+D13.6;exclusion;endocrine pancreas D13.7
+D13.7;inclusion;Islet cell tumour
+D13.7;inclusion;Islets of Langerhans
+D13.9;inclusion;Digestive system NOS
+D13.9;inclusion;Intestine NOS
+D13.9;inclusion;Spleen
+D14.0;inclusion;Cartilage of nose
+D14.0;exclusion;auricular canal (external) D22.2 D23.2
+D14.0;exclusion;bone of: ear D16.4
+D14.0;exclusion;bone of: nose D16.4
+D14.0;exclusion;cartilage of ear D21.0
+D14.0;exclusion;ear (external)(skin) D22.2 D23.2
+D14.0;exclusion;nose: NOS D36.7
+D14.0;exclusion;nose: skin D22.3 D23.3
+D14.0;exclusion;olfactory bulb D33.3
+D14.0;exclusion;polyp (of): accessory sinus J33.8
+D14.0;exclusion;polyp (of): ear (middle) H74.4
+D14.0;exclusion;polyp (of): nasal (cavity) J33.-
+D14.0;exclusion;posterior margin of septum and choanae D10.6
+D14.1;inclusion;Epiglottis (suprahyoid portion)
+D14.1;exclusion;epiglottis, anterior aspect D10.5
+D14.1;exclusion;polyp of vocal cord and larynx J38.1
+D15;exclusion;mesothelial tissue D19.-
+D15.1;exclusion;great vessels D21.3
+D16;exclusion;connective tissue of: ear D21.0
+D16;exclusion;connective tissue of: eyelid D21.0
+D16;exclusion;connective tissue of: larynx D14.1
+D16;exclusion;connective tissue of: nose D14.0
+D16;exclusion;synovia D21.-
+D16.4;inclusion;Maxilla (superior)
+D16.4;inclusion;Orbital bone
+D16.4;exclusion;lower jaw bone D16.5
+D16.6;exclusion;sacrum and coccyx D16.8
+D17;inclusion;morphology codes M885-M888 with behaviour code /0
+D17.5;exclusion;peritoneum and retroperitoneum D17.7
+D17.7;inclusion;Peritoneum
+D17.7;inclusion;Retroperitoneum
+D17.9;inclusion;Lipoma NOS
+D18;inclusion;morphology codes M912-M917 with behaviour code /0
+D18;exclusion;blue or pigmented naevus D22.-
+D18.0;inclusion;Angioma NOS
+D19;inclusion;morphology code M905 with behaviour code /0
+D19.9;inclusion;Benign mesothelioma NOS
+D20;exclusion;benign lipomatous neoplasm of peritoneum and retroperitoneum D17.7
+D20;exclusion;mesothelial tissue D19.-
+D21;inclusion;blood vessel
+D21;inclusion;bursa
+D21;inclusion;cartilage
+D21;inclusion;fascia
+D21;inclusion;fat
+D21;inclusion;ligament, except uterine
+D21;inclusion;lymphatic channel
+D21;inclusion;muscle
+D21;inclusion;synovia
+D21;inclusion;tendon (sheath)
+D21;exclusion;cartilage: articular D16.-
+D21;exclusion;cartilage: larynx D14.1
+D21;exclusion;cartilage: nose D14.0
+D21;exclusion;connective tissue of breast D24
+D21;exclusion;haemangioma D18.0
+D21;exclusion;lipomatous neoplasm D17.-
+D21;exclusion;lymphangioma D18.1
+D21;exclusion;peripheral nerves and autonomic nervous system D36.1
+D21;exclusion;peritoneum D20.1
+D21;exclusion;retroperitoneum D20.0
+D21;exclusion;uterine: leiomyoma D25.-
+D21;exclusion;uterine: ligament, any D28.2
+D21;exclusion;vascular tissue D18.-
+D21.0;inclusion;Connective tissue of: ear
+D21.0;inclusion;Connective tissue of: eyelid
+D21.0;exclusion;connective tissue of orbit D31.6
+D21.3;inclusion;Axilla
+D21.3;inclusion;Diaphragm
+D21.3;inclusion;Great vessels
+D21.3;exclusion;heart D15.1
+D21.3;exclusion;mediastinum D15.2
+D21.3;exclusion;thymus D15.0
+D21.5;exclusion;uterine: leiomyoma D25.-
+D21.5;exclusion;uterine: ligament, any D28.2
+D21.6;inclusion;Back NOS
+D22;inclusion;morphology codes M872-M879 with behaviour code /0
+D22;inclusion;naevus: NOS
+D22;inclusion;naevus: blue
+D22;inclusion;naevus: hairy
+D22;inclusion;naevus: pigmented
+D22.5;inclusion;Anal: margin
+D22.5;inclusion;Anal: skin
+D22.5;inclusion;Perianal skin
+D22.5;inclusion;Skin of breast
+D23;inclusion;benign neoplasm of: hair follicles
+D23;inclusion;benign neoplasm of: sebaceous glands
+D23;inclusion;benign neoplasm of: sweat glands
+D23;exclusion;benign lipomatous neoplasms D17.0-D17.3
+D23;exclusion;melanocytic naevi D22.-
+D23.0;exclusion;vermilion border of lip D10.0
+D23.5;inclusion;Anal: margin
+D23.5;inclusion;Anal: skin
+D23.5;inclusion;Perianal skin
+D23.5;inclusion;Skin of breast
+D23.5;exclusion;anus NOS D12.9
+D23.5;exclusion;skin of genital organs D28-D29
+D24;inclusion;Breast: connective tissue
+D24;inclusion;Breast: soft parts
+D24;exclusion;benign mammary dysplasia N60.-
+D24;exclusion;skin of breast D22.5 D23.5
+D25;inclusion;benign neoplasms of uterus with morphology code M889 and behaviour code /0
+D25;inclusion;fibromyoma of uterus
+D28;inclusion;adenomatous polyp
+D28;inclusion;skin of female genital organs
+D28.2;inclusion;Fallopian tube
+D28.2;inclusion;Uterine ligament (broad)(round)
+D29;inclusion;skin of male genital organs
+D29.1;exclusion;hyperplasia of prostate (adenomatous) N40
+D29.1;exclusion;prostatic: enlargement N40
+D29.1;exclusion;prostatic: hypertrophy N40
+D29.4;inclusion;Skin of scrotum
+D29.7;inclusion;Seminal vesicle
+D29.7;inclusion;Spermatic cord
+D29.7;inclusion;Tunica vaginalis
+D30.0;exclusion;renal: calyces D30.1
+D30.0;exclusion;renal: pelvis D30.1
+D30.2;exclusion;ureteric orifice of bladder D30.3
+D30.3;inclusion;Orifice of bladder: urethral
+D30.3;inclusion;Orifice of bladder: ureteric
+D30.4;exclusion;urethral orifice of bladder D30.3
+D30.7;inclusion;Paraurethral glands
+D30.9;inclusion;Urinary system NOS
+D31;exclusion;connective tissue of eyelid D21.0
+D31;exclusion;optic nerve D33.3
+D31;exclusion;skin of eyelid D22.1 D23.1
+D31.5;inclusion;Lacrimal sac
+D31.5;inclusion;Nasolacrimal duct
+D31.6;inclusion;Connective tissue of orbit
+D31.6;inclusion;Extraocular muscle
+D31.6;inclusion;Peripheral nerves of orbit
+D31.6;inclusion;Retrobulbar tissue
+D31.6;inclusion;Retro-ocular tissue
+D31.6;exclusion;orbital bone D16.4
+D31.9;inclusion;Eyeball
+D32.9;inclusion;Meningioma NOS
+D33;exclusion;angioma D18.0
+D33;exclusion;meninges D32.-
+D33;exclusion;peripheral nerves and autonomic nervous system D36.1
+D33;exclusion;retro-ocular tissue D31.6
+D33.0;inclusion;Cerebral ventricle
+D33.0;inclusion;Cerebrum
+D33.0;inclusion;Frontal lobe
+D33.0;inclusion;Occipital lobe
+D33.0;inclusion;Parietal lobe
+D33.0;inclusion;Temporal lobe
+D33.0;exclusion;fourth ventricle D33.1
+D33.1;inclusion;Brain stem
+D33.1;inclusion;Cerebellum
+D33.1;inclusion;Fourth ventricle
+D33.3;inclusion;Olfactory bulb
+D33.9;inclusion;Nervous system (central) NOS
+D35;exclusion;endocrine pancreas D13.7
+D35;exclusion;ovary D27
+D35;exclusion;testis D29.2
+D35;exclusion;thymus D15.0
+D36.1;exclusion;peripheral nerves of orbit D31.6
+D36.7;inclusion;Nose NOS
+D37.0;inclusion;Aryepiglottic fold: NOS
+D37.0;inclusion;Aryepiglottic fold: hypopharyngeal aspect
+D37.0;inclusion;Aryepiglottic fold: marginal zone
+D37.0;inclusion;Major and minor salivary glands
+D37.0;inclusion;Vermilion border of lip
+D37.0;exclusion;aryepiglottic fold, laryngeal aspect D38.0
+D37.0;exclusion;epiglottis: NOS D38.0
+D37.0;exclusion;epiglottis: suprahyoid portion D38.0
+D37.0;exclusion;skin of lip D48.5
+D37.5;inclusion;Rectosigmoid junction
+D37.6;inclusion;Ampulla of Vater
+D37.7;inclusion;Anal: canal
+D37.7;inclusion;Anal: sphincter
+D37.7;inclusion;Anus NOS
+D37.7;inclusion;Intestine NOS
+D37.7;inclusion;Oesophagus
+D37.7;inclusion;Pancreas
+D37.7;exclusion;anal: margin D48.5
+D37.7;exclusion;anal: skin D48.5
+D37.7;exclusion;perianal skin D48.5
+D38;exclusion;heart D48.7
+D38.0;inclusion;Aryepiglottic fold, laryngeal aspect
+D38.0;inclusion;Epiglottis (suprahyoid portion)
+D38.0;exclusion;aryepiglottic fold: NOS D37.0
+D38.0;exclusion;aryepiglottic fold: hypopharyngeal aspect D37.0
+D38.0;exclusion;aryepiglottic fold: marginal zone D37.0
+D38.5;inclusion;Accessory sinuses
+D38.5;inclusion;Cartilage of nose
+D38.5;inclusion;Middle ear
+D38.5;inclusion;Nasal cavities
+D38.5;exclusion;ear (external)(skin) D48.5
+D38.5;exclusion;nose: NOS D48.7
+D38.5;exclusion;nose: skin D48.5
+D39.2;inclusion;Chorioadenoma destruens
+D39.2;inclusion;Hydatidiform mole: invasive
+D39.2;inclusion;Hydatidiform mole: malignant
+D39.2;exclusion;hydatidiform mole NOS O01.9
+D39.7;inclusion;Skin of female genital organs
+D40.7;inclusion;Skin of male genital organs
+D41.0;exclusion;renal pelvis D41.1
+D43;exclusion;peripheral nerves and autonomic nervous system D48.2
+D43.0;inclusion;Cerebral ventricle
+D43.0;inclusion;Cerebrum
+D43.0;inclusion;Frontal lobe
+D43.0;inclusion;Occipital lobe
+D43.0;inclusion;Parietal lobe
+D43.0;inclusion;Temporal lobe
+D43.0;exclusion;fourth ventricle D43.1
+D43.1;inclusion;Brain stem
+D43.1;inclusion;Cerebellum
+D43.1;inclusion;Fourth ventricle
+D43.9;inclusion;Nervous system (central) NOS
+D44;exclusion;endocrine pancreas D37.7
+D44;exclusion;ovary D39.1
+D44;exclusion;testis D40.1
+D44;exclusion;thymus D38.4
+D44.8;inclusion;Multiple endocrine adenomatosis
+D46;inclusion;Alkylating-agent-related myelodysplastic syndrome
+D46;inclusion;Epipodophyllotoxin-related myelodysplastic syndrome
+D46;inclusion;Therapy-related myelodysplastic syndrome NOS
+D46;exclusion;drug induced aplastic anaemia D61.1
+D46.6;inclusion;5 q-minus syndrome
+D46.7;exclusion;chronic myelomonocytic leukaemia C93.1
+D46.9;inclusion;Myelodysplasia NOS
+D46.9;inclusion;Preleukaemia (syndrome) NOS
+D47.0;inclusion;Indolent systemic mastocytosis
+D47.0;inclusion;Mast cell tumour NOS
+D47.0;inclusion;Mastocytoma NOS
+D47.0;inclusion;Systemic mastocytosis, associated with clonal haematopoietic non-mast-cell disease (SM-AHNMD)
+D47.0;exclusion;mastocytosis (congenital) (cutaneous) Q82.2
+D47.1;inclusion;Chronic neutrophilic leukaemia
+D47.1;inclusion;Myeloproliferative disease, unspecified
+D47.1;exclusion;atypical chronic myeloid leukaemia, BCR/ABL-negative C92.2
+D47.1;exclusion;chronic myeloid leukaemia [CML] BCR/ABL-positive C92.1
+D47.3;inclusion;Idiopathic haemorrhagic thrombocythaemia
+D47.4;inclusion;Chronic idiopathic myelofibrosis
+D47.4;inclusion;Myelofibrosis (idiopathic) (with myeloid metaplasia)
+D47.4;inclusion;Myelosclerosis (megakaryocytic) with myeloid metaplasia
+D47.4;inclusion;Secondary myelofibrosis in myeloproliferative disease
+D47.4;exclusion;acute myelofibrosis C94.4
+D47.7;inclusion;Histiocytic tumours of uncertain and unknown behaviour
+D47.9;inclusion;Lymphoproliferative disease NOS
+D48;exclusion;neurofibromatosis (nonmalignant) Q85.0
+D48.0;exclusion;cartilage of: ear D48.1
+D48.0;exclusion;cartilage of: larynx D38.0
+D48.0;exclusion;cartilage of: nose D38.5
+D48.0;exclusion;connective tissue of eyelid D48.1
+D48.0;exclusion;synovia D48.1
+D48.1;inclusion;Connective tissue of: ear
+D48.1;inclusion;Connective tissue of: eyelid
+D48.1;exclusion;cartilage (of): articular D48.0
+D48.1;exclusion;cartilage (of): larynx D38.0
+D48.1;exclusion;cartilage (of): nose D38.5
+D48.1;exclusion;connective tissue of breast D48.6
+D48.2;exclusion;peripheral nerves of orbit D48.7
+D48.5;inclusion;Anal: margin
+D48.5;inclusion;Anal: skin
+D48.5;inclusion;Perianal skin
+D48.5;inclusion;Skin of breast
+D48.5;exclusion;anus NOS D37.7
+D48.5;exclusion;skin of genital organs D39.7 D40.7
+D48.5;exclusion;vermilion border of lip D37.0
+D48.6;inclusion;Connective tissue of breast
+D48.6;inclusion;Cystosarcoma phyllodes
+D48.6;exclusion;skin of breast D48.5
+D48.7;inclusion;Eye
+D48.7;inclusion;Heart
+D48.7;inclusion;Peripheral nerves of orbit
+D48.7;exclusion;connective tissue D48.1
+D48.7;exclusion;skin of eyelid D48.5
+D48.9;inclusion;"""Growth"" NOS"
+D48.9;inclusion;Neoplasm NOS
+D48.9;inclusion;New growth NOS
+D48.9;inclusion;Tumour NOS

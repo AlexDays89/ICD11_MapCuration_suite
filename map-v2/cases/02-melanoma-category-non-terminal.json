@@ -1,0 +1,8 @@
+{
+  "property": "Stem categoría (2C30, tiene hijos 2C30.0-.3/.Y/.Z) nunca se declara 'resolved' -- ICD-11 exige codificar la entidad mas especifica.",
+  "selection": { "code": "2C30" },
+  "expect": {
+    "status": "non_terminal",
+    "stem.isLeaf": false
+  }
+}

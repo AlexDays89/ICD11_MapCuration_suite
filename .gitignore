@@ -1,0 +1,12 @@
+node_modules/
+# copias generadas desde map-v2/dist por poc-coding-tool/scripts/copy-map-v2.mjs (predev/prebuild)
+poc-coding-tool/public/map-v2.bundle.json
+poc-coding-tool/src/maplab/resolve.js
+# build estático de la interfaz
+poc-coding-tool/dist/
+# archivos temporales de Excel y respaldos locales
+~$*
+*.bak*
+
+/tools
+/reports

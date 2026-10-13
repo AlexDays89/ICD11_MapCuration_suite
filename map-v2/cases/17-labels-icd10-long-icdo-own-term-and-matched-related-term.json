@@ -1,0 +1,15 @@
+{
+  "property": "Curacion SNC 2026-10 (etiquetas): CIE-10 muestra el titulo largo con comportamiento; la topografia CIE-O usa su propio termino preferido; la morfologia CIE-O-4 muestra el termino que nombra la histologia CIE-11 seleccionada cuando es un termino Related/Synonym del codigo (95060/1: Preferred 'Sellar neurocytoma', Related 'Central neurocytoma').",
+  "selection": {
+    "code": "2A00.3"
+  },
+  "expect": {
+    "icd10.code": "D43.2",
+    "icd10.label": "Neoplasm of uncertain or unknown behaviour: Brain, unspecified",
+    "icdoTopography.label": "Brain, NOS",
+    "icdoMorphology4.code": "95060/1",
+    "icdoMorphology4.label": "Central neurocytoma",
+    "icdoMorphology4.labelLevel": "Related",
+    "icdoMorphology4.preferredLabel": "Sellar neurocytoma"
+  }
+}

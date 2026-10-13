@@ -1,0 +1,2309 @@
+code;label
+80000/0;Neoplasm, benign
+80000/1;Neoplasm, uncertain whether benign or malignant
+80000/3;Neoplasm, malignant, NOS
+80000/6;Neoplasm, metastatic
+80000/9;Neoplasm, malignant, uncertain whether primary or metastatic
+80001/3;Hepatocellular neoplasm, NOS
+80010/0;Tumour cells, benign
+80010/1;Tumour cells, uncertain whether benign or malignant
+80010/3;Tumour cells, malignant
+80020/3;Malignant tumour, small cell type
+80030/3;Malignant tumour, giant cell type
+80040/1;Spindle cell tumour of uncertain malignant potential
+80040/3;Malignant tumour, spindle cell type
+80050/0;Clear cell tumour, NOS
+80050/3;Malignant tumour, clear cell type
+80100/0;Epithelial tumour, benign
+80100/2;Carcinoma in situ, NOS
+80100/3;Carcinoma, NOS
+80100/6;Carcinoma, metastatic, NOS
+80100/9;Carcinomatosis
+80101/3;Heterotopia-associated carcinoma
+80110/0;Epithelioma, benign
+80110/3;Epithelioma, malignant
+80120/3;Large cell carcinoma, NOS
+80130/3;Large cell neuroendocrine carcinoma, NOS
+80131/3;Combined large cell neuroendocrine carcinoma
+80140/3;Large cell carcinoma with rhabdoid phenotype
+80150/3;Glassy cell carcinoma
+80200/3;Carcinoma, undifferentiated, NOS
+80201/3;Carcinoma, poorly differentiated, NOS
+80202/3;Anaplastic undifferentiated carcinoma
+80203/3;Dedifferentiated carcinoma
+80204/3;Poorly differentiated urothelial carcinoma
+80210/3;Carcinoma, anaplastic, NOS
+80220/3;Pleomorphic carcinoma, NOS
+80221/3;Carcinoma, pleomorphic giant cell
+80230/3;Nuclear protein in testis (NUT)-associated carcinoma
+80300/3;Giant cell and spindle cell carcinoma
+80310/3;Giant cell carcinoma, NOS
+80311/3;Giant cell urothelial carcinoma
+80320/3;Spindle cell carcinoma, NOS
+80330/3;Pseudosarcomatous carcinoma
+80331/3;Salivary duct carcinoma, sarcomatoid
+80340/3;Polygonal cell carcinoma
+80350/3;Carcinoma with osteoclast-like giant cells
+80351/3;Squamous carcinoma with osteoclast-like giant cells
+80352/3;Undifferentiated carcinoma with osteoclast-like giant cells
+80400/0;Tumourlet, benign
+80400/1;Tumourlet, NOS
+80401/0;Diffuse idiopathic neuroendocrine cell hyperplasia
+80410/3;Small cell carcinoma, NOS
+80440/3;Small cell carcinoma, hypercalcaemic type, NOS
+80441/3;Small cell carcinoma, hypercalcaemic type, large cell subtype
+80442/3;SWI/SNF complex-deficient sinonasal carcinoma
+80443/3;SMARCB1-deficient sinonasal carcinoma
+80444/3;SMARCB1-deficient sinonasal adenocarcinoma
+80445/3;SMARCA4-deficient sinonasal carcinoma
+80446/3;SMARCA4-deficient undifferentiated tumour
+80450/3;Combined small cell carcinoma
+80451/3;Combined small cell-adenocarcinoma
+80452/3;Combined small cell-large cell carcinoma
+80453/3;Combined small cell-squamous cell carcinoma
+80454/3;Combined small cell-urothelial carcinoma
+80460/3;Non-small cell carcinoma
+80500/0;Papilloma, NOS
+80500/2;Papillary carcinoma in situ, NOS
+80500/3;Papillary carcinoma, NOS
+80510/0;Verrucous papilloma
+80510/3;Verrucous carcinoma, NOS
+80511/3;Carcinoma cuniculatum
+80520/0;Squamous cell papilloma, NOS
+80520/2;Papillary squamous cell carcinoma, non-invasive
+80520/3;Papillary squamous cell carcinoma, NOS
+80521/0;Squamous papilloma with low-grade dysplasia
+80521/2;Squamous papilloma with high-grade dysplasia
+80522/0;Squamous cell papilloma, exophytic
+80523/0;Squamous cell papilloma, mixed
+80524/0;Benign keratosis, NOS
+80525/0;Seborrhoeic keratosis, NOS
+80526/0;Seborrhoeic keratosis, irritated
+80527/0;Stucco keratosis
+80528/0;Solar lentigo
+80529/0;Lichen planus-like keratosis
+80530/0;Squamous cell papilloma, inverted
+80540/0;Warty dyskeratoma
+80540/3;Warty carcinoma, NOS
+80541/3;Warty carcinoma, HPV-associated
+80542/3;Warty-basaloid carcinoma
+80600/0;Squamous papillomatosis
+80700/0;Actinic keratosis, NOS
+80700/2;Squamous cell carcinoma in situ, NOS
+80700/3;Squamous cell carcinoma, NOS
+80700/6;Squamous cell carcinoma, metastatic, NOS
+80701/0;Actinic keratosis, proliferative
+80702/0;Actinic keratosis, hypertrophic
+80703/0;Actinic keratosis, lichenoid
+80704/0;Actinic keratosis, pigmented
+80705/0;Arsenical keratosis
+80706/0;PUVA keratosis
+80707/3;Hybrid verrucous carcinoma
+80708/3;Nasopharyngeal carcinoma
+80710/1;Keratoacanthoma, NOS
+80710/2;Differentiated intraepithelial neoplasia
+80710/3;Squamous cell carcinoma, keratinizing, NOS
+80711/1;Keratoacanthoma, subungual
+80712/1;Subungual tumour of incontinentia pigmenti
+80720/0;Large cell acanthoma
+80720/3;Squamous cell carcinoma, non-keratinizing, NOS
+80721/3;Squamous cell carcinoma, large cell, non-keratinizing, NOS
+80722/3;DEK::AFF2 squamous cell carcinoma
+80730/3;Squamous cell carcinoma, small cell, non-keratinizing
+80740/3;Squamous cell carcinoma, spindle cell
+80741/3;Squamous cell carcinoma, sarcomatoid
+80742/3;Pseudovascular squamous cell carcinoma
+80750/3;Squamous cell carcinoma, acantholytic
+80760/2;Squamous cell carcinoma in situ with questionable stromal invasion
+80760/3;Squamous cell carcinoma, microinvasive
+80770/0;Squamous intraepithelial neoplasia, low-grade
+80770/2;High-grade squamous intraepithelial lesion
+80771/0;Squamous intraepithelial neoplasia, grade 1
+80771/2;Squamous intraepithelial neoplasia, grade 2
+80772/2;Squamous intraepithelial neoplasia, grade 3
+80780/3;Squamous cell carcinoma with horn formation
+80800/2;Queyrat erythroplasia
+80820/3;Lymphoepithelial carcinoma, NOS
+80821/3;Lymphoepithelioma-like urothelial carcinoma
+80822/3;Lymphoepithelial carcinoma of salivary gland
+80830/2;Basaloid squamous cell carcinoma, in situ
+80830/3;Basaloid squamous cell carcinoma, NOS
+80831/3;Papillary-basaloid carcinoma
+80840/0;Clear cell acanthoma
+80840/3;Squamous cell carcinoma, clear cell, NOS
+80841/3;Clear cell squamous carcinoma, HPV-associated
+80850/0;HPV-associated oral epithelial dysplasia, low-grade
+80850/2;Squamous cell carcinoma in situ, HPV-associated
+80850/3;Squamous cell carcinoma, HPV-associated
+80851/3;Adenosquamous carcinoma, HPV-associated, NOS
+80852/3;Ciliated adenosquamous carcinoma, HPV-associated
+80853/3;Keratinizing squamous cell carcinoma, HPV-associated
+80854/3;Papillary squamous cell carcinoma, HPV-associated
+80855/3;Non-keratinizing squamous cell carcinoma, HPV-associated
+80856/3;Lymphoepithelial carcinoma, HPV-associated
+80857/3;Spindle cell/sarcomatoid squamous cell carcinoma, HPV-associated
+80858/3;Basaloid squamous cell carcinoma, HPV-associated
+80860/3;Squamous cell carcinoma, HPV-independent
+80861/3;Adenosquamous carcinoma, HPV-independent
+80862/3;Keratinizing squamous cell carcinoma, HPV-independent
+80863/3;Papillary squamous cell carcinoma, HPV-independent
+80864/3;Lymphoepithelial carcinoma, HPV-independent
+80865/3;Spindle cell/sarcomatoid squamous cell carcinoma, HPV-independent
+80866/3;Basaloid squamous cell carcinoma, HPV-independent
+80867/3;Verrucous carcinoma, HPV-independent
+80868/3;Non-keratinizing squamous cell carcinoma, HPV-independent
+80900/1;Basal cell tumour
+80900/3;Basal cell carcinoma, NOS
+80901/3;Pigmented basal cell carcinoma
+80902/3;Basal cell carcinoma with adnexal differentiation
+80910/3;Superficial basal cell carcinoma
+80911/3;Multifocal superficial basal cell carcinoma
+80920/3;Infiltrating basal cell carcinoma, NOS
+80921/3;Infiltrating basal cell carcinoma, non-sclerosing
+80922/3;Basal cell carcinoma, sclerosing/morphoeic
+80923/3;Basal cell carcinoma, sarcomatoid
+80930/3;Basal cell carcinoma, fibroepithelial
+80940/3;Basosquamous carcinoma
+80950/3;Metatypical carcinoma
+80960/0;Intraepidermal epithelioma of Jadassohn
+80970/3;Basal cell carcinoma, nodular
+80971/3;Basal cell carcinoma, micronodular
+80980/3;Adenoid basal carcinoma
+81000/0;Trichoepithelioma
+81000/3;Trichoblastic carcinoma
+81001/0;Trichoblastoma
+81001/3;Trichoblastic carcinosarcoma
+81002/0;Trichogerminoma
+81010/0;Trichofolliculoma
+81020/0;Trichilemmoma, NOS
+81020/3;Trichilemmal carcinoma
+81021/0;Trichilemmoma, desmoplastic
+81030/0;Pilar tumour
+81030/1;Proliferating trichilemmal tumour
+81040/0;Pilar sheath acanthoma
+81041/0;Tumour of follicular infundibulum
+81100/0;Pilomatricoma, NOS
+81100/3;Pilomatrical carcinoma
+81101/0;Melanocytic matricoma
+81200/0;Urothelial papilloma, NOS
+81200/2;Urothelial carcinoma in situ
+81200/3;Urothelial carcinoma, NOS
+81201/3;Urothelial carcinoma, lipid-rich
+81202/3;Urothelial carcinoma, clear cell (glycogen rich)
+81203/3;Urothelial carcinoma, nested, NOS
+81204/3;Urothelial carcinoma, large nested
+81205/3;Urothelial carcinoma, tubular and microcystic
+81206/3;Urothelial carcinoma with squamous differentiation
+81207/3;Urothelial carcinoma with glandular differentiation
+81208/3;Urothelial carcinoma with trophoblastic differentiation
+81210/0;Sinonasal papilloma, NOS
+81211/0;Sinonasal papilloma, exophytic
+81211/1;Sinonasal papilloma, inverted
+81212/0;Urothelial papilloma, inverted
+81213/1;Sinonasal papilloma, oncocytic
+81220/3;Urothelial carcinoma, sarcomatoid
+81221/3;Urothelial carcinoma, plasmacytoid
+81230/3;Basaloid carcinoma
+81240/3;Cloacogenic carcinoma
+81300/1;Papillary urothelial neoplasm of low malignant potential, NOS
+81300/2;Papillary urothelial carcinoma, non-invasive, NOS
+81300/3;Papillary urothelial carcinoma, NOS
+81301/1;Papillary urothelial neoplasm of low malignant potential, inverted
+81301/2;Non-invasive papillary urothelial carcinoma, low-grade, NOS
+81302/2;Non-invasive papillary urothelial carcinoma with an inverted growth pattern, low-grade
+81303/2;Non-invasive papillary urothelial carcinoma, high-grade, NOS
+81304/2;Non-invasive papillary urothelial carcinoma with an inverted growth pattern, high-grade
+81310/3;Urothelial carcinoma, micropapillary
+81400/0;Adenoma, NOS
+81400/1;Atypical adenoma
+81400/2;Adenocarcinoma in situ, NOS
+81400/3;Adenocarcinoma, NOS
+81400/6;Adenocarcinoma, metastatic, NOS
+81401/0;Oxyntic gland adenoma, NOS
+81402/0;Oxyntic gland adenoma, low-grade
+81402/2;Oxyntic gland adenoma, high-grade
+81402/3;Gastric adenocarcinoma of fundic gland type
+81403/0;Pyloric gland adenoma, NOS
+81404/0;Pyloric gland adenoma, low-grade
+81404/2;Pyloric gland adenoma, high-grade
+81405/0;Sclerosing polycystic adenoma
+81406/3;Skene gland adenocarcinoma
+81407/3;Cowper gland adenocarcinoma
+81408/3;Littré gland adenocarcinoma
+81409/3;Endolymphatic sac tumour
+81410/3;Scirrhous adenocarcinoma
+81420/3;Linitis plastica
+81430/3;Superficial spreading adenocarcinoma
+81440/0;Adenoma, intestinal-type, NOS
+81440/3;Adenocarcinoma, intestinal-type
+81441/0;Adenoma, intestinal-type, low-grade
+81441/2;Adenoma, intestinal-type, high-grade
+81442/0;Adenoma, intestinal-type, sporadic, low-grade
+81442/2;Adenoma, intestinal-type, sporadic, high-grade
+81443/0;Adenoma, intestinal-type, syndromic, low-grade
+81443/2;Adenoma, intestinal-type, syndromic, high-grade
+81444/0;Intestinal-type dysplasia, low-grade
+81444/2;Intestinal-type dysplasia, high-grade
+81445/3;Tubular adenocarcinoma, intestinal type
+81446/3;Endometrial gastric (gastrointestinal)-type carcinoma
+81450/3;Carcinoma, diffuse type
+81460/0;Monomorphic adenoma
+81470/0;Basal cell adenoma, NOS
+81470/3;Basal cell adenocarcinoma
+81471/0;Basal cell adenoma, membranous
+81480/0;Glandular intraepithelial neoplasia, low-grade
+81480/2;Glandular intraepithelial neoplasia, high-grade
+81481/0;Dysplasia associated with inflammatory bowel disease, low-grade
+81481/2;Dysplasia associated with inflammatory bowel disease, high-grade
+81482/0;Gastric pit/crypt dysplasia, low-grade
+81482/2;Gastric pit/crypt dysplasia, high-grade
+81483/0;Foveolar-type (gastric-type) dysplasia, low-grade
+81483/2;Foveolar-type (gastric-type) dysplasia, high-grade
+81490/0;Canalicular adenoma
+81500/1;Pancreatic neuroendocrine microtumour
+81500/3;Pancreatic neuroendocrine tumour, non-functioning
+81501/3;Oncocytic non-functioning (non-syndromic) pancreatic neuroendocrine tumour
+81502/3;Clear cell non-functioning (non-syndromic) pancreatic neuroendocrine tumour
+81503/3;Pleomorphic non-functioning (non-syndromic) pancreatic neuroendocrine tumour
+81504/3;Cystic non-functioning (non-syndromic) pancreatic neuroendocrine tumour
+81510/3;Insulinoma
+81520/3;Glucagonoma
+81521/3;L-cell tumour
+81522/3;Glucagon-like peptide-producing tumour
+81523/3;Pancreatic peptide and pancreatic peptide-like peptide within terminal tyrosine amide-producing tumour
+81530/3;Gastrinoma
+81540/3;Mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN)
+81541/3;Mixed pancreatic endocrine and exocrine tumour, malignant
+81542/3;Mixed acinar-neuroendocrine carcinoma
+81543/3;Carcinoma, mixed acinar-neuroendocrine-ductal
+81544/3;Mixed ductal adenocarcinoma-neuroendocrine carcinoma
+81550/3;VIPoma
+81560/3;Somatostatinoma
+81580/3;ACTH-producing tumour, NOS
+81581/3;Neuroendocrine tumour, calcitonin-producing
+81582/3;Neuroendocrine tumour, CRH-producing
+81583/3;Neuroendocrine tumour, cholecystokinin-producing
+81584/3;Neuroendocrine tumour, erythropoietin-producing
+81585/3;Neuroendocrine tumour, GHRH-producing
+81586/3;Ghrelin-producing neuroendocrine tumour
+81587/3;PTH/PTHrP-producing neuroendocrine tumour
+81588/3;Vasopressin-producing neuroendocrine tumour
+81589/3;Endocrine tumour, functioning, NOS
+81600/0;Bile duct adenoma
+81600/3;Cholangiocarcinoma, NOS
+81601/3;Cholangiocarcinoma, large duct
+81602/3;Cholangiocarcinoma, small duct
+81610/0;Bile duct cystadenoma
+81610/3;Bile duct cystadenocarcinoma
+81620/3;Perihilar cholangiocarcinoma
+81630/0;Pancreatobiliary neoplasm, non-invasive
+81630/3;Pancreatobiliary-type carcinoma
+81631/0;Intra-ampullary papillary-tubular neoplasm with low-grade dysplasia
+81631/2;Intra-ampullary papillary-tubular neoplasm with high-grade dysplasia
+81700/0;Liver cell adenoma
+81700/3;Hepatocellular carcinoma, NOS
+81701/3;Hepatocellular carcinoma, conventional
+81702/0;Hepatocellular adenoma, HNF1A-inactivated
+81703/0;Hepatocellular adenoma, inflammatory
+81703/3;Hepatocellular carcinoma, lymphocyte-rich
+81704/0;Hepatocellular adenoma, β-catenin-activated, NOS
+81705/0;Hepatocellular adenoma, β-catenin-activated inflammatory
+81706/3;Hepatocellular carcinoma, neutrophil-rich
+81707/3;Hepatocellular carcinoma, chromophobe type
+81708/3;Hepatocellular carcinoma, macrotrabecular massive
+81709/3;Hepatocellular carcinoma, steatohepatitic
+81710/3;Hepatocellular carcinoma, fibrolamellar
+81720/3;Hepatocellular carcinoma, scirrhous
+81730/3;Hepatocellular carcinoma, sarcomatoid
+81740/3;Hepatocellular carcinoma, clear cell-type
+81750/3;Hepatocellular carcinoma, pleomorphic type
+81800/3;Combined hepatocellular carcinoma and cholangiocarcinoma
+81900/0;Trabecular adenoma
+81900/3;Trabecular adenocarcinoma
+81910/0;Embryonal adenoma
+82000/0;Cylindroma, NOS
+82000/3;Adenoid cystic carcinoma, NOS
+82001/0;Cylindrospiradenoma
+82002/3;Thymic carcinoma with adenoid cystic carcinoma-like features
+82003/3;Classic adenoid cystic carcinoma
+82004/3;Solid-basaloid adenoid cystic carcinoma
+82005/3;Adenoid cystic carcinoma with high-grade transformation
+82010/1;Cribriform tumour
+82010/2;Cribriform carcinoma in situ
+82010/3;Cribriform carcinoma, NOS
+82011/3;Cribriform morular thyroid carcinoma
+82020/0;Microcystic adenoma
+82040/0;Lactating adenoma
+82100/0;Adenomatous polyp, NOS
+82100/3;Adenocarcinoma in adenomatous polyp
+82101/0;Adenomatous polyp, low-grade
+82101/2;Adenomatous polyp, high-grade
+82102/0;Conventional adenoma, NOS
+82103/0;Conventional adenoma, low-grade
+82103/2;Conventional adenoma, high-grade
+82104/0;Foveolar-type adenoma, NOS
+82105/0;Foveolar-type adenoma, low-grade
+82105/2;Foveolar-type adenoma, high-grade
+82108/2;Advanced adenoma
+82110/0;Tubular adenoma, NOS
+82110/3;Adenocarcinoma in tubular adenoma
+82111/0;Tubular adenoma, low-grade
+82111/2;Tubular adenoma, high-grade
+82112/3;Tubular adenocarcinoma, NOS
+82113/3;Tubular adenocarcinoma with mixed features
+82120/0;Flat adenoma
+82130/0;Sessile serrated lesion, NOS
+82130/2;Sessile serrated lesion with dysplasia
+82130/3;Serrated adenocarcinoma
+82131/0;Traditional serrated adenoma, NOS
+82132/0;Traditional serrated adenoma, low-grade dysplasia
+82132/2;Traditional serrated adenoma, high-grade dysplasia
+82133/0;Serrated adenoma, unclassified
+82140/3;Parietal cell carcinoma
+82150/3;Adenocarcinoma of anal glands
+82200/0;Adenomatous polyposis coli
+82200/3;Adenocarcinoma in adenomatous polyposis coli
+82201/0;Serrated polyposis
+82210/0;Multiple adenomatous polyps
+82210/3;Adenocarcinoma in multiple adenomatous polyps
+82300/2;Ductal carcinoma in situ, solid type
+82300/3;Solid adenocarcinoma, NOS
+82302/3;Solid carcinoma with mucin formation
+82310/3;Carcinoma simplex
+82400/3;Neuroendocrine tumour, NOS
+82401/3;Neuroendocrine tumour, grade 1
+82402/3;Middle ear neuroendocrine tumour
+82410/3;Serotonin-producing tumour
+82420/3;Enterochromaffin-like cell tumour
+82430/3;Goblet cell adenocarcinoma
+82440/3;Mixed adenoneuroendocrine carcinoma
+82441/3;Combined carcinoid and adenocarcinoma
+82442/3;Mixed ductal adenocarcinoma-neuroendocrine tumour
+82443/3;Mixed acinar carcinoma-neuroendocrine tumour
+82450/1;Tubular carcinoid
+82450/3;Adenocarcinoid tumour
+82460/3;Neuroendocrine carcinoma, NOS
+82470/3;Merkel cell carcinoma
+82480/3;Apudoma
+82490/3;Neuroendocrine tumour, grade 2
+82491/3;Neuroendocrine tumour, grade 3
+82500/0;Atypical adenomatous hyperplasia
+82500/1;Pulmonary adenomatosis
+82500/2;Adenocarcinoma in situ of lung, non-mucinous
+82500/3;Lepidic adenocarcinoma
+82510/0;Alveolar adenoma
+82510/3;Alveolar adenocarcinoma
+82520/3;Adenocarcinoma, non-mucinous
+82530/2;Adenocarcinoma in situ of lung, mucinous
+82530/3;Adenocarcinoma of lung, mucinous
+82540/3;Adenocarcinoma of lung, mixed mucinous and non-mucinous
+82550/3;Adenocarcinoma with mixed subtypes
+82560/3;Minimally invasive adenocarcinoma, non-mucinous
+82570/3;Minimally invasive adenocarcinoma, mucinous
+82600/0;Papillary adenoma, NOS
+82600/3;Papillary adenocarcinoma, NOS
+82601/3;Low-grade papillary adenocarcinoma
+82602/3;Papillary renal cell carcinoma
+82603/3;Papillary thyroid carcinoma, NOS
+82604/3;Papillary thyroid carcinoma, classic, NOS
+82605/3;Hobnail papillary thyroid carcinoma
+82606/3;Solid/trabecular papillary thyroid carcinoma
+82607/3;Warthin-like papillary thyroid carcinoma
+82608/3;Clear cell papillary thyroid carcinoma
+82609/3;Spindle cell papillary thyroid carcinoma
+82610/0;Villous adenoma, NOS
+82610/3;Adenocarcinoma in villous adenoma
+82611/0;Villous adenoma, low-grade
+82611/2;Villous adenoma, high-grade
+82620/3;Villous adenocarcinoma
+82630/0;Tubulovillous adenoma, NOS
+82630/3;Adenocarcinoma in tubulovillous adenoma
+82631/0;Papillotubular adenoma
+82632/0;Tubulovillous adenoma, low-grade
+82632/2;Tubulovillous adenoma, high-grade
+82633/3;Villoglandular carcinoma
+82634/3;Papillotubular adenocarcinoma
+82640/0;Papillomatosis, glandular
+82641/0;Biliary papillomatosis
+82650/3;Micropapillary carcinoma, NOS
+82651/3;Micropapillary adenocarcinoma
+82700/0;Chromophobe adenoma, NOS
+82700/3;Chromophobe carcinoma, NOS
+82701/3;Chromophobe adenoma of pituitary
+82710/3;Lactotroph PitNET/adenoma
+82711/3;Densely granulated lactotroph tumour
+82712/3;Sparsely granulated lactotroph tumour
+82720/3;Pituitary adenoma/pituitary neuroendocrine tumour (PitNET)
+82721/3;Corticotroph PitNET/adenoma
+82722/3;Densely granulated corticotroph tumour
+82723/3;Sparsely granulated corticotroph tumour
+82724/3;Null cell PitNET/adenoma
+82725/3;Plurihormonal PitNET/adenoma
+82726/3;Gonadotroph PitNET/adenoma
+82727/3;Somatotroph PitNET/adenoma
+82728/3;Densely granulated somatotroph tumour
+82729/3;Sparsely granulated somatotroph tumour
+82730/3;Pituitary blastoma
+82800/3;Acidophil adenoma
+82801/3;Acidophil carcinoma
+82802/3;Acidophil stem cell PitNET/adenoma
+82803/3;Mammosomatotroph PitNET/adenoma
+82804/3;Mixed somatotroph-lactotroph PitNET/adenoma
+82805/3;Densely granulated somatotroph and sparsely granulated lactotroph PitNET/adenoma
+82806/3;Sparsely granulated somatotroph and sparsely granulated lactotroph PitNET/adenoma
+82810/3;Mixed acidophil-basophil adenoma
+82811/3;Mixed acidophil-basophil carcinoma
+82900/0;Oncocytic adenoma
+82900/1;Oncocytic tumour of uncertain malignant potential
+82900/3;Oncocytic carcinoma
+82901/0;Spindle cell oncocytoma, NOS
+82902/0;Oncocytic papillary cystadenoma
+82903/0;Oncocytoma, clear cell
+82904/3;Oncocytic salivary duct carcinoma
+82905/3;Minimally invasive oncocytic carcinoma
+82906/3;Encapsulated angioinvasive oncocytic carcinoma
+82907/3;Widely invasive oncocytic carcinoma
+83000/3;Basophil adenoma
+83001/3;Basophil carcinoma
+83100/0;Clear cell adenoma
+83100/3;Clear cell adenocarcinoma, NOS
+83101/3;Clear cell renal cell carcinoma, NOS
+83102/3;Hyalinizing clear cell carcinoma
+83103/3;Adenocarcinoma, HPV-independent, clear cell type
+83110/1;Hypernephroid tumour
+83110/3;Fumarate hydratase-deficient renal cell carcinoma
+83111/3;Renal cell carcinoma with MiT translocations
+83112/3;Succinate dehydrogenase-deficient renal cell carcinoma
+83113/3;ALK-rearranged renal cell carcinoma
+83114/3;Eosinophilic solid and cystic renal cell carcinoma
+83115/3;TFE3-rearranged renal cell carcinoma
+83116/3;TFEB-rearranged renal cell carcinoma
+83117/3;ELOC (formerly TCEB1)-mutated renal cell carcinoma
+83120/3;Renal cell carcinoma, NOS
+83121/3;Renal cell carcinoma, unclassified
+83130/0;Clear cell adenofibroma, NOS
+83130/1;Clear cell borderline tumour
+83130/3;Clear cell adenocarcinofibroma
+83140/3;Lipid-rich carcinoma
+83150/3;Glycogen-rich carcinoma
+83160/1;Multilocular cystic renal neoplasm of low malignant potential
+83160/3;Acquired cystic disease-associated renal cell carcinoma
+83161/3;Tubulocystic renal cell carcinoma
+83170/1;Hybrid oncocytic chromophobe tumour
+83170/3;Chromophobe renal cell carcinoma
+83171/1;Low-grade oncocytic tumour (LOT)
+83172/1;Eosinophilic vacuolated tumour 
+83180/3;Renal cell carcinoma, sarcomatoid
+83190/3;Collecting duct carcinoma
+83200/3;Granular cell carcinoma
+83210/0;Chief cell adenoma
+83220/0;Water-clear cell adenoma
+83220/3;Water-clear cell adenocarcinoma
+83230/0;Mixed cell adenoma
+83230/1;Clear cell papillary renal cell tumour
+83230/3;Mixed cell adenocarcinoma
+83240/0;Parathyroid lipoadenoma
+83250/0;Metanephric adenoma
+83300/0;Follicular adenoma, NOS
+83300/1;Atypical follicular adenoma
+83300/3;Follicular carcinoma, NOS
+83301/0;Follicular adenoma with papillary architecture
+83302/3;Follicular carcinoma, widely invasive
+83310/3;Follicular adenocarcinoma, well-differentiated
+83320/3;Follicular adenocarcinoma, trabecular
+83321/3;Follicular adenocarcinoma, moderately differentiated
+83330/0;Microfollicular adenoma, NOS
+83330/3;Fetal adenocarcinoma
+83340/0;Macrofollicular adenoma
+83350/1;Follicular tumour of uncertain malignant potential
+83350/3;Follicular carcinoma, minimally invasive
+83360/1;Hyalinizing trabecular tumour, NOS
+83360/3;Hyalinizing trabecular tumour, malignant
+83370/3;High-grade follicular cell-derived non-anaplastic carcinoma
+83371/3;Poorly differentiated thyroid carcinoma
+83372/3;High-grade differentiated thyroid carcinoma
+83390/3;Encapsulated angioinvasive follicular thyroid carcinoma
+83400/3;Papillary carcinoma, follicular variant, NOS
+83401/3;Papillary and follicular adenocarcinoma
+83402/3;Invasive encapsulated follicular variant of papillary carcinoma, NOS
+83403/3;Minimally invasive encapsulated follicular variant of papillary carcinoma
+83404/3;Encapsulated angioinvasive follicular variant of papillary carcinoma
+83405/3;Widely invasive follicular variant of papillary carcinoma
+83406/3;Infiltrative follicular variant of papillary thyroid carcinoma
+83410/3;Papillary thyroid microcarcinoma
+83420/3;Papillary carcinoma, oncocytic
+83430/3;Encapsulated classic papillary thyroid carcinoma
+83440/3;Papillary carcinoma, tall cell
+83441/3;Papillary carcinoma, columnar cell
+83450/3;Medullary thyroid carcinoma
+83451/3;Medullary microcarcinoma of thyroid gland
+83460/3;Mixed medullary-follicular carcinoma
+83461/3;Mixed medullary and oncocytic carcinoma
+83462/3;Mixed medullary and poorly differentiated carcinoma
+83463/3;Mixed medullary and anaplastic carcinoma
+83464/3;Mixed medullary and high-grade differentiated carcinoma
+83470/3;Mixed medullary-papillary carcinoma
+83480/1;Well-differentiated tumour of uncertain malignant potential
+83490/1;Non-invasive follicular thyroid neoplasm with papillary-like nuclear features (NIFTP), NOS
+83491/1;Subcentimetre non-invasive follicular thyroid neoplasm with papillary-like nuclear features
+83492/1;Oncocytic non-invasive follicular thyroid neoplasm with papillary-like nuclear features
+83500/3;Papillary carcinoma, diffuse sclerosing
+83600/1;Multiple endocrine adenomas
+83610/0;Juxtaglomerular cell tumour, NOS
+83611/0;Juxtaglomerular cell tumour, functioning
+83612/0;Juxtaglomerular cell tumour, non-functioning
+83700/0;Adrenal cortical adenoma, NOS
+83700/3;Adrenal cortical carcinoma, NOS
+83701/3;Adrenal cortical carcinoma, conventional
+83702/3;Adrenal cortical carcinoma, oncocytic
+83703/3;Myxoid adrenal cortical carcinoma
+83704/3;Sarcomatoid adrenal cortical carcinoma
+83710/0;Adrenal cortical adenoma, compact cell
+83720/0;Adrenal cortical adenoma, pigmented
+83730/0;Adrenal cortical adenoma, clear cell
+83740/0;Adrenal cortical adenoma, glomerulosa cell
+83750/0;Adrenal cortical adenoma, mixed cell
+83800/0;Endometrioid adenoma, NOS
+83800/1;Endometrioid borderline tumour
+83800/2;Endometrial atypical hyperplasia/endometrioid intraepithelial neoplasia
+83800/3;Endometrioid adenocarcinoma, NOS
+83801/3;POLE-ultramutated endometrioid carcinoma (POLEmut)
+83802/3;Mismatch repair-deficient (MMRd) endometrioid carcinoma
+83803/3;p53-mutant endometrioid carcinoma (p53abn)
+83804/3;No specific molecular profile (NSMP) endometrioid carcinoma
+83810/0;Endometrioid adenofibroma, NOS
+83810/1;Endometrioid adenofibroma, borderline malignancy
+83810/3;Endometrioid adenofibroma, malignant
+83820/3;Endometrioid adenocarcinoma, secretory variant
+83830/3;Endometrioid adenocarcinoma, ciliated cell variant
+83840/3;Adenocarcinoma, endocervical type, NOS
+83900/0;Skin appendage adenoma
+83900/3;Adnexal adenocarcinoma, NOS
+83901/3;Sweat duct carcinoma
+83902/3;Eccrine carcinoma, NOS
+83903/3;High-grade eccrine syringomatous carcinoma
+83910/0;Fibrofolliculoma
+83911/0;Trichodiscoma
+83912/0;Trichoadenoma
+83920/0;Syringofibroadenoma
+84000/0;Sweat gland adenoma
+84000/1;Sweat gland tumour, NOS
+84000/3;Sweat gland adenocarcinoma
+84010/0;Apocrine adenoma
+84010/3;Apocrine carcinoma
+84020/0;Hidradenoma, NOS
+84020/3;Hidradenocarcinoma
+84030/0;Spiradenoma, NOS
+84030/3;Malignant neoplasm arising from pre-existing spiradenoma
+84031/3;Malignant neoplasm arising from pre-existing cylindroma
+84032/3;Malignant neoplasm arising from pre-existing spiradenocylindroma
+84040/0;Hidrocystoma, NOS
+84041/0;Eccrine cystadenoma
+84042/0;Eccrine hidrocystoma
+84043/0;Apocrine hidrocystoma
+84050/0;Papillary hidradenoma
+84060/0;Syringocystadenoma papilliferum, NOS
+84060/3;Syringocystadenocarcinoma papilliferum
+84061/0;Sialadenoma papilliferum
+84070/0;Syringoma, NOS
+84070/3;Microcystic adnexal carcinoma
+84071/0;Syringomatous tumour, NOS
+84080/0;Eccrine papillary adenoma
+84080/3;Digital papillary adenocarcinoma
+84090/0;Poroma, NOS
+84090/2;Porocarcinoma in situ
+84090/3;Porocarcinoma, NOS
+84091/0;Eccrine poroma, NOS
+84092/0;Apocrine poroma
+84100/0;Sebaceoma
+84100/3;Sebaceous carcinoma
+84101/0;Sebaceous adenoma
+84130/3;Eccrine adenocarcinoma
+84200/0;Ceruminous adenoma
+84200/3;Ceruminous adenocarcinoma
+84201/0;Ceruminous pleomorphic adenoma
+84202/0;Ceruminous syringocystadenoma papilliferum
+84203/3;Ceruminous adenoid cystic carcinoma
+84204/3;Ceruminous mucoepidermoid carcinoma
+84300/1;Mucoepidermoid tumour
+84300/3;Mucoepidermoid carcinoma, NOS
+84301/3;Sclerosing mucoepidermoid carcinoma with eosinophilia
+84302/3;Mucoepidermoid carcinoma, oncocytic
+84303/3;Mucoepidermoid carcinoma, Warthin-like
+84400/0;Cystadenoma, NOS
+84400/3;Cystadenocarcinoma, NOS
+84401/0;Cystadenoma, oncocytic
+84410/0;Serous cystadenoma, NOS
+84410/2;Serous intraepithelial carcinoma
+84410/3;Serous carcinoma, NOS
+84411/0;Solid serous adenoma
+84411/3;Mixed serous-neuroendocrine neoplasm
+84412/0;Macrocystic (oligocystic) serous cystadenoma
+84413/0;Von Hippel-Lindau syndrome-associated serous cystic neoplasm
+84414/0;Microcystic serous adenoma
+84420/1;Serous borderline tumour, NOS
+84430/0;Clear cell cystadenoma
+84500/0;Papillary cystadenoma, NOS
+84500/3;Papillary cystadenocarcinoma, NOS
+84501/0;Papillary cystadenofibroma
+84510/1;Papillary cystadenoma, borderline malignancy
+84520/1;Solid pseudopapillary tumour of ovary
+84520/3;Solid pseudopapillary neoplasm of pancreas
+84521/3;Solid pseudopapillary neoplasm with high-grade carcinoma
+84530/0;Intraductal papillary mucinous adenoma
+84531/0;Intraductal papillary mucinous neoplasm with low-grade dysplasia
+84531/2;Intraductal papillary mucinous neoplasm (IPMN) with high-grade dysplasia
+84531/3;Intraductal papillary mucinous neoplasm (IPMN) with an associated invasive carcinoma
+84540/0;Cystic tumour of atrioventricular node
+84550/2;Intraductal oncocytic papillary neoplasm, NOS
+84550/3;Intraductal oncocytic papillary neoplasm with associated invasive carcinoma
+84600/2;Serous borderline tumour, micropapillary
+84600/3;Low-grade serous carcinoma
+84601/3;Micropapillary serous carcinoma
+84610/0;Serous surface papilloma
+84610/3;High-grade serous carcinoma
+84700/0;Mucinous cystadenoma, NOS
+84700/2;Mucinous cystic neoplasm with high-grade dysplasia
+84700/3;Mucinous cystadenocarcinoma, NOS
+84701/0;Mucinous cystic neoplasm with low-grade dysplasia
+84720/1;Mucinous cystic tumour of borderline malignancy
+84740/0;Seromucinous cystadenoma
+84740/1;Seromucinous borderline tumour
+84740/3;Seromucinous carcinoma
+84800/0;Mucinous adenoma
+84800/2;Low-grade appendiceal mucinous neoplasm
+84800/3;Mucinous adenocarcinoma, NOS
+84800/6;Mucinous adenocarcinoma, metastatic
+84801/2;High-grade appendiceal mucinous neoplasm
+84802/3;Mucinous tubular and spindle cell carcinoma
+84803/3;Appendiceal mucinous neoplasm with extra-appendiceal spread
+84804/3;Colloid carcinoma of lung
+84810/3;Mucin-producing adenocarcinoma
+84811/3;Mucin-rich salivary duct carcinoma
+84820/3;Mucinous carcinoma, gastric type
+84830/2;Adenocarcinoma in situ, HPV-associated
+84830/3;Adenocarcinoma, HPV-associated
+84831/3;HPV-related multiphenotypic sinonasal carcinoma
+84840/2;Adenocarcinoma in situ, HPV-independent
+84840/3;Adenocarcinoma, HPV-independent, NOS
+84900/3;Signet-ring cell carcinoma
+84900/6;Metastatic signet-ring cell carcinoma
+84901/3;Poorly cohesive carcinoma
+84902/3;Signet-ring cell/histiocytoid carcinoma
+85000/2;Intraductal carcinoma, noninfiltrating, NOS
+85000/3;Infiltrating duct carcinoma, NOS
+85001/2;Intraductal carcinoma, intercalated duct
+85002/2;Intraductal carcinoma, apocrine
+85003/2;Intraductal carcinoma, oncocytic
+85004/2;Intraductal carcinoma, mixed
+85005/3;Basal-like carcinoma, NOS
+85006/3;Adenocarcinoma of mammary gland type
+85007/3;Primary ductal adenocarcinoma of lacrimal gland
+85008/3;Salivary duct carcinoma, NOS
+85010/2;Comedocarcinoma, noninfiltrating
+85010/3;Comedocarcinoma, NOS
+85020/3;Secretory carcinoma
+85021/3;Microsecretory adenocarcinoma
+85030/0;Intraductal papilloma, NOS
+85030/2;Ductal carcinoma in situ, papillary
+85030/3;Invasive papillary carcinoma of breast
+85031/0;Duct adenoma, NOS
+85031/2;Intraductal papilloma with DCIS
+85033/0;Intracholecystic papillary neoplasm, low-grade
+85033/2;Intracholecystic papillary neoplasm, high-grade
+85033/3;Intracholecystic papillary neoplasm with associated invasive carcinoma
+85034/0;Intraductal papillary neoplasm with low-grade dysplasia
+85034/2;Intraductal papillary neoplasm with high-grade intraepithelial neoplasia
+85034/3;Intraductal papillary neoplasm with associated invasive carcinoma
+85035/0;Striated duct adenoma
+85036/0;Intraductal papillary neoplasm, NOS
+85037/2;Intraductal tubulopapillary neoplasm, NOS
+85037/3;Intraductal tubulopapillary neoplasm with associated invasive carcinoma
+85040/0;Intracystic papillary adenoma
+85040/2;Encapsulated papillary carcinoma, NOS
+85040/3;Encapsulated papillary carcinoma with invasion
+85050/0;Intraductal papillomatosis, NOS
+85060/0;Nipple adenoma
+85070/2;Intraductal micropapillary carcinoma
+85070/3;Invasive micropapillary carcinoma of breast
+85071/2;Intraductal carcinoma, clinging, high-grade
+85080/3;Cystic hypersecretory carcinoma, NOS
+85090/2;Solid papillary carcinoma in situ
+85090/3;Solid papillary carcinoma with invasion
+85091/2;Endocrine mucin-producing sweat gland carcinoma in situ
+85091/3;Endocrine mucin-producing sweat gland carcinoma, NOS
+85092/3;Tall cell carcinoma with reversed polarity
+85100/3;Medullary carcinoma, NOS
+85101/3;Medullary-like carcinoma
+85102/3;SMARCB1-deficient renal medullary carcinoma
+85103/3;SMARCB1-deficient medullary-like renal cell carcinoma
+85104/3;SMARCB1-deficient undifferentiated renal cell carcinoma
+85105/3;SMARCB1-deficient dedifferentiated renal cell carcinoma
+85120/3;Medullary carcinoma with lymphoid stroma
+85130/3;Atypical medullary carcinoma
+85140/3;Duct carcinoma, desmoplastic type
+85190/2;Lobular carcinoma in situ, pleomorphic
+85200/2;Lobular carcinoma in situ, NOS
+85200/3;Invasive lobular carcinoma, NOS
+85201/2;Lobular carcinoma in situ, classic
+85202/2;Intraductal papilloma with lobular carcinoma in situ
+85203/2;Lobular carcinoma in situ, florid
+85204/3;Tubulo-lobular carcinoma
+85210/3;Infiltrating ductular carcinoma
+85220/2;Intraductal carcinoma and lobular carcinoma in situ
+85220/3;Infiltrating duct and lobular carcinoma
+85221/3;Intraductal and lobular carcinoma
+85222/3;Infiltrating ductal carcinoma and lobular carcinoma in situ
+85230/3;Infiltrating duct mixed with other types of carcinoma
+85231/3;Infiltrating duct and cribriform carcinoma
+85232/3;Infiltrating duct and mucinous carcinoma
+85233/3;Infiltrating duct and apocrine carcinoma
+85234/3;Infiltrating duct and micropapillary carcinoma
+85235/3;Infiltrating duct and tubular carcinoma
+85240/3;Infiltrating lobular mixed with other types of carcinoma
+85241/3;Infiltrating lobular and cribriform carcinoma
+85242/3;Infiltrating lobular and mucinous carcinoma
+85243/3;Infiltrating lobular and apocrine carcinoma
+85244/3;Infiltrating lobular and micropapillary carcinoma
+85250/3;Polymorphous adenocarcinoma, NOS
+85251/3;Polymorphous adenocarcinoma, conventional subtype
+85252/3;Polymorphous adenocarcinoma, cribriform subtype
+85300/3;Inflammatory carcinoma
+85400/3;Paget disease, mammary
+85410/3;Paget disease and infiltrating duct carcinoma of breast
+85411/3;Paget disease and infiltrating lobular carcinoma of breast
+85412/3;Paget disease with infiltrating duct carcinoma and lobular carcinoma of breast
+85420/3;Paget disease, extramammary
+85421/3;Paget disease with dermal/stromal invasion, extramammary
+85430/3;Paget disease and intraductal carcinoma of breast
+85500/0;Acinar cell adenoma
+85500/1;Acinar cell tumour
+85500/3;Acinar cell carcinoma
+85501/3;Acinic cell carcinoma
+85510/3;Acinar cell cystadenocarcinoma
+85511/3;Acinar adenocarcinoma of lung
+85520/3;Mixed acinar-ductal carcinoma
+85600/0;Mixed squamous cell and glandular papilloma
+85600/3;Adenosquamous carcinoma, NOS
+85601/3;Squamoid eccrine ductal carcinoma
+85610/0;Warthin tumour, NOS
+85611/0;Warthin tumour, infarcted/metaplastic
+85620/3;Epithelial-myoepithelial carcinoma, NOS
+85630/0;Lymphadenoma, NOS
+85631/0;Sebaceous lymphadenoma
+85632/0;Non-sebaceous lymphadenoma
+85700/3;Adenocarcinoma with squamous metaplasia
+85701/3;Endometrioid carcinoma with squamous differentiation
+85710/3;Adenocarcinoma with cartilaginous and osseous metaplasia
+85720/3;Adenocarcinoma with spindle cell metaplasia
+85730/3;Adenocarcinoma with apocrine metaplasia
+85740/3;Adenocarcinoma with neuroendocrine differentiation
+85741/3;Carcinoma with neuroendocrine differentiation
+85742/3;Neuroendocrine carcinoma, treatment-related
+85750/3;Metaplastic carcinoma, NOS
+85760/3;Hepatoid adenocarcinoma
+85761/3;Alpha-feto protein-producing carcinoma
+85800/0;Microscopic thymoma
+85800/1;Micronodular thymoma with lymphoid stroma
+85800/3;Thymoma, NOS
+85801/0;Thymoma, benign
+85801/3;Intrapulmonary thymoma
+85802/3;Sclerosing thymoma
+85803/3;Metaplastic thymoma
+85810/3;Thymoma, type A
+85811/3;Atypical type A thymoma
+85820/3;Thymoma, type AB
+85830/3;Thymoma, type B1
+85840/3;Thymoma, type B2
+85850/3;Thymoma, type B3
+85860/3;Thymic carcinoma, NOS
+85870/0;Ectopic hamartomatous thymoma
+85880/3;Spindle epithelial tumour with thymus-like elements
+85890/3;Intrathyroidal thymic carcinoma
+85900/0;Sex cord-stromal tumour, benign
+85900/1;Sex cord-gonadal stromal tumour, NOS
+85901/0;Signet-ring stromal tumour
+85902/0;Microcystic stromal tumour
+85903/0;Myoid gonadal stromal tumour
+85904/1;Gonadal stromal tumour, NOS
+85905/1;Sex cord-stromal tumour, NOS
+85906/1;Uterine tumour resembling ovarian sex cord tumour
+85910/1;Sex cord-gonadal stromal tumour, incompletely differentiated
+85911/1;Sex cord-stromal tumour, unclassified
+85920/1;Sex cord-gonadal stromal tumour, mixed forms
+85921/1;Mixed sex cord-stromal tumour of testis
+85930/1;Stromal tumour with minor sex cord elements
+85940/1;Mixed germ cell-sex cord-stromal tumour, NOS
+85941/1;Mixed germ cell-sex cord-stromal tumour, unclassified
+86000/0;Thecoma, NOS
+86000/3;Thecoma, malignant
+86010/0;Thecoma, luteinized
+86011/0;Luteinized thecoma associated with sclerosing peritonitis
+86020/0;Sclerosing stromal tumour
+86100/0;Luteoma, NOS
+86200/1;Adult granulosa cell tumour of testis
+86200/3;Adult granulosa cell tumour of ovary
+86210/1;Granulosa cell-theca cell tumour
+86220/0;Granulosa cell tumour of testis, juvenile
+86220/1;Granulosa cell tumour of ovary, juvenile
+86230/1;Sex cord tumour with annular tubules
+86300/0;Androblastoma, benign
+86300/1;Androblastoma, NOS
+86300/3;Androblastoma, malignant
+86310/1;Sertoli-Leydig cell tumour, NOS
+86311/0;Sertoli-Leydig cell tumour, well-differentiated
+86311/1;Sertoli-Leydig cell tumour, moderately differentiated, NOS
+86311/3;Sertoli-Leydig cell tumour, poorly differentiated, NOS
+86320/1;Gynandroblastoma
+86330/1;Sertoli-Leydig cell tumour, retiform, NOS
+86340/1;Sertoli-Leydig cell tumour, intermediate differentiation, with heterologous elements
+86340/3;Sertoli-Leydig cell tumour, poorly differentiated, with heterologous elements
+86341/1;Sertoli-Leydig cell tumour, retiform, with heterologous elements
+86400/1;Sertoli cell tumour, NOS
+86400/3;Sertoli cell tumour, malignant
+86410/0;Sertoli cell tumour with lipid storage
+86420/1;Large cell calcifying Sertoli cell tumour
+86430/1;Intratubular large cell hyalinizing Sertoli cell neoplasia
+86500/0;Leydig cell tumour of ovary, NOS
+86500/1;Leydig cell tumour of testis, NOS
+86500/3;Leydig cell tumour, malignant
+86600/0;Hilus cell tumour
+86700/0;Lipid cell tumour of ovary
+86700/3;Steroid cell tumour, malignant
+86701/0;Masculinovoblastoma
+86710/0;Adrenal rest tumour
+86800/3;Paraganglioma, NOS
+86810/3;Sympathetic paraganglioma
+86820/3;Parasympathetic paraganglioma
+86830/3;Composite gangliocytoma/neuroma and neuroendocrine tumour
+86900/3;Middle ear paraganglioma
+86910/3;Aortic body paraganglioma
+86920/3;Carotid body paraganglioma
+86930/3;Extra-adrenal paraganglioma, NOS
+86931/3;Nonchromaffin paraganglioma, NOS
+86932/3;Laryngeal paraganglioma
+86933/3;Vagal paraganglioma
+86934/3;Cauda equina neuroendocrine tumour
+86935/3;Composite paraganglioma, NOS
+86936/3;Composite paraganglioma-neuroblastoma
+86937/3;Composite paraganglioma-ganglioneuroblastoma
+86938/3;Composite paraganglioma-ganglioneuroma
+87000/3;Phaeochromocytoma, NOS
+87001/3;Composite phaeochromocytoma
+87002/3;Composite phaeochromocytoma-ganglioneuroma
+87003/3;Composite phaeochromocytoma-ganglioneuroblastoma
+87004/3;Composite phaeochromocytoma-neuroblastoma
+87005/3;Composite phaeochromocytoma-malignant peripheral nerve sheath tumour
+87006/3;Composite paraganglion tumour, NOS
+87110/0;Glomus tumour, NOS
+87110/1;Glomangiomatosis
+87110/3;Glomus tumour, malignant
+87111/0;Glomus tumour, classic
+87111/1;Glomus tumour of uncertain malignant potential
+87112/0;Glomus tumour, symplastic
+87113/0;Glomus tumour, oncocytic
+87114/0;Glomus tumour, epithelioid
+87115/0;Glomus tumour, myxoid
+87116/0;Glomus tumour, signet-ring
+87117/0;Glomus tumour, hyalinized
+87120/0;Glomangioma
+87130/0;Glomuvenous malformation
+87140/0;Perivascular epithelioid tumour, benign
+87140/1;PEComa, NOS
+87140/3;Perivascular epithelioid tumour, malignant
+87141/1;PEComatosis
+87200/0;Pigmented naevus, NOS
+87200/1;Melanocytoma, skin
+87200/2;Melanoma in situ
+87200/3;Melanoma, NOS
+87201/0;Hairy naevus
+87202/0;Naevus spilus
+87203/0;Meyerson naevus
+87204/0;Combined naevus, NOS
+87205/0;Combined conventional and granular cell melanocytic naevus
+87206/0;Special-site naevus
+87207/0;Genital naevus, NOS
+87208/0;Low-grade conjunctival melanocytic intraepithelial lesion
+87209/0;Naevus, circumscribed
+87209/1;Naevus, diffuse
+87210/3;Nodular melanoma
+87211/3;Nodular mucosal melanoma
+87220/0;Balloon cell naevus
+87220/3;Balloon cell melanoma
+87221/0;Combined conventional and balloon cell melanocytic naevus
+87230/0;Halo naevus
+87230/3;Melanoma, regressing
+87250/0;Neuronaevus
+87260/0;Melanocytoma, uveal/optic disc/optic nerve
+87270/0;Dysplastic naevus, NOS
+87271/0;MITF pathway-activated melanocytic tumour
+87272/0;Clear Cell tumour with Melanocytic Differentiation and ACTIN::MITF Translocation
+87273/0;Clear Cell tumour with Melanocytic Differentiation and MITF::CREM Translocation
+87280/0;Meningeal melanocytosis
+87280/1;Meningeal melanocytoma
+87280/3;Meningeal melanomatosis
+87300/0;Nonpigmented naevus
+87300/3;Amelanotic melanoma
+87400/0;Junctional naevus, NOS
+87400/3;Melanoma in junctional naevus
+87401/0;Lentiginous junctional naevus
+87410/2;Precancerous melanosis, NOS
+87410/3;Melanoma in precancerous melanosis
+87420/0;Lentiginous melanocytic naevus
+87420/2;Lentigo maligna melanoma in situ
+87420/3;Lentigo maligna melanoma, NOS
+87421/3;High cumulative sun damage melanoma
+87430/2;Low cumulative sun damage melanoma in situ
+87430/3;Low cumulative sun damage melanoma, NOS
+87431/2;Superficial spreading melanoma in situ
+87431/3;Superficial spreading melanoma, NOS
+87440/0;Acral naevus
+87440/3;Acral melanoma, NOS
+87441/0;Naevus, nail matrix
+87442/3;Acral melanoma, desmoplastic
+87443/3;Melanoma, subungual
+87450/3;Desmoplastic melanoma, NOS
+87451/3;Desmoplastic melanoma, pure
+87452/3;Desmoplastic melanoma, combined
+87453/3;Desmoplastic melanoma, amelanotic
+87454/3;Neurotropic melanoma
+87455/3;Desmoplastic mucosal melanoma
+87460/3;Mucosal lentiginous melanoma
+87500/0;Dermal naevus
+87500/3;Melanoma, dermal
+87600/0;Compound naevus
+87601/0;Lentiginous compound naevus
+87610/0;Congenital melanocytic naevus, NOS
+87610/1;Giant pigmented naevus, NOS
+87610/3;Melanoma arising in giant congenital naevus
+87611/0;Congenital naevus present at birth
+87612/0;Congenital naevus, late/tardive
+87613/1;Intermediate and giant congenital naevus
+87620/1;Proliferative nodules in congenital melanocytic naevus
+87700/0;Spitz naevus, NOS
+87700/1;Spitz melanocytoma, NOS
+87700/3;Spitz melanoma, NOS
+87701/0;Spitz naevus with ALK fusion
+87701/1;Spitz melanocytoma with ALK fusion
+87701/3;Spitz melanoma with ALK fusion
+87702/0;Spitz naevus with ROS1 fusion
+87702/1;Spitz melanocytoma with ROS1 fusion
+87702/3;Spitz melanoma with ROS1 fusion
+87703/0;Spitz naevus with NTRK1 fusion
+87703/1;Spitz melanocytoma with NTRK1 fusion
+87703/3;Spitz melanoma with NTRK1 fusion
+87704/0;Spitz naevus with NTRK3 fusion
+87704/1;Spitz melanocytoma with NTRK3 fusion
+87704/3;Spitz melanoma with NTRK3 fusion
+87705/0;Spitz naevus with BRAF fusion
+87705/1;Spitz melanocytoma with BRAF fusion
+87705/3;Spitz melanoma with BRAF fusion
+87706/0;Spitz naevus with HRAS mutation
+87706/1;Spitz melanocytoma with HRAS mutation
+87706/3;Spitz melanoma with HRAS mutation
+87707/0;Spitz naevus with PRKAR1A inactivation as a secondary event
+87707/1;Spitz melanocytoma with PRKAR1A inactivation as a secondary event
+87707/3;Spitz melanoma with PRKAR1A inactivation as a secondary event
+87708/0;Spitz naevus with MAP3K8 fusion
+87708/1;Spitz melanocytoma with MAP3K8 fusion
+87708/3;Spitz melanoma with MAP3K8 fusion
+87709/0;Spitz naevus with RET fusion
+87709/1;Spitz melanocytoma with RET fusion
+87709/3;Spitz melanoma with RET fusion
+87710/0;Epithelioid cell naevus
+87710/3;Epithelioid cell melanoma
+87720/0;Spindle cell naevus, NOS
+87720/3;Spindle cell melanoma, NOS
+87730/3;Spindle cell melanoma, type A
+87740/3;Spindle cell melanoma, type B
+87800/0;Blue naevus, NOS
+87800/1;Pigmented epithelioid melanocytoma
+87800/3;Melanoma arising in blue naevus
+87801/0;Blue naevus, dendritic
+87802/0;Combined conventional and blue melanocytic naevus
+87900/0;Cellular blue naevus
+88000/0;Soft tissue tumour, benign
+88000/1;Soft tissue tumour, uncertain if benign or malignant
+88000/3;Sarcoma, NOS
+88000/9;Sarcomatosis, NOS
+88010/3;Spindle cell sarcoma, undifferentiated
+88020/1;Pleomorphic hyalinizing angiectatic tumour of soft parts
+88020/3;Pleomorphic sarcoma, undifferentiated
+88021/3;Pleomorphic dermal sarcoma
+88022/3;Anaplastic sarcoma of kidney
+88030/3;Round cell sarcoma, undifferentiated
+88040/3;Epithelioid sarcoma, NOS
+88041/3;Epithelioid sarcoma, undifferentiated
+88042/3;Epithelioid sarcoma, classic
+88043/3;Epithelioid sarcoma, proximal-type
+88050/3;Undifferentiated sarcoma, NOS
+88060/3;Desmoplastic small round cell tumour
+88100/0;Fibroma, NOS
+88100/1;Cellular fibroma
+88100/3;Fibrosarcoma, NOS
+88101/0;Desmoplastic fibroblastoma
+88102/0;Gardner fibroma
+88103/0;Nuchal-type fibroma
+88104/0;Plaque-like CD34-positive dermal fibroma
+88104/1;Superficial CD34-positive fibroblastic tumour
+88105/0;Prepubertal fibroma
+88106/0;Fibroblastic connective tissue naevus
+88107/0;SMAD3-rearranged fibroblastic tumour
+88108/0;Onychomatricoma
+88109/3;Fibrosarcoma, adult
+88110/0;Fibromyxoma, NOS
+88110/1;Myxoinflammatory fibroblastic sarcoma
+88110/3;Myxofibrosarcoma, NOS
+88111/0;Plexiform fibromyxoma
+88112/0;Acral fibromyxoma
+88113/1;Haemosiderotic fibrolipomatous tumour
+88114/3;Epithelioid myxofibrosarcoma
+88120/0;Periosteal fibroma
+88120/3;Periosteal fibrosarcoma
+88121/3;Periosteal sarcoma, NOS
+88130/0;Fibroma of tendon sheath
+88130/1;Superficial fibromatosis
+88130/3;Fascial fibrosarcoma
+88140/0;Inclusion body fibromatosis
+88140/3;Infantile fibrosarcoma
+88141/0;Classic (digital) inclusion body fibromatosis
+88142/0;Non-classic (extradigital) inclusion body fibromatosis
+88150/0;Solitary fibrous tumour, grade 1
+88150/1;Solitary fibrous tumour, NOS
+88150/3;Solitary fibrous tumour, malignant
+88151/1;Solitary fibrous tumour, grade 2
+88151/3;Solitary fibrous tumour, dedifferentiated
+88152/1;Solitary fibrous tumour, lipomatous
+88153/1;Solitary fibrous tumour, giant cell-rich
+88160/0;Calcifying aponeurotic fibroma
+88170/0;Calcifying fibrous tumour
+88180/0;Fibrous dysplasia, NOS
+88181/0;Fibrous dysplasia, monostotic
+88182/0;Fibrous dysplasia, polyostotic
+88183/0;Fibrous dysplasia, craniofacial
+88200/0;Elastofibroma
+88201/0;Fibroelastoma, papillary
+88210/1;Desmoid fibromatosis
+88220/1;Abdominal fibromatosis
+88230/0;Sclerotic fibroma
+88230/1;Desmoplastic fibroma
+88240/0;Myofibroma
+88240/1;Myofibromatosis, NOS
+88241/1;Myofibromatosis, multicentric
+88242/1;Generalized myofibromatosis (with visceral involvement)
+88243/0;Dermatomyofibroma
+88244/0;Myopericytoma
+88244/1;Myopericytomatosis, NOS
+88245/1;Intravascular myopericytoma
+88246/0;Glomangiopericytoma
+88250/0;Myofibroblastoma, NOS
+88250/1;Myofibroblastic tumour, NOS
+88250/3;Myofibroblastic sarcoma, NOS
+88251/3;Myofibroblastic sarcoma, low-grade
+88252/0;Myofibroblastoma, superficial
+88253/0;Intranodal palisaded myofibroblastoma
+88254/1;Inflammatory myofibroblastic tumor
+88255/1;Epithelioid inflammatory myofibroblastic tumour
+88260/0;Angiomyofibroblastoma
+88270/1;Congenital peribronchial myofibroblastic tumour
+88280/0;Nodular fasciitis
+88281/0;Cranial fasciitis
+88282/0;Intravascular fasciitis
+88283/0;Proliferative fasciitis
+88284/0;Proliferative myositis
+88300/0;Benign fibrous histiocytoma, NOS
+88300/1;Atypical fibroxanthoma
+88300/3;Undifferentiated high-grade pleomorphic sarcoma of bone
+88301/0;Epithelioid fibrous histiocytoma
+88302/0;Non-ossifying fibroma
+88303/0;Cellular fibrous histiocytoma
+88304/0;Aneurysmal fibrous histiocytoma
+88310/0;Histiocytoma, NOS
+88311/0;Deep fibrous histiocytoma
+88312/0;Juvenile histiocytoma
+88313/0;Reticulohistiocytosis, NOS
+88313/3;Reticulohistiocytosis with an associated haematological neoplasm  
+88314/0;Reticulohistiocytosis, single system/single focal
+88315/0;Reticulohistiocytosis, multifocal
+88316/0;Reticulohistiocytosis, multicentric
+88320/0;Dermatofibroma, NOS
+88320/1;Dermatofibrosarcoma protuberans, NOS
+88320/3;Dermatofibrosarcoma protuberans with fibrosarcomatous transformation
+88321/0;Dermatofibroma, classic
+88321/1;Dermatofibrosarcoma protuberans, classic
+88322/0;Dermatofibroma, cellular
+88323/0;Dermatofibroma, aneurysmal
+88324/0;Dermatofibroma, atypical
+88325/1;Myxoid dermatofibrosarcoma protuberans
+88326/1;Dermatofibrosarcoma protuberans with myoid differentiation
+88327/0;Sclerosing pneumocytoma
+88327/1;Plaque-like dermatofibrosarcoma protuberans
+88328/0;Pleomorphic fibroma
+88330/1;Pigmented dermatofibrosarcoma protuberans
+88340/1;Giant cell fibroblastoma
+88350/1;Plexiform fibrohistiocytic tumour
+88360/1;Angiomatoid fibrous histiocytoma
+88360/3;Angiomatoid malignant fibrous histiocytoma
+88400/0;Myxoma, NOS
+88400/3;Myxosarcoma
+88401/0;Juxta-articular myxoma
+88402/0;Intramuscular myxoma
+88403/3;Low-grade fibromyxoid sarcoma
+88404/3;Sclerosing epithelioid fibrosarcoma
+88410/0;Angiomyxoma, NOS
+88411/0;Deep (aggressive) angiomyxoma
+88412/0;Myxoma, cutaneous 
+88420/0;Ossifying fibromyxoid tumour, NOS
+88420/3;Ossifying fibromyxoid tumour, malignant
+88421/3;Pulmonary myxoid sarcoma with EWSR1::CREB1 fusion
+88500/0;Lipoma, NOS
+88500/1;Atypical lipomatous tumour
+88500/3;Liposarcoma, NOS
+88501/0;Thymolipoma
+88502/0;Sialolipoma
+88503/0;Lipoadenoma, oncocytic
+88504/0;Lipomatous hypertrophy of atrial septum
+88510/0;Fibrolipoma
+88510/1;Lipofibromatosis
+88510/3;Liposarcoma, well-differentiated, NOS
+88511/3;Lipoma-like liposarcoma
+88512/3;Inflammatory liposarcoma
+88513/3;Sclerosing liposarcoma
+88520/0;Fibromyxolipoma
+88520/3;Myxoid liposarcoma
+88540/3;Pleomorphic liposarcoma, NOS
+88541/3;Pleomorphic liposarcoma, epithelioid
+88550/3;Mixed liposarcoma
+88560/0;Intramuscular lipoma
+88561/0;Infiltrating angiolipoma
+88570/0;Spindle cell/pleomorphic lipoma
+88570/3;Fibroblastic liposarcoma
+88571/0;Atypical spindle cell/pleomorphic lipomatous tumour
+88580/3;Dedifferentiated liposarcoma
+88590/3;Myxoid pleomorphic liposarcoma
+88600/0;Angiomyolipoma, NOS
+88600/1;Angiomyolipoma, epithelioid, NOS
+88600/3;Angiomyolipoma, epithelioid, malignant
+88601/0;Angiomyolipoma, inflammatory subtype
+88602/0;Angiomyolipoma, oncocytic
+88603/0;Angiomyolipoma with epithelial cysts
+88604/0;Sclerosing PEComa/angiomyolipoma
+88610/0;Angiolipoma, NOS
+88611/0;Angiolipoma, cellular
+88620/0;Chondrolipoma
+88621/0;Osteolipoma
+88700/0;Myelolipoma
+88800/0;Hibernoma
+88810/0;Lipoblastomatosis
+88811/0;Lipoblastoma
+88812/0;Lipoblastoma-like tumour
+88900/0;Leiomyoma, NOS
+88900/1;Leiomyomatosis, NOS
+88900/3;Leiomyosarcoma, NOS
+88901/1;Leiomyomatosis, diffuse
+88902/1;Leiomyomatosis peritonealis disseminata
+88903/1;Intravenous leiomyomatosis
+88904/0;Lipoleiomyoma
+88905/0;Plexiform leiomyoma
+88906/0;Leiomyoma, apoplectic
+88907/0;Leiomyoma, hydropic
+88908/0;Cotyledonoid/dissecting leiomyoma
+88909/0;Mesectodermal leiomyoma
+88910/0;Epithelioid leiomyoma
+88910/1;Smooth muscle tumour of uncertain malignant potential, epithelioid
+88910/3;Epithelioid leiomyosarcoma
+88920/0;Cellular leiomyoma
+88930/0;Leiomyoma with bizarre nuclei
+88940/0;Angioleiomyoma, NOS
+88940/3;Angiomyosarcoma
+88941/0;Angioleiomyoma, solid
+88942/0;Angioleiomyoma, venous
+88943/0;Angioleiomyoma, cavernous
+88950/0;Myoma
+88950/3;Myosarcoma
+88960/0;Myxoid leiomyoma
+88960/1;Smooth muscle tumour of uncertain malignant potential, myxoid
+88960/3;Myxoid leiomyosarcoma
+88970/1;Smooth muscle tumour of uncertain malignant potential, NOS
+88971/1;Atypical intradermal smooth muscle neoplasm
+88972/1;EBV-associated smooth muscle tumour
+88973/1;Smooth muscle tumour, NOS
+88980/1;Metastasizing leiomyoma
+89000/0;Rhabdomyoma, NOS
+89000/3;Rhabdomyosarcoma, NOS
+89001/3;Rhabdomyosarcoma with TFCP2 rearrangement
+89010/3;Pleomorphic rhabdomyosarcoma, NOS
+89011/3;Pleomorphic rhabdomyosarcoma, adult type
+89020/3;Mixed type rhabdomyosarcoma
+89030/0;Fetal rhabdomyoma
+89040/0;Adult cellular rhabdomyoma
+89041/0;Glycogenic rhabdomyoma
+89050/0;Genital rhabdomyoma
+89100/3;Embryonal rhabdomyosarcoma, NOS
+89101/3;Embryonal rhabdomyosarcoma, anaplastic
+89120/3;Spindle cell/sclerosing rhabdomyosarcoma, NOS
+89121/3;Congenital spindle cell rhabdomyosarcoma with VGLL2/NCOA2/CITED2 rearrangements
+89122/3;MYOD1-mutant spindle cell/sclerosing rhabdomyosarcoma
+89123/3;Intraosseous spindle cell rhabdomyosarcoma (with TFCP2/NCOA2 rearrangements)
+89200/3;Alveolar rhabdomyosarcoma
+89210/3;Ectomesenchymoma
+89300/0;Endometrial stromal nodule
+89300/3;Endometrial stromal sarcoma, NOS
+89301/3;Endometrial stromal sarcoma, high-grade
+89310/3;Endometrial stromal sarcoma, low-grade
+89320/0;Adenomyoma, NOS
+89321/0;Adenomyoma, mesonephric-type
+89322/0;Adenomyoma, endocervical-type
+89323/0;Atypical polypoid adenomyoma
+89330/3;Adenosarcoma
+89331/3;Adenosarcoma with stromal overgrowth
+89340/3;Carcinofibroma
+89350/0;Stromal tumour, benign
+89350/1;Stromal tumour, NOS
+89350/3;Stromal sarcoma, NOS
+89351/1;Metanephric stromal tumour
+89352/1;Stromal tumour of uncertain malignant potential
+89360/3;Gastrointestinal stromal tumour
+89361/3;Succinate dehydrogenase-deficient gastrointestinal stromal tumour
+89400/0;Pleomorphic adenoma, NOS
+89400/3;Metastasizing pleomorphic adenoma
+89401/3;Malignant mixed tumour, NOS
+89402/0;Mixed tumour, apocrine
+89403/0;Mixed tumour, eccrine
+89404/0;Oncocytic pleomorphic adenoma
+89405/0;Mixed tumour of vagina
+89410/3;Carcinoma ex pleomorphic adenoma
+89411/3;Adenocarcinoma ex pleomorphic adenoma
+89412/3;Salivary duct carcinoma ex pleomorphic adenoma
+89413/3;Myoepithelial carcinoma ex pleomorphic adenoma
+89414/3;Mucoepidermoid carcinoma ex pleomorphic adenoma
+89415/3;Epithelial-myoepithelial carcinoma ex pleomorphic adenoma
+89416/3;Basal cell carcinoma ex pleomorphic adenoma
+89417/3;Carcinosarcoma ex pleomorphic adenoma
+89500/3;Mullerian mixed tumour
+89510/3;Mesodermal mixed tumour
+89590/0;Benign cystic nephroma
+89590/1;Cystic partially differentiated nephroblastoma
+89590/3;Malignant cystic nephroma
+89591/0;Mixed epithelial and stromal tumour
+89592/0;Pediatric cystic nephroma
+89593/0;Adult cystic nephroma
+89600/1;Congenital mesoblastic nephroma, NOS
+89600/3;Nephroblastoma, NOS
+89601/1;Congenital mesoblastic nephroma, classic
+89602/1;Congenital mesoblastic nephroma, mixed
+89630/3;Rhabdoid tumour, NOS
+89640/3;Clear cell sarcoma of kidney
+89660/0;Renomedullary interstitial cell tumour
+89670/0;Ossifying renal tumour
+89700/3;Hepatoblastoma, NOS
+89701/3;Hepatoblastoma, epithelioid
+89702/3;Hepatoblastoma, mixed epithelial-mesenchymal, NOS
+89703/3;Thyroblastoma
+89704/3;Pure fetal hepatoblastoma with low mitotic activity (well-differentiated fetal hepatoblastoma)
+89705/3;Fetal hepatoblastoma, mitotically active (crowded fetal hepatoblastoma)
+89706/3;Pleomorphic hepatoblastoma, poorly differentiated
+89707/3;Embryonal hepatoblastoma
+89708/3;Small cell undifferentiated hepatoblastoma, SMARCB1 (INI1) retained (positive)
+89709/3;Small cell undifferentiated hepatoblastoma, SMARCB1 (INI1) lost (negative)
+89710/3;Pancreatoblastoma
+89720/3;Pulmonary blastoma
+89730/3;Pleuropulmonary blastoma, NOS
+89731/3;Pleuropulmonary blastoma, type I
+89732/3;Pleuropulmonary blastoma, type Ir (type I regressed)
+89733/3;Pleuropulmonary blastoma, type II
+89734/3;Pleuropulmonary blastoma, type III
+89740/1;Sialoblastoma
+89750/1;Calcifying nested stromal-epithelial tumour
+89760/1;Gastroblastoma, NOS
+89760/3;Gastroblastoma, malignant
+89800/3;Carcinosarcoma, NOS
+89801/3;Carcinosarcoma of salivary gland
+89810/3;Carcinosarcoma, embryonal
+89820/0;Myoepithelioma, NOS
+89820/3;Myoepithelial carcinoma, NOS
+89821/0;Ectomesenchymal chondromyxoid tumour
+89822/0;Syncytial myoepithelioma
+89830/0;Adenomyoepithelioma, NOS
+89830/3;Malignant adenomyoepithelioma
+89900/0;Mesenchymoma, benign
+89900/1;Mesenchymoma, NOS
+89900/3;Mesenchymoma, malignant
+89901/0;Phosphaturic mesenchymal tumour, NOS
+89901/3;Phosphaturic mesenchymal tumour, malignant
+89902/1;Non-neural granular cell tumour
+89903/1;Mesenchymoma, fibrocartilaginous
+89910/3;Embryonal sarcoma, NOS
+89920/0;Pulmonary hamartoma
+89921/0;Fibrous hamartoma of infancy
+90000/0;Brenner tumour, NOS
+90000/1;Borderline Brenner tumour
+90000/3;Brenner tumour, malignant
+90100/0;Fibroadenoma, NOS
+90101/0;Lipofibroadenoma
+90110/0;Intracanalicular fibroadenoma
+90120/0;Pericanalicular fibroadenoma
+90130/0;Adenofibroma, NOS
+90131/0;Metanephric adenofibroma
+90140/0;Serous adenofibroma, NOS
+90141/0;Seromucinous adenofibroma
+90150/0;Mucinous adenofibroma, NOS
+90150/3;Mucinous adenocarcinofibroma
+90160/0;Giant fibroadenoma
+90200/0;Phyllodes tumour, benign
+90200/1;Phyllodes tumour, NOS
+90200/3;Phyllodes tumour, malignant
+90201/1;Periductal stromal tumour, NOS
+90300/0;Juvenile fibroadenoma
+90301/0;Giant juvenile fibroadenoma
+90400/0;Synovioma, benign
+90400/3;Synovial sarcoma, NOS
+90401/3;Synovial sarcoma, poorly differentiated
+90410/3;Synovial sarcoma, monophasic
+90420/3;Synovial sarcoma, epithelioid cell
+90430/3;Synovial sarcoma, biphasic
+90440/3;Clear cell sarcoma, NOS
+90441/3;CRTC1::TRIM11 cutaneous tumour
+90442/3;Malignant gastrointestinal neuroectodermal tumour
+90450/3;Biphenotypic sinonasal sarcoma
+90500/0;Mesothelioma, benign
+90500/2;Mesothelioma in situ
+90500/3;Mesothelioma, NOS
+90501/3;Mesothelioma, diffuse 
+90502/3;Localized mesothelioma
+90510/0;Fibrous mesothelioma, benign
+90510/3;Sarcomatoid mesothelioma
+90520/0;Well-differentiated papillary mesothelial tumour, NOS
+90520/1;Well-differentiated papillary mesothelial tumour of pleura
+90520/3;Epithelioid mesothelioma, NOS
+90530/3;Mesothelioma, biphasic, NOS
+90540/0;Adenomatoid tumour, NOS
+90550/0;Peritoneal inclusion cysts, NOS
+90600/3;Dysgerminoma, NOS
+90601/3;Dysgerminoma with syncytiotrophoblast cells
+90610/2;Intratubular seminoma
+90610/3;Seminoma, NOS
+90611/2;Intratubular trophoblast
+90611/3;Seminoma with syncytiotrophoblastic cells
+90620/3;Seminoma, anaplastic
+90630/3;Spermatocytic tumour, NOS
+90631/3;Spermatocytic tumour with sarcomatous differentiation
+90640/2;Germ cell neoplasia in situ
+90640/3;Germ cell tumour, NOS
+90641/3;Germinoma, NOS
+90642/3;Germinoma with syncytiotrophoblast cells
+90650/3;Germ cell tumour, nonseminomatous
+90700/2;Intratubular embryonal carcinoma
+90700/3;Embryonal carcinoma, NOS
+90710/2;Intratubular yolk sac tumour
+90710/3;Yolk sac tumour, NOS
+90711/3;Hepatoid yolk sac tumour
+90712/3;Yolk sac tumour, prepubertal-type
+90713/3;Yolk sac tumour, postpubertal-type
+90720/3;Polyembryoma
+90730/1;Gonadoblastoma
+90800/0;Teratoma, benign
+90800/1;Teratoma, NOS
+90800/2;Intratubular teratoma
+90800/3;Teratoma, malignant, NOS
+90801/0;Monodermal cystic teratoma
+90801/1;Immature teratoma of thymus
+90801/3;Immature teratoma, NOS
+90802/1;Germ cell tumour, regressed
+90810/3;Teratocarcinoma
+90811/3;Teratocarcinosarcoma
+90820/3;Malignant teratoma, undifferentiated
+90830/3;Malignant teratoma, intermediate
+90840/0;Dermoid cyst, NOS
+90840/3;Teratoma with malignant transformation
+90841/3;Mature teratoma with somatic type malignancy
+90842/3;Immature teratoma with somatic type malignancy
+90843/3;Teratoma with carcinoid (neuroendocrine tumour), NOS
+90844/0;Teratoma, prepubertal-type
+90845/0;Epidermoid cyst
+90850/3;Mixed germ cell tumour, NOS
+90851/3;Mixed teratoma and seminoma
+90852/3;Mixed teratoma-yolk sac tumour, NOS
+90853/3;Mixed teratoma-yolk sac tumour, prepubertal-type
+90854/3;Diffuse embryoma
+90855/3;Mixed germ cell tumour consisting of germinoma or teratoma with a small portion of malignant element
+90856/3;Mixed tumour consisting mainly of choriocarcinoma, embryonal carcinoma, or yolk sac tumour
+90860/3;Germ cell tumour with associated haematological malignancy
+90900/0;Struma ovarii, NOS
+90900/3;Thyroid carcinoma arising in struma ovarii
+90910/1;Ovarian carcinoid
+91000/0;Hydatidiform mole, NOS
+91000/1;Invasive hydatidiform mole
+91000/3;Choriocarcinoma, NOS
+91001/0;Complete hydatidiform mole
+91001/3;Gestational choriocarcinoma
+91002/3;Non-gestational choriocarcinoma
+91010/3;Choriocarcinoma combined with other germ cell elements
+91011/3;Choriocarcinoma combined with embryonal carcinoma
+91012/3;Choriocarcinoma combined with teratoma
+91013/3;Mixed trophoblastic tumour
+91020/3;Malignant teratoma, trophoblastic
+91030/0;Partial hydatidiform mole
+91040/1;Placental site trophoblastic tumour, NOS
+91040/3;Placental site trophoblastic tumour, malignant
+91050/3;Trophoblastic tumour, epithelioid
+91100/0;Adenoma of rete ovarii
+91100/1;Wolffian tumour
+91100/3;Adenocarcinoma of rete ovarii
+91101/0;Mesonephroma, benign
+91101/3;Mesonephric adenocarcinoma
+91110/3;Mesonephric-like adenocarcinoma
+91200/0;Haemangioma, NOS
+91200/3;Angiosarcoma, NOS
+91201/0;Cherry haemangioma
+91202/0;Sinusoidal haemangioma
+91203/0;Microvenular haemangioma
+91204/0;Glomeruloid haemangioma
+91205/0;Spindle cell haemangioma
+91206/0;Hobnail haemangioma
+91207/0;Littoral cell angioma
+91208/0;Papillary haemangioma
+91209/0;Poikilodermatous plaque-like haemangioma 
+91210/0;Cavernous haemangioma
+91220/0;Venous haemangioma
+91230/0;Arteriovenous malformation, NOS
+91231/0;Arteriovenous malformation, deep-seated
+91232/0;Arteriovenous malformation, cutaneous
+91233/0;Angiodysplasia
+91234/0;Racemose haemangioma
+91240/3;Kupffer cell sarcoma
+91250/0;Epithelioid haemangioma, NOS
+91251/0;Cutaneous epithelioid angiomatous nodule
+91252/0;Sclerosing angiomatoid nodular transformation (SANT) of spleen
+91253/0;Epithelioid haemangioma, cellular
+91254/0;Epithelioid haemangioma, atypical
+91255/0;Epithelioid haemangioma, intravascular
+91260/0;Atypical vascular lesion
+91261/0;Postradiation atypical vascular lesion
+91262/0;Lymphatic atypical vascular lesion, resembling lymphangioma
+91263/0;Vascular atypical vascular lesion, resembling haemangioma or hobnail haemangioma
+91300/0;Haemangioendothelioma, benign
+91300/1;Haemangioendothelioma, NOS
+91300/3;Haemangioendothelioma, malignant
+91301/1;Kaposiform haemangioendothelioma
+91310/0;Capillary haemangioma
+91311/0;Lobular capillary haemangioma
+91312/0;Congenital haemangioma, NOS
+91313/0;Congenital haemangioma, rapidly involuting, NOS
+91314/0;Congenital haemangioma, non-involuting
+91315/0;Congenital haemangioma, partially involuting
+91316/0;Rapidly involuting congenital haemangioma with fetal involution
+91317/0;Infantile haemangioma
+91318/0;Reticular infantile haemangioma
+91319/0;Single infantile haemangioma
+91320/0;Intramuscular haemangioma
+91330/3;Epithelioid haemangioendothelioma, NOS
+91331/3;Epithelioid haemangioendothelioma with WWTR1::CAMTA1 fusion
+91332/3;Epithelioid haemangioendothelioma with YAP1::TFE3 fusion
+91350/1;Papillary intralymphatic angioendothelioma
+91360/1;Spindle cell haemangioendothelioma
+91361/1;Retiform haemangioendothelioma
+91362/1;Composite haemangioendothelioma
+91370/0;Myointimoma
+91370/3;Intimal sarcoma
+91380/1;Pseudomyogenic haemangioendothelioma
+91400/3;Kaposi sarcoma
+91401/3;Classic indolent Kaposi sarcoma
+91402/3;Endemic Kaposi sarcoma
+91403/3;AIDS-associated Kaposi sarcoma
+91404/3;Iatrogenic/transplantation-related Kaposi sarcoma
+91410/0;Angiokeratoma, NOS
+91411/0;Angiokeratoma corporis diffusum
+91412/0;Angiokeratoma of Fordyce
+91413/0;Angiokeratoma of Mibelli
+91414/0;Angiokeratoma, solitary
+91420/0;Verrucous venous malformation
+91500/3;GL1-altered soft tissue tumour
+91600/0;Angiofibroma, NOS
+91601/0;Cellular angiofibroma
+91602/0;Giant cell angiofibroma
+91603/0;Multinucleate cell angiohistiocytoma
+91604/0;Angiofibroma, sinonasal
+91605/0;Angiofibroma of soft tissue
+91610/0;Tufted haemangioma
+91610/1;Haemangioblastoma
+91611/1;Clear cell (haemangioblastoma-like) stromal tumour of lung
+91700/0;Lymphangioma, NOS
+91700/3;Lymphangiosarcoma
+91701/0;Lymphangioma, microcystic
+91702/0;Lymphangioma, macrocystic
+91703/0;Combined lymphatic-venous malformation
+91704/3;Lymphangiomatosis, diffuse
+91710/0;Capillary lymphangioma
+91720/0;Cavernous lymphangioma
+91730/0;Cystic lymphangioma
+91731/0;Lymphangioma circumscriptum
+91740/0;Lymphangiomyoma
+91740/3;Lymphangioleiomyomatosis
+91750/0;Haemolymphangioma
+91800/0;Osteoma, NOS
+91800/3;Osteosarcoma, NOS
+91801/0;Fibro-osseous tumour of digits
+91802/0;Surface (periosteal) osteoma
+91803/0;Central (endosteal) osteoma
+91810/3;Chondroblastic osteosarcoma
+91820/3;Fibroblastic osteosarcoma
+91830/3;Telangiectatic osteosarcoma
+91840/3;Secondary osteosarcoma
+91841/3;Osteosarcoma in Paget disease of bone
+91842/3;Radiation-associated osteosarcoma
+91843/3;Osteosarcoma, infarct-related
+91844/3;Osteosarcoma secondary to early postzygotic disorders such as fibrous dysplasia
+91845/3;Osteosarcoma, implant-related
+91846/3;Osteosarcoma due to chronic osteomyelitis
+91850/3;Small cell osteosarcoma
+91860/3;Osteosarcoma, conventional
+91870/3;Low-grade central osteosarcoma
+91910/0;Osteoid osteoma, NOS
+91920/3;Parosteal osteosarcoma
+91930/3;Periosteal osteosarcoma
+91940/3;High-grade surface osteosarcoma
+91950/3;Intracortical osteosarcoma
+92000/1;Osteoblastoma, NOS
+92100/0;Osteochondroma, NOS
+92100/1;Multiple osteochondromas
+92110/0;Osteochondromyxoma
+92120/0;Bizarre parosteal osteochondromatous proliferation
+92130/0;Subungual exostosis
+92200/0;Chondroma, NOS
+92200/1;Chondromatosis, NOS
+92200/3;Chondrosarcoma, NOS
+92201/3;Fibrochondrosarcoma
+92202/3;Chondrosarcoma, grade 2
+92203/3;Central chondrosarcoma, grade 2
+92204/3;Secondary peripheral chondrosarcoma, grade 2
+92205/3;Chondrosarcoma, grade 3
+92206/3;Central chondrosarcoma, grade 3
+92207/3;Secondary peripheral chondrosarcoma, grade 3
+92208/0;Enchondroma
+92209/0;Chondroma, chondroblastoma-like soft tissue
+92210/0;Periosteal chondroma
+92210/3;Periosteal chondrosarcoma
+92220/1;Atypical cartilaginous tumour
+92220/3;Chondrosarcoma, grade 1
+92221/1;Central atypical cartilaginous tumour
+92221/3;Central chondrosarcoma, grade 1
+92222/1;Secondary peripheral atypical cartilaginous tumour
+92222/3;Secondary peripheral chondrosarcoma, grade 1
+92300/0;Chondroblastoma, NOS
+92300/3;Chondroblastoma, malignant
+92310/3;Myxoid chondrosarcoma, NOS
+92311/3;Extraskeletal myxoid chondrosarcoma
+92400/3;Mesenchymal chondrosarcoma
+92410/0;Chondromyxoid fibroma
+92420/3;Clear cell chondrosarcoma
+92430/3;Dedifferentiated chondrosarcoma
+92500/1;Giant cell tumour of bone, NOS
+92500/3;Giant cell tumour of bone, malignant
+92501/1;Giant cell tumour of bone, conventional
+92502/3;Giant cell tumour of bone, dedifferentiated
+92510/1;Giant cell tumour of soft parts, NOS
+92510/3;Malignant giant cell tumour of soft parts
+92520/0;Tenosynovial giant cell tumour, NOS
+92520/1;Tenosynovial giant cell tumour, diffuse
+92520/3;Malignant tenosynovial giant cell tumour
+92600/0;Aneurysmal bone cyst
+92610/0;Osteofibrous dysplasia
+92610/1;Osteofibrous dysplasia-like adamantinoma
+92610/3;Adamantinoma of long bones
+92611/3;Classic adamantinoma
+92612/3;Dedifferentiated adamantinoma
+92620/0;Ossifying fibroma
+92621/0;Juvenile trabecular ossifying fibroma
+92622/0;Psammomatoid ossifying fibroma
+92700/0;Odontogenic tumour, benign
+92700/1;Odontogenic tumour, NOS
+92700/3;Odontogenic tumour, malignant
+92701/3;Ameloblastic carcinoma
+92702/3;Odontogenic carcinoma
+92703/3;Sclerosing odontogenic carcinoma
+92704/3;Primary intraosseous carcinoma
+92705/3;Primary intraosseous squamous cell carcinoma
+92706/3;Central intraosseous mucoepidermoid carcinoma
+92710/0;Ameloblastic fibrodentinoma
+92720/0;Cementoma, NOS
+92730/0;Cementoblastoma
+92740/0;Cemento-ossifying fibroma
+92750/0;Gigantiform cementoma
+92800/0;Odontoma, NOS
+92810/0;Compound odontoma
+92820/0;Complex odontoma
+92900/0;Ameloblastic fibro-odontoma
+92900/3;Ameloblastic odontosarcoma
+93000/0;Adenomatoid odontogenic tumour
+93010/0;Calcifying odontogenic cyst
+93020/0;Dentinogenic ghost cell tumour
+93020/3;Ghost cell odontogenic carcinoma
+93100/0;Ameloblastoma, NOS
+93100/3;Metastasizing ameloblastoma
+93101/0;Ameloblastoma, unicystic, NOS
+93102/0;Luminal unicystic ameloblastoma
+93103/0;Intraluminal unicystic ameloblastoma
+93104/0;Mural unicystic ameloblastoma
+93105/0;Ameloblastoma, adenoid
+93106/0;Ameloblastoma, extraosseous/peripheral
+93107/0;Ameloblastoma, conventional
+93108/0;Ameloblastoma, solid/multicystic
+93109/0;Follicular ameloblastoma
+93110/0;Odontoameloblastoma
+93120/0;Squamous odontogenic tumour
+93200/0;Odontogenic myxoma
+93210/0;Odontogenic fibroma, NOS
+93211/0;Odontogenic fibroma, amyloid subtype
+93212/0;Odontogenic fibroma, granular cell subtype
+93213/0;Hybrid odontogenic fibroma with central giant cell granuloma
+93220/0;Peripheral odontogenic fibroma
+93300/0;Ameloblastic fibroma
+93300/3;Odontogenic sarcoma, NOS
+93301/3;Ameloblastic fibrosarcoma
+93400/0;Calcifying epithelial odontogenic tumour, NOS
+93401/0;Calcifying epithelial odontogenic tumour, clear cell
+93402/0;Calcifying epithelial odontogenic tumour, macrocystic/microcystic
+93403/0;Calcifying epithelial odontogenic tumour, non-calcifying/Langerhans cell-rich
+93410/3;Clear cell odontogenic carcinoma
+93420/3;Odontogenic carcinosarcoma
+93500/1;Craniopharyngioma, NOS
+93510/1;Craniopharyngioma, adamantinomatous
+93520/1;Craniopharyngioma, papillary
+93600/1;Pinealoma
+93610/1;Pineocytoma, NOS
+93620/3;Pineoblastoma, NOS
+93621/3;Pineal parenchymal tumour of intermediate differentiation
+93622/3;Mixed pineal tumour
+93623/3;Transitional pineal tumour
+93624/3;Pineoblastoma, miRNA processing-altered_1
+93625/3;Pineoblastoma, miRNA processing-altered_2
+93626/3;Pineoblastoma, RB1-altered (pineal retinoblastoma)
+93627/3;Pineoblastoma, MYC/FOXR2-activated
+93630/1;Melanotic neuroectodermal tumour, NOS
+93630/3;Melanotic neuroectodermal tumour, malignant
+93640/3;Ewing sarcoma
+93641/3;Neuroectodermal tumour, NOS
+93642/3;Adamantinoma-like Ewing sarcoma
+93660/3;Round cell sarcoma with EWSR1::non-ETS fusions
+93661/3;Round cell sarcoma with EWSR1/FUS::NFATC2
+93662/3;Round cell sarcoma with EWSR1::PATZ1
+93670/3;CIC-rearranged sarcoma
+93680/3;Sarcoma with BCOR genetic alterations
+93700/0;Benign notochordal cell tumour
+93700/3;Chordoma, NOS
+93701/3;Conventional chordoma
+93702/3;Poorly differentiated chordoma
+93710/3;Chondroid chordoma
+93720/3;Dedifferentiated chordoma
+93730/0;Parachordoma
+93800/1;Glioma, low-grade
+93800/3;Glioma, malignant
+93801/3;Glioma, grade 2
+93802/3;Glioma, high-grade
+93810/3;Gliomatosis cerebri
+93820/3;Oligoastrocytoma, NOS
+93830/1;Subependymoma
+93831/1;Mixed subependymoma-ependymoma
+93840/1;Subependymal giant cell astrocytoma
+93841/1;Retinal astrocytic hamartoma
+93842/1;Giant cell astrocytoma of retina
+93850/3;Diffuse midline glioma, NOS
+93851/3;Diffuse midline glioma, H3 K27-altered
+93852/3;Diffuse midline glioma, H3.3 K27-mutant
+93853/3;Diffuse midline glioma, H3.1 or H3.2 K27-mutant
+93854/3;Diffuse hemispheric glioma, H3 G34-mutant
+93855/3;Diffuse paediatric-type high-grade glioma, H3-wildtype and IDH-wildtype
+93856/3;Infant-type hemispheric glioma, NOS
+93857/3;Infant-type hemispheric glioma, NTRK-altered
+93858/3;Infant-type hemispheric glioma, ROS1-altered
+93859/3;Infant-type hemispheric glioma, ALK-altered
+93900/0;Choroid plexus papilloma, NOS
+93900/1;Atypical choroid plexus papilloma
+93900/3;Choroid plexus carcinoma
+93910/1;Ependymal pituicytoma
+93910/3;Ependymoma, NOS
+93911/3;Cellular ependymoma
+93912/3;Clear cell ependymoma
+93913/3;Tanycytic ependymoma
+93920/3;Ependymoma, anaplastic
+93930/3;Papillary ependymoma
+93940/1;Myxopapillary ependymoma
+93950/3;Papillary tumour of pineal region
+93960/3;Ependymoma, RELA fusion-positive
+93961/3;Supratentorial ependymoma, ZFTA fusion-positive
+93962/3;Supratentorial ependymoma, YAP1 fusion-positive
+93963/3;Posterior fossa group A (PFA) ependymoma
+93964/3;Posterior fossa group B (PFB) ependymoma
+93965/3;Spinal ependymoma, MYCN-amplified
+94000/3;Astrocytoma, NOS
+94001/3;Astrocytoma, low-grade
+94002/3;Astrocytoma, grade 2
+94003/3;Cystic astrocytoma
+94004/3;Diffuse astrocytoma, NOS
+94005/3;Diffuse astrocytoma, low-grade
+94006/3;Astrocytoma, IDH-wildtype, NOS
+94007/3;Astrocytoma, IDH-mutant, NOS
+94008/3;Astrocytoma, IDH-mutant, grade 2
+94010/3;Astrocytoma, anaplastic, NOS
+94011/3;Astrocytoma, anaplastic, IDH-wildtype
+94012/3;Astrocytoma, IDH-mutant, grade 3
+94100/3;Protoplasmic astrocytoma
+94110/3;Gemistocytic astrocytoma, NOS
+94111/3;Gemistocytic astrocytoma, IDH-mutant
+94120/1;Desmoplastic infantile astrocytoma
+94121/1;Desmoplastic infantile ganglioglioma
+94130/0;Dysembryoplastic neuroepithelial tumour
+94131/0;Polymorphous low-grade neuroepithelial tumour of young (PLNTY)
+94200/3;Fibrillary astrocytoma
+94210/1;Pilocytic astrocytoma, NOS
+94210/3;High-grade astrocytoma with piloid features
+94211/1;Diffuse astrocytoma, MYB- or MYBL1-altered
+94212/1;Diffuse astrocytoma, MYB-altered
+94213/1;Diffuse astrocytoma, MYBL1-altered
+94214/1;Diffuse low-grade glioma, MAPK pathway-altered
+94215/1;Diffuse low-grade glioma, FGFR1 tyrosine kinase domain-duplicated
+94216/1;Diffuse low-grade glioma, FGFR1-mutant
+94217/1;Diffuse low-grade glioma, BRAF p.V600E-mutant
+94218/1;Pilocytic astrocytoma with histological features of anaplasia
+94230/3;Polar spongioblastoma
+94240/3;Pleomorphic xanthoastrocytoma, NOS
+94241/3;Pleomorphic xanthoastrocytoma, grade 2
+94242/3;Pleomorphic xanthoastrocytoma, grade 3
+94250/3;Pilomyxoid astrocytoma
+94300/3;Astroblastoma, NOS
+94301/3;Astroblastoma, MN1-altered
+94310/1;Angiocentric glioma
+94320/1;Pituicytoma, NOS
+94400/3;Glioblastoma, NOS
+94401/3;Epithelioid glioblastoma
+94402/3;Glioblastoma, IDH-wildtype
+94410/3;Giant cell glioblastoma
+94420/1;Gliofibroma
+94420/3;Gliosarcoma
+94440/1;Chordoid glioma
+94450/3;Astrocytoma, IDH-mutant, grade 4
+94500/3;Oligodendroglioma, NOS
+94501/3;Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, NOS
+94502/3;Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, grade 2
+94510/3;Oligodendroglioma, anaplastic, NOS
+94511/3;Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, grade 3
+94600/3;Oligodendroblastoma
+94700/3;Medulloblastoma, NOS
+94701/3;Classic medulloblastoma
+94702/3;Melanotic medulloblastoma
+94710/3;Desmoplastic nodular medulloblastoma
+94711/3;Medulloblastoma with extensive nodularity
+94712/3;Medulloblastoma, SHH-activated and TP53-wildtype
+94713/3;Medulloblastoma, SHH activated, NOS
+94720/3;Medullomyoblastoma
+94730/3;CNS embryonal tumour, NEC/NOS
+94740/3;Large cell medulloblastoma
+94741/3;Anaplastic medulloblastoma
+94750/3;Medulloblastoma, WNT-activated, NOS
+94751/3;Medulloblastoma, WNT-activated, classic
+94752/3;Medulloblastoma, WNT-activated, large cell type
+94753/3;Medulloblastoma, WNT-activated, anaplastic type
+94760/3;Medulloblastoma, SHH-activated and TP53-mutant
+94770/3;Medulloblastoma, non-WNT/non-SHH
+94771/3;Medulloblastoma, group 3
+94772/3;Medulloblastoma, group 4
+94780/3;Embryonal tumour with multilayered rosettes, NOS
+94781/3;Embryonal tumour with multilayered rosettes, C19MC-altered
+94782/3;Embryonal tumour with multilayered rosettes, DICER1-mutated
+94800/3;Cerebellar sarcoma, NOS
+94801/3;Primary intracranial sarcoma, DICER1-mutant
+94900/0;Ganglioneuroma, NOS
+94900/3;Ganglioneuroblastoma, NOS
+94901/0;Maturing ganglioneuroma
+94902/0;Mature ganglioneuroma
+94903/3;Ganglioneuroblastoma, intermixed
+94904/3;Ganglioneuroblastoma, nodular
+94910/0;Ganglioneuromatosis
+94920/0;Gangliocytoma, NOS
+94921/0;Mixed gangliocytoma-PitNET/adenoma
+94930/0;Dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease)
+95000/3;Neuroblastoma, NOS
+95001/3;CNS neuroblastoma, FOXR2-activated
+95002/3;CNS tumour with BCOR internal tandem duplication
+95003/3;Undifferentiated neuroblastoma
+95004/3;Poorly differentiated neuroblastoma
+95005/3;Differentiating neuroblastoma
+95010/0;Medulloepithelioma, benign
+95010/3;Medulloepithelioma, NOS
+95020/0;Teratoid medulloepithelioma, benign
+95020/3;Teratoid medulloepithelioma, NOS
+95030/3;Neuroepithelioma, NOS
+95040/3;Spongioneuroblastoma
+95050/1;Ganglioglioma, NOS
+95050/3;Ganglioglioma, anaplastic
+95060/1;Sellar neurocytoma
+95061/1;Cerebellar liponeurocytoma
+95062/1;Extraventricular neurocytoma
+95070/0;Pacinian tumour
+95080/3;CNS embryonal tumour with rhabdoid features
+95081/3;Atypical teratoid/rhabdoid tumour, NOS
+95082/3;Atypical teratoid/rhabdoid tumour SHH
+95083/3;Atypical teratoid/rhabdoid tumour TYR
+95084/3;Atypical teratoid/rhabdoid tumour MYC
+95090/0;Multinodular and vacuolating neuronal tumour
+95090/1;Papillary glioneuronal tumour
+95090/3;Diffuse leptomeningeal glioneuronal tumour, NOS
+95091/1;Rosette-forming glioneuronal tumour
+95091/3;Diffuse leptomeningeal glioneuronal tumour with 1q gain
+95092/1;Myxoid glioneuronal tumour
+95092/3;Diffuse leptomeningeal glioneuronal tumour, methylation class 1 (DLGNT-MC-1)
+95093/1;Glioneuronal tumour, NOS
+95093/3;Diffuse leptomeningeal glioneuronal tumour, methylation class 2 (DLGNT-MC-2)
+95100/0;Retinocytoma
+95100/3;Retinoblastoma, NOS
+95101/3;Unilateral retinoblastoma
+95102/3;Bilateral retinoblastoma
+95103/3;Trilateral retinoblastoma
+95110/3;Retinoblastoma, differentiated
+95120/3;Retinoblastoma, undifferentiated
+95130/3;Retinoblastoma, diffuse
+95140/1;Retinoblastoma, spontaneously regressed
+95200/3;Olfactory neurogenic tumour
+95210/3;Olfactory neurocytoma
+95220/3;Olfactory neuroblastoma
+95230/3;Olfactory neuroepithelioma
+95300/0;Meningioma, NOS
+95300/3;Meningioma, anaplastic
+95301/0;Lymphoplasmacyte-rich meningioma
+95302/0;Metaplastic meningioma
+95303/0;Microcystic meningioma
+95304/0;Secretory meningioma
+95310/0;Meningothelial meningioma
+95320/0;Fibrous meningioma
+95330/0;Psammomatous meningioma
+95340/0;Angiomatous meningioma
+95350/0;Haemangioblastic meningioma
+95370/0;Transitional meningioma
+95380/1;Clear cell meningioma
+95381/1;Chordoid meningioma
+95382/3;Rhabdoid meningioma
+95383/3;Papillary meningioma
+95390/1;Atypical meningioma
+95390/3;Meningeal sarcomatosis
+95400/0;Neurofibroma, NOS
+95400/1;Atypical neurofibroma/Atypical neurofibromatous neoplasm of uncertain biological potential
+95400/3;Malignant peripheral nerve sheath tumour, NOS
+95401/3;Malignant melanotic nerve sheath tumour
+95402/3;MPNST with glandular differentiation
+95403/3;MPNST with mesenchymal differentiation
+95404/3;MPNST with perineurial differentiation
+95405/0;Cellular neurofibroma
+95406/0;Diffuse neurofibroma
+95407/0;Nodular neurofibroma
+95408/0;Massive soft tissue neurofibroma
+95409/0;Solitary neurofibroma
+95410/0;Melanotic neurofibroma
+95420/3;Malignant peripheral nerve sheath tumour, epithelioid
+95500/0;Plexiform neurofibroma
+95600/0;Schwannoma, NOS
+95600/3;Neurilemoma, malignant
+95601/0;Ancient schwannoma
+95602/0;Cellular schwannoma
+95603/0;Degenerated schwannoma
+95604/0;Plexiform schwannoma
+95605/0;Psammomatous schwannoma
+95606/0;Epithelioid schwannoma
+95607/0;Microcystic/reticular schwannoma
+95608/0;Neuroblastoma-like schwannoma
+95610/3;Malignant peripheral nerve sheath tumour with rhabdomyoblastic differentiation
+95620/0;Cellular neurothekeoma
+95621/0;Dermal nerve sheath myxoma
+95630/0;Nerve sheath tumour, NOS
+95631/0;Hybrid nerve sheath tumour
+95632/0;Epithelial sheath neuroma, NOS
+95633/0;Dermal hyperneury/epithelial sheath neuroma, syndromic
+95634/0;Dermal hyperneury/epithelial sheath neuroma, sporadic
+95635/0;NTRK-rearranged spindle cell neoplasm
+95700/0;Neuroma, NOS
+95701/0;Solitary circumscribed neuroma
+95702/0;Neuroma, plexiform solitary circumscribed
+95710/0;Perineurioma, NOS
+95710/3;Perineurioma, malignant
+95711/0;Intraneural perineurioma
+95712/0;Soft tissue perineurioma
+95713/0;Reticular perineurioma
+95714/0;Sclerosing perineurioma
+95800/0;Granular cell tumour, NOS
+95800/3;Granular cell tumour, malignant
+95810/3;Alveolar soft part sarcoma
+95820/0;Granular cell tumour of sellar region
+95900/3;Malignant lymphoma, NOS
+95910/3;Malignant lymphoma, non-Hodgkin, NOS
+95911/1;Monoclonal B-cell lymphocytosis, NOS
+95911/3;B-cell lymphoma, NOS
+95912/1;Monoclonal B-cell lymphocytosis, non-chronic lymphocytic leukaemia type
+95913/3;Malignant lymphoma, diffuse, NOS
+95914/3;Splenic B-cell lymphoma/Leukaemia with prominent nucleoli
+95915/3;Splenic diffuse red pulp small B-cell lymphoma
+95916/3;Splenic B-cell lymphoma/leukaemia, unclassifiable
+95917/3;B-cell lymphoma, low-grade
+95960/3;Mediastinal grey zone lymphoma
+95970/3;Primary cutaneous follicle centre lymphoma
+96500/3;Hodgkin lymphoma, NOS
+96501/3;Classic Hodgkin lymphoma, NOS
+96502/3;Classical Hodgkin lymphoma post-transplant lymphoproliferative disease
+96510/3;Classic Hodgkin lymphoma, lymphocyte-rich
+96520/3;Classic Hodgkin lymphoma, mixed-cellularity
+96530/3;Classic Hodgkin lymphoma, lymphocyte-depleted
+96540/3;Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis
+96550/3;Hodgkin lymphoma, lymphocyte depletion, reticular
+96590/3;Hodgkin lymphoma, nodular lymphocyte-predominant
+96610/3;Hodgkin granuloma
+96620/3;Hodgkin sarcoma
+96630/3;Classic Hodgkin lymphoma, nodular sclerosis, NOS
+96640/3;Hodgkin lymphoma, nodular sclerosis, cellular phase
+96650/3;Hodgkin lymphoma, nodular sclerosis, grade 1
+96670/3;Hodgkin lymphoma, nodular sclerosis, grade 2
+96710/3;Lymphoplasmacytic lymphoma
+96730/1;In situ mantle cell neoplasm
+96730/3;Mantle cell lymphoma, NOS
+96731/3;Mantle cell lymphoma, Cyclin D1-positive
+96732/3;Mantle cell lymphoma, Cyclin D1-negative
+96733/3;Leukaemic non-nodal mantle cell lymphoma
+96750/3;Malignant lymphoma, mixed small and large cell, diffuse
+96780/3;Primary effusion lymphoma
+96781/3;Extracavitary primary effusion lymphoma
+96782/3;Fibrin-associated large B-cell lymphoma
+96783/3;Fluid overload-associated large B-cell lymphoma
+96790/3;Primary mediastinal large B-cell lymphoma
+96800/1;EBV-positive mucocutaneous ulcer
+96800/3;Diffuse large B-cell lymphoma, NOS
+96801/3;Diffuse large B-cell lymphoma, germinal-centre B-cell subtype
+96802/3;Diffuse large B-cell lymphoma, activated B-cell subtype
+96803/3;Diffuse large B-cell lymphoma, anaplastic subtype
+96804/3;Diffuse large B-cell lymphoma associated with chronic inflammation
+96805/3;Immunodeficiency-associated lymphoproliferative disorders
+96806/3;AIDS-related diffuse large B-cell lymphoma
+96807/3;EBV-positive diffuse large B-cell lymphoma
+96808/3;Primary large B-cell lymphoma of immune-privileged sites
+96809/3;Primary cutaneous diffuse large B-cell lymphoma, leg type
+96840/3;Diffuse large B-cell lymphoma, immunoblastic subtype
+96870/3;Burkitt lymphoma, NOS
+96871/3;Acute leukaemia, Burkitt type
+96872/3;Burkitt lymphoma, endemic
+96873/3;Burkitt lymphoma, sporadic
+96874/3;Burkitt lymphoma, immunodeficiency-associated
+96875/3;Burkitt lymphoma, EBV-associated
+96876/3;Burkitt lymphoma, EBV-negative
+96877/3;High-grade B-cell lymphoma with 11q aberration
+96878/3;Burkitt-like lymphoma, NOS
+96880/3;T-cell/histiocyte-rich large B-cell lymphoma, NOS
+96881/3;T-cell/histiocyte-rich large B-cell lymphoma, de novo
+96882/3;T-cell/histiocyte-rich large B-cell lymphoma progressed from nodular lymphocyte-predominant Hodgkin lymphoma
+96890/3;Splenic marginal zone lymphoma, NOS
+96900/3;Follicular lymphoma, NOS
+96901/3;Follicular lymphoma, paediatric-type
+96902/3;Follicular lymphoma with unusual cytological features
+96903/3;Follicular lymphoma, classic
+96904/3;Follicular lymphoma with a predominantly diffuse growth pattern
+96905/3;BCL2-R-negative CD23-positive follicle centre lymphoma
+96910/3;Follicular lymphoma, grade 2
+96950/1;In situ follicular B-cell neoplasm
+96950/3;Follicular lymphoma, grade 1
+96951/3;Follicular lymphoma, duodenal-type
+96980/3;Follicular lymphoma, grade 3
+96981/3;Large B-cell lymphoma with IRF4 rearrangement
+96982/3;Follicular lymphoma, grade 3A
+96983/3;Follicular large B-cell lymphoma 
+96990/3;Marginal zone lymphoma, NOS
+96991/3;Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue
+96992/3;Nodal marginal zone lymphoma
+96993/3;Paediatric nodal marginal zone lymphoma
+96994/3;Primary cutaneous marginal zone lymphoma, NOS
+96995/3;Primary cutaneous marginal zone lymphoma, heavy chain class-switched subtype
+96996/3;Primary cutaneous marginal zone lymphoma, IgM-positive non-class-switched subtype
+97000/3;Mycosis fungoides
+97001/3;Pagetoid reticulosis (Woringer-Kolopp type)
+97002/3;Granulomatous slack skin disease
+97003/3;Adnexotropic (folliculotropic  and/or syringotropic) mycosis fungoides
+97004/3;Hypopigmented mycosis fungoides
+97010/3;Sézary syndrome
+97020/1;Indolent T-cell lymphoma of gastrointestinal tract
+97020/3;Mature T-cell lymphoma, NOS
+97021/1;Indolent NK-cell lymphoproliferative disorder of gastrointestinal tract
+97022/3;Lymphoepithelioid lymphoma
+97023/3;Nodal T follicular helper cell lymphoma, follicular type
+97024/3;Nodal T follicular helper cell lymphoma, NOS
+97025/3;EBV-positive nodal T- and NK-cell lymphoma
+97050/3;Nodal T follicular helper cell lymphoma, angioimmunoblastic type
+97080/3;Subcutaneous panniculitis-like T-cell lymphoma
+97090/1;Primary cutaneous CD4-positive small or medium T-cell lymphoproliferative disorder
+97090/3;Primary cutaneous peripheral T-cell lymphoma, NOS
+97091/3;Primary cutaneous CD8-positive aggressive epidermotropic cytotoxic T-cell lymphoma
+97092/3;Primary cutaneous acral CD8-positive T-cell lymphoproliferative disorder
+97120/3;Intravascular large B-cell lymphoma, NOS
+97121/3;Intravascular large B-cell lymphoma, cutaneous
+97122/3;Intravascular large B-cell lymphoma, classic
+97123/3;Intravascular large B-cell lymphoma, haemophagocytic
+97140/3;Anaplastic large cell lymphoma, NOS
+97141/3;Anaplastic large cell lymphoma, ALK-positive
+97142/3;ALK-positive anaplastic large cell lymphoma, common
+97143/3;ALK-positive anaplastic large cell lymphoma, small cell
+97144/3;ALK-positive anaplastic large cell lymphoma, lymphohistiocytic
+97145/3;ALK-positive anaplastic large cell lymphoma, Hodgkin-like
+97146/3;ALK-positive anaplastic large cell lymphoma, composite
+97150/3;Anaplastic large cell lymphoma, ALK-negative
+97151/3;Breast implant-associated anaplastic large cell lymphoma
+97160/3;Hepatosplenic T-cell lymphoma
+97170/3;Intestinal T-cell lymphoma, NOS
+97171/3;Enteropathy-associated T-cell lymphoma, NOS
+97172/3;Monomorphic epitheliotropic intestinal T-cell lymphoma
+97180/1;Primary cutaneous CD30-positive T-cell lymphoproliferative disorder: Lymphomatoid papulosis
+97180/3;Primary cutaneous CD30-positive T-cell lymphoproliferative disorder: Primary cutaneous anaplastic large cell lymphoma
+97181/1;Lymphomatoid papulosis type A
+97182/1;Lymphomatoid papulosis type B
+97183/1;Lymphomatoid papulosis type C
+97184/1;Lymphomatoid papulosis type D
+97185/1;Lymphomatoid papulosis type E
+97186/1;Lymphomatoid papulosis with DUSP22 locus rearrangement
+97190/3;Extranodal NK/T-cell lymphoma
+97240/3;Systemic EBV-positive T-cell lymphoma of childhood
+97250/1;Hydroa vacciniforme lymphoproliferative disorder, NOS
+97251/1;Systemic chronic active EBV disease
+97252/1;Hydroa vacciniforme lymphoproliferative disorder, classic
+97253/1;Hydroa vacciniforme lymphoproliferative disorder, systemic
+97260/3;Primary cutaneous gamma-delta T-cell lymphoma
+97270/1;Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm
+97270/3;Blastic plasmacytoid dendritic cell neoplasm
+97310/3;Plasmacytoma, NOS
+97320/3;Plasma cell myeloma
+97321/3;Smouldering (asymptomatic) myeloma
+97322/3;Non-secretory myeloma
+97330/3;Plasma cell leukaemia
+97340/3;Plasmacytoma, extramedullary
+97350/3;Plasmablastic lymphoma
+97370/3;ALK-positive large B-cell lymphoma
+97380/3;KSHV/HHV8-positive diffuse large B-cell lymphoma
+97400/1;Mastocytoma, NOS
+97400/3;Mast cell sarcoma
+97401/1;Cutaneous mastocytosis, NOS
+97402/1;Diffuse cutaneous mastocytosis
+97403/1;Extracutaneous mastocytoma
+97404/1;Solitary mastocytoma of skin
+97405/1;Urticaria pigmentosa
+97406/1;Cutaneous mastocytosis, maculopapular
+97410/1;Systemic mastocytosis, NOS
+97410/3;Malignant mastocytosis
+97411/1;Indolent systemic mastocytosis
+97412/1;Bone marrow mastocytosis
+97413/1;Systemic mastocytosis, smouldering
+97414/3;Aggressive systemic mastocytosis
+97415/3;Systemic mastocytosis with an associated haematological neoplasm
+97420/3;Mast cell leukaemia
+97490/1;Juvenile xanthogranuloma
+97490/3;Erdheim-Chester disease
+97491/3;Rosai-Dorfman disease
+97500/3;Malignant histiocytosis, NOS
+97501/3;ALK-positive histiocytosis
+97510/1;Langerhans cell histiocytosis, NOS
+97510/3;Langerhans cell histiocytosis, disseminated
+97550/3;Histiocytic sarcoma
+97560/3;Langerhans cell sarcoma, NOS
+97561/3;Langerhans cell sarcoma, primary
+97562/3;Langerhans cell sarcoma, secondary
+97570/3;Dendritic cell sarcoma, NOS
+97571/3;Interdigitating dendritic cell sarcoma
+97572/3;Indeterminate dendritic cell tumour
+97580/3;Follicular dendritic cell sarcoma
+97581/3;EBV-positive inflammatory follicular dendritic cell sarcoma
+97590/3;Fibroblastic reticular cell tumour
+97600/1;IgG4-related disease
+97600/3;Immunoproliferative disease, NOS
+97601/1;Cold agglutinin disease
+97610/1;IgM monoclonal gammopathy of undetermined significance
+97610/3;Waldenström macroglobulinemia
+97611/3;IgM-type lymphoplasmacytic lymphoma/Waldenström macroglobulinaemia
+97612/3;Non-IgM-type lymphoplasmacytic lymphoma/Waldenström macroglobulinaemia
+97620/3;Heavy chain deposition disease, NOS
+97621/3;Alpha heavy chain disease
+97622/3;Gamma heavy chain disease
+97623/3;Mu heavy chain disease
+97650/1;Monoclonal gammopathy of undetermined significance, NOS
+97651/1;Non-IgM monoclonal gammopathy of undetermined significance
+97652/1;IgG monoclonal gammopathy of undetermined significance 
+97653/1;IgA monoclonal gammopathy of undetermined significance
+97654/1;IgD monoclonal gammopathy of undetermined significance
+97655/1;IgE monoclonal gammopathy of undetermined significance
+97656/1;Light chain monoclonal gammopathy of undetermined significance
+97657/1;Monoclonal gammopathy of renal significance
+97660/1;Lymphomatoid granulomatosis, NOS
+97660/3;Lymphomatoid granulomatosis, grade 3
+97661/1;Lymphomatoid granulomatosis, grade 1
+97662/1;Lymphomatoid granulomatosis, grade 2
+97670/1;Angioimmunoblastic lymphadenopathy (AIL)
+97680/1;T-gamma lymphoproliferative disease
+97690/1;Monoclonal immunoglobulin deposition disease
+97691/1;Light chain deposition disease
+97692/1;Light and heavy chain deposition disease
+97693/1;Immunoglobulin-related amyloidosis (AL amyloidosis), NOS
+97694/1;Systemic AL amyloidosis
+97695/1;Localized AL amyloidosis
+97696/1;Heavy chain AL amyloidosis
+97697/1;Immunoglobulin light chain amyloidoma
+98000/3;Leukaemia, NOS
+98001/3;Aleukaemic leukaemia, NOS
+98002/3;Chronic leukaemia, NOS
+98003/3;Subacute leukaemia, NOS
+98010/3;Acute leukaemia, NOS
+98011/3;Acute undifferentiated leukaemia
+98050/3;Acute biphenotypic leukaemia
+98051/3;Acute leukaemia of ambiguous lineage with other defined genetic alterations
+98052/3;Mixed-phenotype acute leukaemia, B/T (MPAL-B/T)
+98053/3;Mixed-phenotype acute leukaemia, B/T/Myeloid (MPAL-B/T/M)
+98054/3;Mixed-phenotype acute leukaemia, T/Megakaryocytic (MPAL-T/Mk)
+98055/3;Mixed-phenotype acute leukaemia with ZNF384 rearrangement
+98056/3;Acute leukaemia of ambiguous lineage with BCL11B rearrangement
+98060/3;Mixed-phenotype acute leukaemia with BCR::ABL1 fusion
+98070/3;Mixed-phenotype acute leukaemia with KMT2A rearrangement
+98080/3;Mixed-phenotype acute leukaemia, B/myeloid, NOS
+98090/3;Mixed-phenotype acute leukaemia, T/myeloid, NOS
+98110/3;B-lymphoblastic leukaemia/lymphoma, NOS
+98111/3;B-lymphoblastic leukaemia/lymphoma with iAMP21
+98112/3;B-lymphoblastic leukaemia/lymphoma with other defined genetic alterations
+98113/3;B-lymphoblastic leukaemia/lymphoma with DUX4 rearrangement
+98114/3;B-lymphoblastic leukaemia/lymphoma with MEF2D rearrangement
+98115/3;B-lymphoblastic leukaemia/lymphoma with ZNF384 rearrangement
+98116/3;B-lymphoblastic leukaemia/lymphoma with PAX5alt
+98117/3;B-lymphoblastic leukaemia/lymphoma with PAX5 p.P80R
+98118/3;B-lymphoblastic leukaemia/lymphoma with NUTM1 rearrangement
+98119/3;B-lymphoblastic leukaemia with MYC rearrangement
+98120/3;B-lymphoblastic leukaemia/lymphoma with BCR::ABL1 fusion
+98130/3;B-lymphoblastic leukaemia/lymphoma with KMT2A rearrangement
+98140/3;B-lymphoblastic leukaemia/lymphoma with ETV6::RUNX1 fusion
+98141/3;B-lymphoblastic leukaemia/lymphoma with ETV6::RUNX1-like features
+98150/3;B-lymphoblastic leukaemia/lymphoma with high hyperdiploidy
+98160/3;B-lymphoblastic leukaemia/lymphoma with hypodiploidy (Hypodiploid ALL)
+98161/3;Near-haploid B-lymphoblastic leukaemia/lymphoma with hypodiploidy
+98162/3;Low-hypodiploid B-lymphoblastic leukaemia/lymphoma with hypodiploidy
+98163/3;High-hypodiploid B-lymphoblastic leukaemia/lymphoma with hypodiploidy
+98170/3;B-lymphoblastic leukaemia/lymphoma with IGH::IL3 fusion
+98180/3;B-lymphoblastic leukaemia/lymphoma with TCF3::PBX1 fusion
+98181/3;B-lymphoblastic leukaemia/lymphoma with TCF3::HLF fusion
+98190/3;B-lymphoblastic leukaemia/lymphoma with BCR::ABL1-like features
+98200/3;Lymphoid leukaemia, NOS
+98230/1;Monoclonal B-cell lymphocytosis, chronic lymphocytic leukaemia/small lymphocytic lymphoma (CLL/SLL) type
+98230/3;Chronic lymphocytic leukaemia/small lymphocytic lymphoma, NOS
+98270/3;Adult T-cell lymphoma/leukaemia, NOS
+98271/3;Adult T-cell lymphoma/leukaemia, smouldering
+98272/3;Adult T-cell lymphoma/leukaemia, chronic
+98273/3;Adult T-cell lymphoma/leukaemia, lymphomatous
+98274/3;Adult T-cell lymphoma/leukaemia, acute
+98310/3;T-large granular lymphocytic leukaemia
+98311/3;NK-large granular lymphocytic leukaemia
+98320/3;Prolymphocytic leukaemia, NOS
+98330/3;Prolymphocytic leukaemia, B-cell type
+98340/3;T-prolymphocytic leukaemia
+98350/3;Lymphoblastic leukaemia/lymphoma, NOS
+98351/3;NK-lymphoblastic leukaemia/lymphoma
+98370/3;T-lymphoblastic leukaemia/lymphoma, NOS
+98371/3;Early T-cell precursor acute lymphoblastic leukaemia
+98400/3;Acute erythroid leukaemia
+98600/0;Clonal haematopoiesis, NOS
+98600/3;Myeloid leukaemia, NOS
+98601/3;Eosinophilic leukaemia, NOS
+98602/0;Clonal haematopoiesis, age-related (ARCH)
+98603/0;Clonal haematopoiesis of indeterminate potential
+98604/0;VEXAS syndrome
+98610/3;Acute myeloid leukaemia, NOS
+98611/3;Acute myeloid leukaemia with other defined genetic alterations
+98612/3;Acute myeloid leukaemia with NUP98 rearrangement
+98613/3;Acute myeloid leukaemia with RUNX1T3(CBFA2T3)::GLIS2
+98614/3;Acute myeloid leukaemia with KAT6A::CREBBP fusion
+98615/3;Acute myeloid leukaemia with FUS::ERG fusion
+98616/3;Acute myeloid leukaemia with MNX1::ETV6 fusion
+98617/3;Acute myeloid leukaemia with NPM1::MLF1 fusion
+98630/3;Chronic myeloid leukaemia, NOS
+98650/3;Acute myeloid leukaemia with DEK::NUP214 fusion
+98660/3;Acute promyelocytic leukaemia with PML::RARA fusion
+98661/3;Acute promyelocytic leukaemia with a variant RARA translocation
+98670/3;Acute myelomonocytic leukaemia, NOS
+98690/3;Acute myeloid leukaemia with MECOM rearrangement
+98700/3;Acute basophilic leukaemia
+98701/3;Acute basophilic leukemia with t(X;6)(p11;q23); MYB::GATA1
+98710/3;Acute myeloid leukaemia with CBFB::MYH11 fusion
+98720/3;Acute myeloid leukaemia with minimal differentiation
+98730/3;Acute myeloid leukaemia without maturation
+98740/3;Acute myeloid leukaemia with maturation
+98750/3;Chronic myeloid leukaemia, BCR::ABL1
+98760/3;Myelodysplastic/myeloproliferative neoplasm with neutrophilia
+98770/3;Acute myeloid leukaemia with NPM1 mutation
+98780/3;Acute myeloid leukaemia with CEBPA mutation
+98781/3;Acute myeloid leukaemia with biallelic mutation of CEBPA
+98790/3;Acute myeloid leukaemia with mutated RUNX1
+98910/3;Acute monocytic leukaemia
+98950/3;Acute myeloid leukaemia, myelodysplasia-related
+98960/3;Acute myeloid leukaemia with RUNX1::RUNX1T1 fusion
+98970/3;Acute myeloid leukaemia with KMT2A rearrangement
+98980/1;Transient abnormal myelopoiesis
+98980/3;Myeloid leukaemia associated with Down syndrome
+99100/3;Acute megakaryoblastic leukaemia, NOS
+99110/3;Acute myeloid leukaemia with RBM15::MRTFA fusion
+99120/3;Acute myeloid leukaemia with BCR::ABL1 fusion
+99200/3;Myeloid neoplasm post cytotoxic therapy
+99201/3;Acute myeloid leukaemia post cytotoxic therapy
+99202/3;Myelodysplastic/myeloproliferative neoplasm post cytotoxic therapy
+99300/3;Myeloid sarcoma
+99310/3;Acute panmyelosis with myelofibrosis
+99400/3;Hairy cell leukaemia, NOS
+99450/3;Chronic myelomonocytic leukaemia, NOS
+99451/3;Chronic myelomonocytic leukaemia, type I
+99452/3;Chronic myelomonocytic leukaemia, type II
+99453/3;Myelodysplastic chronic myelomonocytic leukaemia (MD-CMML)
+99454/3;Myeloproliferative chronic myelomonocytic leukaemia (MP-CMML)
+99455/3;Chronic myelomonocytic leukaemia in transformation
+99460/3;Juvenile myelomonocytic leukaemia, NOS
+99461/3;PTPN11-mutated juvenile myelomonocytic leukaemia
+99462/3;NRAS-mutated juvenile myelomonocytic leukaemia
+99463/3;KRAS-mutated juvenile myelomonocytic leukaemia
+99464/3;Juvenile myelomonocytic leukaemia in neurofibromatosis type 1 (NF1)
+99465/3;Juvenile myelomonocytic leukaemia in children with CBL syndrome
+99466/3;Juvenile myelomonocytic leukaemia-like disorders in children with Noonan syndrome (NS)
+99480/3;Aggressive NK-cell leukaemia
+99500/3;Polycythaemia vera
+99600/3;Myeloproliferative neoplasm, NOS
+99610/3;Primary myelofibrosis, NOS
+99611/3;Primary myelofibrosis, prefibrotic
+99612/3;Primary myelofibrosis, fibrotic
+99620/3;Essential thrombocythaemia
+99630/3;Chronic neutrophilic leukaemia
+99640/3;Chronic eosinophilic leukaemia
+99650/3;Myeloid/lymphoid neoplasm with PDGFRA rearrangement
+99660/3;Myeloid/lymphoid neoplasm with PDGFRB rearrangement
+99670/3;Myeloid/lymphoid neoplasm with FGFR1 rearrangement
+99680/3;Myeloid/lymphoid neoplasm with JAK2 rearrangement
+99681/3;Myeloid/lymphoid neoplasm with FLT3 rearrangement
+99682/3;Myeloid/lymphoid neoplasm with ETV6::ABL1 fusion
+99683/3;Myeloid/lymphoid neoplasm with other tyrosine kinase fusion genes
+99700/1;Lymphoproliferative disorder, NOS
+99710/1;Posttransplant lymphoproliferative disorder, NOS
+99711/1;Polymorphic lymphoproliferative disorder arising in immune deficiency/dysregulation
+99750/3;Myeloproliferative neoplasm, NOS (unclassifiable)
+99751/3;Myelodysplastic/myeloproliferative neoplasm, NOS (unclassifiable)
+99800/1;Clonal cytopenia of undetermined significance
+99800/3;Myelodysplastic neoplasm with low blasts and single-lineage dysplasia
+99820/3;Myelodysplastic syndrome with ring sideroblasts and single lineage dysplasia
+99821/3;Myelodysplastic neoplasm with low blasts and SF3B1 mutation
+99822/3;Myelodysplastic/myeloproliferative neoplasm with SF3B1 mutation and thrombocytosis
+99830/3;Myelodysplastic neoplasm with increased blasts
+99831/3;MDS with increased blasts-1 (MDS-IB1)
+99832/3;MDS with increased blasts-2 (MDS-IB2)
+99833/3;MDS with increased blasts and fibrosis (MDS-F)
+99834/3;Childhood myelodysplastic neoplasm with increased blasts
+99840/3;Refractory anaemia with excess blasts in transformation
+99850/3;Myelodysplastic neoplasm with low blasts and multilineage dysplasia
+99851/3;Childhood myelodysplastic neoplasm with low blasts, NOS
+99852/3;Myelodysplastic neoplasm with biallelic TP53 inactivation
+99853/3;Myelodysplastic neoplasm with low blasts, NOS
+99854/3;Myelodysplastic neoplasm, hypoplastic
+99855/3;Childhood myelodysplastic neoplasm with low blasts, hypocellular
+99860/3;Myelodysplastic neoplasm with low blasts and 5q deletion
+99870/3;Myelodysplastic neoplasm post cytotoxic therapy
+99890/3;Myelodysplastic neoplasm, NOS
+99891/3;Myelodysplastic syndrome, unclassifiable
+99930/3;Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia

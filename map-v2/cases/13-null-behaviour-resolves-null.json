@@ -1,0 +1,9 @@
+{
+  "property": "Un stem sin comportamiento declarado ni derivable (sin histologia postcoordinada) resuelve CIE-10 como null: la falta de dato nunca se lee como comportamiento incierto/desconocido (D37-D48). Antes 2A01.1 calzaba la regla meninges|primary|unknown|unspecified -> D42.9.",
+  "selection": { "code": "2A01.1" },
+  "expect": {
+    "icd10.code": null,
+    "icd10.status": "unmapped",
+    "icd10.behaviourNull": true
+  }
+}

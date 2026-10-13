@@ -1,0 +1,10 @@
+{
+  "property": "Stem hematolinfoide terminal con icd10_needs_refinement=false usa su propio default (F2), independientemente de la topografia CIE-O. NOTA: 2A20.0 NO es terminal (tiene hijo real 2A20.00, mismo grupo decimal sin punto adicional -- el isLeaf declarado en icd11_stem_defaults.csv lo confirma); se usa 2A20.00, el hijo genuinamente terminal.",
+  "selection": { "code": "2A20.00" },
+  "expect": {
+    "status": "resolved",
+    "icd10.code": "C92.1",
+    "icd10.route": "F2",
+    "icdoTopography.code": "C42.1"
+  }
+}

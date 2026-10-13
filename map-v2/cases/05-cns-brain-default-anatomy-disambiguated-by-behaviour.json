@@ -1,0 +1,10 @@
+{
+  "property": "XA9738 (anatomía cerebral generica) tiene DOS filas de perfil (brain.malignant / brain.nonmalignant) en anatomy_relations.csv; se elige por el comportamiento del stem, no por orden de fila.",
+  "selection": { "code": "2A00.00" },
+  "expect": {
+    "status": "resolved",
+    "family": "brain",
+    "node": "brain_9",
+    "icd10.code": "C71.9"
+  }
+}

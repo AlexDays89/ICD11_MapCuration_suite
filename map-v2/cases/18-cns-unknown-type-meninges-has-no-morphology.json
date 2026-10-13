@@ -1,0 +1,12 @@
+{
+  "property": "PENDIENTE DE DATOS (mover a cases/ tras vaciar ICDO_3/ICDO_4 morphology+behaviour de 2A01.2 en icd11_stem_defaults): una neoplasia de tipo desconocido o no especificado no se codifica 8000/1 -- /1 describe una neoplasia conocida de evolucion incierta, no una morfologia desconocida.",
+  "selection": {
+    "code": "2A01.2"
+  },
+  "expect": {
+    "icdoMorphology.code": null,
+    "icdoMorphology4.code": null,
+    "icd10.code": null,
+    "icdoTopography.code": "C70.9"
+  }
+}

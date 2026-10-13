@@ -1,0 +1,14 @@
+{
+  "name": "icd11-map-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "map:build": "node map-v2/compiler/build.js",
+    "map:test": "node map-v2/test/run-cases.mjs",
+    "map": "pnpm run map:build && pnpm run map:test",
+    "app:install": "pnpm --dir poc-coding-tool install",
+    "dev": "pnpm --dir poc-coding-tool dev",
+    "app:build": "pnpm --dir poc-coding-tool build"
+  }
+}

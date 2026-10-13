@@ -1,0 +1,7 @@
+{
+  "property": "Expresion con varios stems separados por '/' se declara no soportada explicitamente (F0), sin mezclar anatomias de componentes distintos.",
+  "selection": { "code": "2C30.1/2A20" },
+  "expect": {
+    "status": "unsupported"
+  }
+}

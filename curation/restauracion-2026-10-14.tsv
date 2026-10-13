@@ -1,0 +1,52 @@
+code	column	valor_exportado_xlsx	valor_restaurado
+2A01	icd10_needs_refinement	true	false
+2B91	icdo3_topography_default	C19.0	C19.9
+2B91.0	icdo3_topography_default	C19.0	C19.9
+2B91.Y	icdo3_topography_default	C19.0	C19.9
+2B91.Z	icdo3_topography_default	C19.0	C19.9
+2B92.Y	icdo3_topography_default	C20.0	C20.9
+2B92.Z	icdo3_topography_default	C20.0	C20.9
+2B9Y	icdo3_topography_default	C21.9	C21.0
+2C00	icdo3_topography_default	C21.9	C21.0
+2C00.0	icdo3_topography_default	C21.9	C21.0
+2C00.1	icdo3_topography_default	C21.9	C21.0
+2C00.2	icdo3_topography_default	C21.9	C21.0
+2C00.3	icdo3_topography_default	C21.9	C21.0
+2C00.Y	icdo3_topography_default	C21.9	C21.0
+2C00.Z	icdo3_topography_default	C21.9	C21.0
+2D05.0	ICDO_4_morphology_code		87200
+2D06.1	ICDO_4_morphology_code		95010
+2D06.4	ICDO_4_morphology_code		87200
+2D11.2	ICDO_4_morphology_code		95000
+2E63	ICDO_4_morphology_code		87200
+2E63.0	ICDO_4_morphology_code		87200
+2E63.00	ICDO_4_morphology_code		87420
+2E63.0Z	ICDO_4_morphology_code		87200
+2E63.1	ICDO_4_morphology_code		87200
+2E63.Y	ICDO_4_morphology_code		87200
+2E63.Z	ICDO_4_morphology_code		87200
+2E64	ICDO_4_morphology_code		80700
+2E64.0	ICDO_4_morphology_code		80700
+2E64.00	ICDO_4_morphology_code		80700
+2E64.01	ICDO_4_morphology_code		80700
+2E64.0Y	ICDO_4_morphology_code		80700
+2E64.0Z	ICDO_4_morphology_code		80700
+2E64.2	ICDO_4_morphology_code		80770
+2E64.Y	ICDO_4_morphology_code		80700
+2E64.Z	ICDO_4_morphology_code		80700
+2E66.2	ICDO_4_morphology_code		80770
+2E67.12	ICDO_4_morphology_code		80710
+2E67.13	ICDO_4_morphology_code		80770
+2E67.22	ICDO_4_morphology_code		80770
+2E67.2Y	ICDO_4_morphology_code		80770
+2E67.40	ICDO_4_morphology_code		80770
+2E67.41	ICDO_4_morphology_code		80770
+2E86.0	ICDO_4_morphology_code		88900
+2E86.1	ICDO_4_morphology_code		88900
+2E86.2	ICDO_4_morphology_code		89000
+2F00.1	ICDO_4_morphology_code		80600
+2F20.1	ICDO_4_morphology_code		87270
+2F20.2	ICDO_4_morphology_code		87610
+2F20.20	ICDO_4_morphology_code		87613
+2F20.2Z	ICDO_4_morphology_code		87610
+2F72.1	ICDO_4_morphology_code		87700

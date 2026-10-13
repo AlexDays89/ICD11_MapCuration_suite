@@ -1,0 +1,11 @@
+{
+  "property": "Un stem 'mesenchymal' sin subdominio de organo explicito (subdomain null/'other'/'soft_tissue') debe anclarse a soft_tissue por default al postcoordinar una region partonomica generica compartida con piel/adiposo -- no caer en 'skin.other' por orden de fila. El default deja de aplicar en cuanto el subdominio nombra un organo (breast/liver/stomach/etc), caso en que no se fuerza ningun anclaje generico.",
+  "selection": { "code": "2B53.0&XA5S78" },
+  "expect": {
+    "status": "resolved",
+    "family": "soft_tissue.other",
+    "node": "lower_limb",
+    "icd10.code": "C49.2",
+    "icd10.route": "F4"
+  }
+}

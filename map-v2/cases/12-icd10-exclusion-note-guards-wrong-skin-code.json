@@ -1,0 +1,9 @@
+{
+  "property": "Angiosarcoma of breast (mesenchymal.breast, conectivo, NO piel) precoordina una anatomia (XA12C1) cuya unica fila en anatomy_relations.csv es un perfil generico de piel de tronco -- sin guarda, F4 resolveria C44.5 (piel del tronco). La nota de exclusion real de la OMS en el capitulo C50 (mama) dice literalmente 'skin of breast C43.5 C44.5', confirmando que un candidato de piel para un stem no-piel es exactamente el caso documentado por la OMS como excepcion -- se prefiere el default declarado del stem (C50.9) sobre la anatomia.",
+  "selection": { "code": "2B56.2" },
+  "expect": {
+    "status": "resolved",
+    "icd10.code": "C50.9",
+    "icd10.route": "F2_exclusion_guard"
+  }
+}

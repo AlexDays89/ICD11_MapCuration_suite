@@ -1,0 +1,7 @@
+{
+  "property": "Un codigo de stem fuera del alcance de icd11_stem_defaults.csv se declara unmapped, no se inventa.",
+  "selection": { "code": "9Z99.Z" },
+  "expect": {
+    "status": "unmapped"
+  }
+}

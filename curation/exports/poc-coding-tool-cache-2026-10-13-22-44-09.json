@@ -1,0 +1,3042 @@
+{
+  "exportedAt": "2026-10-13T22:44:09.606Z",
+  "feedback": [
+    {
+      "feedbackId": "12da2e93e43f700299db427a4222d21c",
+      "revision": 4,
+      "createdAt": "2026-10-07T19:27:39.456Z",
+      "updatedAt": "2026-10-08T16:54:25.583Z",
+      "selectionId": "59150a6abcfd8268a39c3d22fa4b288b",
+      "textOriginal": "Se debería acotar el eje de postcoordinación de histopatología solo a las entidades relacionadas con medulloblastoma:\n*Medulloblastomas, molecular defined \n- XH0ZP6 Meduloblastoma, WNT activado, SAI\n- - XH3EX1 Meduloblastoma, WNT activado, clásico\n- - XH5163 Meduloblastoma, WNT activado, tipo células grandes\n- - XH2FW8 Meduloblastoma, WNT activado, tipo Anaplásico\n- XH85M7 Meduloblastoma, SHH activado, SAI\n- - XH9M38 Meduloblastoma, SHH-activado y TP53 tipo salvaje\n- - XH1SH4 Meduloblastoma, SHH-activado y TP53- mutante\n- XH87Q5 Meduloblastoma, no WNT/ no SHH\n\n*Medulloblastomas, histologically defined \nXH0RY1 Meduloblastoma clásico\nXH7PN5 Meduloblastoma desmoplásico/nodular\nXH6JN6 Meduloblastoma con nodularidad extensa\nXH5PR7 Meduloblastoma de células grandes\nXH0H95 Meduloblastoma anaplásico\nXH4B47 Meduloblastoma melanótico\n\n\n\n\n\n\nXH5XD3 Meduloblastoma, grupo 3\nXH25R4 Meduloblastoma, grupo 4",
+      "note": "Se debería acotar el eje de postcoordinación de histopatología solo a las entidades relacionadas con medulloblastoma:\n*Medulloblastomas, molecular defined \n- XH0ZP6 Meduloblastoma, WNT activado, SAI\n- - XH3EX1 Meduloblastoma, WNT activado, clásico\n- - XH5163 Meduloblastoma, WNT activado, tipo células grandes\n- - XH2FW8 Meduloblastoma, WNT activado, tipo Anaplásico\n- XH85M7 Meduloblastoma, SHH activado, SAI\n- - XH9M38 Meduloblastoma, SHH-activado y TP53 tipo salvaje\n- - XH1SH4 Meduloblastoma, SHH-activado y TP53- mutante\n- XH87Q5 Meduloblastoma, no WNT/ no SHH\n\n*Medulloblastomas, histologically defined \nXH0RY1 Meduloblastoma clásico\nXH7PN5 Meduloblastoma desmoplásico/nodular\nXH6JN6 Meduloblastoma con nodularidad extensa\nXH5PR7 Meduloblastoma de células grandes\nXH0H95 Meduloblastoma anaplásico\nXH4B47 Meduloblastoma melanótico\nXH5XD3 Meduloblastoma, grupo 3\nXH25R4 Meduloblastoma, grupo 4\n\nNo debería aparecer XH8P29 Meduloblastoma, SAI ya que corresponde al concepto precoordinado base",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/290815825",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/290815825",
+        "foundationUri": "http://id.who.int/icd/entity/290815825",
+        "code": "2A00.10",
+        "title": "Meduloblastoma del cerebro",
+        "bestMatchText": "Meduloblastoma del cerebro",
+        "selectedText": "Meduloblastoma del cerebro"
+      },
+      "captureRecord": {
+        "selectionId": "59150a6abcfd8268a39c3d22fa4b288b",
+        "instance": "browser",
+        "timestamp": "2026-10-07T17:59:35.103Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/290815825",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/290815825",
+          "foundationUri": "http://id.who.int/icd/entity/290815825",
+          "code": "2A00.10",
+          "title": "Meduloblastoma del cerebro",
+          "bestMatchText": "Meduloblastoma del cerebro",
+          "selectedText": "Meduloblastoma del cerebro"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.10",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/290815825",
+          "foundationUri": "http://id.who.int/icd/entity/290815825",
+          "label": "Meduloblastoma del cerebro"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Meduloblastoma del cerebro"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "meduloblastoma de localización no especificada"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "medulomioblastoma de sitio no especificado"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "meduloblastoma encefálico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "meduloblastoma cerebeloso"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Meduloblastoma del encéfalo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Meduloblastoma anaplásico de células grandes"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1625424542"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Meduloblastoma clásico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1548011794"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Meduloblastoma nodular desmoplástico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1978855815"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Meduloblastoma con nodularidad extensa del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1113706745"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "meduloblastoma con nodularidad extensa cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1113706745"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "meduloblastoma con nodularidad extensa del cerebro"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1113706745"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "meduloblastoma con nodularidad extensa encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1113706745"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Neuroepitelioma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/841824628"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia neuroepitelial"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/841824628"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma neuroepitelial"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/841824628"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor neuroepitelial"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/841824628"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-10-05",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "f2dc8d2bdba9eb8f40031dda5e5c54f3",
+      "revision": 1,
+      "createdAt": "2026-10-04T00:50:02.103Z",
+      "updatedAt": "2026-10-04T00:50:02.103Z",
+      "selectionId": "47732d30b6778dea76551c6184a8f734",
+      "textOriginal": "Este eje es difícil de resolver, ya que el concepto raíz está en concordancia con la clasificación de los WHO Blue Books, que agrupan los tumores paraespinales junto con los tumores espinales dado su origen y su firma molecular común. Aunque para clasificaciones diagnósticas de entidades es correcto, el eje de clasificación sigue obedeciendo a un atributo netamente anatómico/topográgico. Su resolución podría aclararse si dentro de esta raiz se subdividen los grupos, se aisla \"tumores de los nervios paraespinales\" y se vuelve a mencionar con su código 2A02.1X bajo los capitulos de neoplasias de los nervios periféricos, en gris (como coded elsewhere)",
+      "note": "Este eje es difícil de resolver, ya que el concepto raíz está en concordancia con la clasificación de los WHO Blue Books, que agrupan los tumores paraespinales junto con los tumores espinales dado su origen y su firma molecular común. Aunque para clasificaciones diagnósticas de entidades es correcto, el eje de clasificación sigue obedeciendo a un atributo netamente anatómico/topográgico. Su resolución podría aclararse si dentro de esta raiz se subdividen los grupos, se aisla \"tumores de los nervios paraespinales\" y se vuelve a mencionar con su código 2A02.1X bajo los capitulos de neoplasias de los nervios periféricos, en gris (como coded elsewhere)",
+      "tags": [
+        "Complex Hierarchy"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002",
+        "foundationUri": "http://id.who.int/icd/entity/1352310002",
+        "code": "2A02.1",
+        "title": "Tumores de los nervios craneales o paraespinales",
+        "bestMatchText": "Tumores de los nervios craneales o paraespinales",
+        "selectedText": "Tumores de los nervios craneales o paraespinales"
+      },
+      "captureRecord": {
+        "selectionId": "47732d30b6778dea76551c6184a8f734",
+        "instance": "browser",
+        "timestamp": "2026-10-04T00:38:22.617Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002",
+          "foundationUri": "http://id.who.int/icd/entity/1352310002",
+          "code": "2A02.1",
+          "title": "Tumores de los nervios craneales o paraespinales",
+          "bestMatchText": "Tumores de los nervios craneales o paraespinales",
+          "selectedText": "Tumores de los nervios craneales o paraespinales"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.1",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002",
+          "foundationUri": "http://id.who.int/icd/entity/1352310002",
+          "label": "Tumores de los nervios craneales o paraespinales"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "8a4538c23ff8e71dd1a087c22317da3b",
+      "revision": 1,
+      "createdAt": "2026-10-04T00:38:15.447Z",
+      "updatedAt": "2026-10-04T00:38:15.447Z",
+      "selectionId": "35fc35e14d925ebffa85d2a774dbe467",
+      "textOriginal": "Al incluir como atributo precoordinado \"nervios paraespinales\", deben activarse las opciones correspondientes en el eje de topografía.",
+      "note": "Al incluir como atributo precoordinado \"nervios paraespinales\", deben activarse las opciones correspondientes en el eje de topografía.",
+      "tags": [
+        "Postcoordination",
+        "Topography"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/unspecified",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/unspecified",
+        "foundationUri": "http://id.who.int/icd/entity/1352310002",
+        "code": "2A02.1Z",
+        "title": "Tumores de los nervios craneales o paraespinales, sin especificación",
+        "bestMatchText": "Tumores de los nervios craneales o paraespinales, sin especificación",
+        "selectedText": "Tumores de los nervios craneales o paraespinales, sin especificación"
+      },
+      "captureRecord": {
+        "selectionId": "35fc35e14d925ebffa85d2a774dbe467",
+        "instance": "browser",
+        "timestamp": "2026-10-04T00:37:42.060Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/unspecified",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/1352310002",
+          "code": "2A02.1Z",
+          "title": "Tumores de los nervios craneales o paraespinales, sin especificación",
+          "bestMatchText": "Tumores de los nervios craneales o paraespinales, sin especificación",
+          "selectedText": "Tumores de los nervios craneales o paraespinales, sin especificación"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.1Z",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/1352310002",
+          "label": "Tumores de los nervios craneales o paraespinales, sin especificación"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "0e68c97059ef48404be33e0ec4ae44c5",
+      "revision": 1,
+      "createdAt": "2026-10-04T00:37:35.152Z",
+      "updatedAt": "2026-10-04T00:37:35.152Z",
+      "selectionId": "62014f7e4788f31711c8eaa80c6d7df6",
+      "textOriginal": "Debe activarse el eje de postcoordinación de histopatología, al corresponder a un término raíz residual especificado (.Y).\nAl incluir como atributo precoordinado \"nervios paraespinales\", deben activarse las opciones correspondientes en el eje de topografía.",
+      "note": "Debe activarse el eje de postcoordinación de histopatología, al corresponder a un término raíz residual especificado (.Y).\nAl incluir como atributo precoordinado \"nervios paraespinales\", deben activarse las opciones correspondientes en el eje de topografía.",
+      "tags": [
+        "Postcoordination",
+        "Histopathology",
+        "Topography."
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/other",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/other",
+        "foundationUri": "http://id.who.int/icd/entity/1352310002",
+        "code": "2A02.1Y",
+        "title": "Otros tumores especificados de los nervios craneales o paraespinales",
+        "bestMatchText": "Otros tumores especificados de los nervios craneales o paraespinales",
+        "selectedText": "Otros tumores especificados de los nervios craneales o paraespinales"
+      },
+      "captureRecord": {
+        "selectionId": "62014f7e4788f31711c8eaa80c6d7df6",
+        "instance": "browser",
+        "timestamp": "2026-10-04T00:35:31.933Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/other",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/other",
+          "foundationUri": "http://id.who.int/icd/entity/1352310002",
+          "code": "2A02.1Y",
+          "title": "Otros tumores especificados de los nervios craneales o paraespinales",
+          "bestMatchText": "Otros tumores especificados de los nervios craneales o paraespinales",
+          "selectedText": "Otros tumores especificados de los nervios craneales o paraespinales"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.1Y",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002/other",
+          "foundationUri": "http://id.who.int/icd/entity/1352310002",
+          "label": "Otros tumores especificados de los nervios craneales o paraespinales"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Neoplasia maligna del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia maligna primaria del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma maligno del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor maligno del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "cáncer del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ependimomas malignos o tumores del plexo coriodeo del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1309679451"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Astrocitomas malignos del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1703717767"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "astrogliomas malignos del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1703717767"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Otros gliomas malignos del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1747594744"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores malignos de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasmas malignos de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "cánceres de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias malignas de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Otras neoplasias malignas especificadas del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "otros tumores malignos especificados del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "otros cánceres especificados del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "otros neoplasmas malignos especificados del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "4a9fc49441fb72fa0428c95815136578",
+      "revision": 1,
+      "createdAt": "2026-10-04T00:35:12.889Z",
+      "updatedAt": "2026-10-04T00:35:12.889Z",
+      "selectionId": "bd31b1517da9c0300d9d34579a521b59",
+      "textOriginal": "Se debe acotar las opciones de postcoordinación del eje de histopatología solo a los subtipos definidos para el nervio óptico: \n9421/1 Pilocytic astrocytoma\n9425/3 Pilomyxoid astrocytoma\n9400/3 Astrocytoma, IDH-mutant, grade 2\n9440/3 Glioblastoma, IDH-wildtype\nAunque otros gliomas pueden afectar el nervio óptico, es más probable que correspondan a neoplasias secundarias, por lo que podrían dejarse para \"other postcoordination\"",
+      "note": "Se debe acotar las opciones de postcoordinación del eje de histopatología solo a los subtipos definidos para el nervio óptico: \n9421/1 Pilocytic astrocytoma\n9425/3 Pilomyxoid astrocytoma\n9400/3 Astrocytoma, IDH-mutant, grade 2\n9440/3 Glioblastoma, IDH-wildtype\nAunque otros gliomas pueden afectar el nervio óptico, es más probable que correspondan a neoplasias secundarias, por lo que podrían dejarse para \"other postcoordination\"",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427",
+        "foundationUri": "http://id.who.int/icd/entity/1830847427",
+        "code": "2A02.12",
+        "title": "Neoplasia maligna del nervio óptico",
+        "bestMatchText": "Neoplasia maligna del nervio óptico",
+        "selectedText": "Neoplasia maligna del nervio óptico"
+      },
+      "captureRecord": {
+        "selectionId": "bd31b1517da9c0300d9d34579a521b59",
+        "instance": "browser",
+        "timestamp": "2026-10-04T00:25:01.011Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427",
+          "foundationUri": "http://id.who.int/icd/entity/1830847427",
+          "code": "2A02.12",
+          "title": "Neoplasia maligna del nervio óptico",
+          "bestMatchText": "Neoplasia maligna del nervio óptico",
+          "selectedText": "Neoplasia maligna del nervio óptico"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.12",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427",
+          "foundationUri": "http://id.who.int/icd/entity/1830847427",
+          "label": "Neoplasia maligna del nervio óptico"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Neoplasia maligna del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia maligna primaria del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma maligno del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor maligno del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "cáncer del nervio óptico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ependimomas malignos o tumores del plexo coriodeo del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1309679451"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Astrocitomas malignos del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1703717767"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "astrogliomas malignos del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1703717767"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Otros gliomas malignos del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1747594744"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores malignos de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasmas malignos de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "cánceres de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias malignas de la vaina del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1177316435"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Otras neoplasias malignas especificadas del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "otros tumores malignos especificados del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "otros cánceres especificados del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "otros neoplasmas malignos especificados del nervio óptico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/769616206"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "fe1c13b4a79c6df7925a9f42edec1665",
+      "revision": 1,
+      "createdAt": "2026-10-04T00:06:12.812Z",
+      "updatedAt": "2026-10-04T00:06:12.812Z",
+      "selectionId": "b7d156f48836c21d58a62f99d7bffaaf",
+      "textOriginal": "Se debería activar el eje de postcoordinación de histopatología,  para codificar subtipos específicos: XH4V81 (MPNST epitelioide) y XH2VV8 (MPNST con diferenciación rabdomioblástica).\nSe debería activar el eje de postcoordinación de topografía, ya que la topografía paraespinal sigue correspondiendo a PNS.\nCorregir versión online de WHO Blue Books (o esperar Ed. 6) --> ICD-11 coding, ya que código propuesto no incluye la raiz propia.\n2A02.0Y & XH2XP8 Other specified gliomas of spinal cord, cranial nerves, or other parts of the central nervous system & Malignant peripheral nerve sheath tumour",
+      "note": "Se debería activar el eje de postcoordinación de histopatología,  para codificar subtipos específicos: XH4V81 (MPNST epitelioide) y XH2VV8 (MPNST con diferenciación rabdomioblástica).\nSe debería activar el eje de postcoordinación de topografía, ya que la topografía paraespinal sigue correspondiendo a PNS.\nCorregir versión online de WHO Blue Books (o esperar Ed. 6) --> ICD-11 coding, ya que código propuesto no incluye la raiz propia.\n2A02.0Y & XH2XP8 Other specified gliomas of spinal cord, cranial nerves, or other parts of the central nervous system & Malignant peripheral nerve sheath tumour",
+      "tags": [
+        "Postcoordination",
+        "Topography",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/71413945",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/71413945",
+        "foundationUri": "http://id.who.int/icd/entity/71413945",
+        "code": "2A02.10",
+        "title": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+        "bestMatchText": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+        "selectedText": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales"
+      },
+      "captureRecord": {
+        "selectionId": "b7d156f48836c21d58a62f99d7bffaaf",
+        "instance": "browser",
+        "timestamp": "2026-10-03T23:57:10.986Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/71413945",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/71413945",
+          "foundationUri": "http://id.who.int/icd/entity/71413945",
+          "code": "2A02.10",
+          "title": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+          "bestMatchText": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+          "selectedText": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.10",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/71413945",
+          "foundationUri": "http://id.who.int/icd/entity/71413945",
+          "label": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neurofibrosarcoma"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor maligno de la vaina del nervio periférico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia maligna del neurilema del nervio periférico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "cáncer del neurilema del nervio periférico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma maligno del neurilema del nervio periférico"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor maligno de la vaina de Schwann del nervio periférico"
+            }
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "4ba30cfe664fe411b00d2be423ba3d15",
+      "revision": 1,
+      "createdAt": "2026-10-02T18:55:57.816Z",
+      "updatedAt": "2026-10-02T18:55:57.816Z",
+      "selectionId": "4eba3b597cd4d5d0a6882398a05ff899",
+      "textOriginal": "Categoría residual sin especificación no debería tener activado el eje de postcoordinación de histopatología, porque pasaría a ser una entidad especificada)",
+      "note": "Categoría residual sin especificación no debería tener activado el eje de postcoordinación de histopatología, porque pasaría a ser una entidad especificada)",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/unspecified",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/unspecified",
+        "foundationUri": "http://id.who.int/icd/entity/161690729",
+        "code": "2A02.0Z",
+        "title": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación",
+        "bestMatchText": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación",
+        "selectedText": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación"
+      },
+      "captureRecord": {
+        "selectionId": "4eba3b597cd4d5d0a6882398a05ff899",
+        "instance": "browser",
+        "timestamp": "2026-10-02T18:52:17.204Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/unspecified",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/161690729",
+          "code": "2A02.0Z",
+          "title": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación",
+          "bestMatchText": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación",
+          "selectedText": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.0Z",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/161690729",
+          "label": "Gliomas de médula espinal, pares craneales o de nervios paraespinales, sin especificación"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "ba7fabe9c93d8edf403930fa16bddfb6",
+      "revision": 1,
+      "createdAt": "2026-10-02T18:52:08.840Z",
+      "updatedAt": "2026-10-02T18:52:08.840Z",
+      "selectionId": "f30ae80663b98362671335265261d4ae",
+      "textOriginal": "En general en esta categoría y sus hijos, no aparece la opción de postcoordinar las topografías para sistema nervioso periférico. Aunque es correcto ya que el bloque padre es \"Sistema nervioso central\", esta categoría incluye nervios paraespinales, que pertenece a SNP.",
+      "note": "En general en esta categoría y sus hijos, no aparece la opción de postcoordinar las topografías para sistema nervioso periférico. Aunque es correcto ya que el bloque padre es \"Sistema nervioso central\", esta categoría incluye nervios paraespinales, que pertenece a SNP.",
+      "tags": [
+        "Postcoordination",
+        "Topography"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/161690729",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729",
+        "foundationUri": "http://id.who.int/icd/entity/161690729",
+        "code": "2A02.0",
+        "title": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales",
+        "bestMatchText": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales",
+        "selectedText": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales"
+      },
+      "captureRecord": {
+        "selectionId": "f30ae80663b98362671335265261d4ae",
+        "instance": "browser",
+        "timestamp": "2026-10-02T18:47:28.148Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/161690729",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729",
+          "foundationUri": "http://id.who.int/icd/entity/161690729",
+          "code": "2A02.0",
+          "title": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales",
+          "bestMatchText": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales",
+          "selectedText": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.0",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729",
+          "foundationUri": "http://id.who.int/icd/entity/161690729",
+          "label": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "3844e0b20e651354ebd1fc71627fe36c",
+      "revision": 1,
+      "createdAt": "2026-10-02T18:47:22.373Z",
+      "updatedAt": "2026-10-02T18:47:22.373Z",
+      "selectionId": "37e43feda63c352249cb765449803288",
+      "textOriginal": "Se deben reducir las opciones de postcoordinación de histopatología, para neoplasias gliales de aparición en topografías incluidas. Las categorías actuales incluyen neoplasias ya definidas en otros subgrupos, como los gliomas de plexos coroideos que están codificados en \"tumores de plexos coroideos\".",
+      "note": "Se deben reducir las opciones de postcoordinación de histopatología, para neoplasias gliales de aparición en topografías incluidas. Las categorías actuales incluyen neoplasias ya definidas en otros subgrupos, como los gliomas de plexos coroideos que están codificados en \"tumores de plexos coroideos\".",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/other",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/other",
+        "foundationUri": "http://id.who.int/icd/entity/161690729",
+        "code": "2A02.0Y",
+        "title": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales",
+        "bestMatchText": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales",
+        "selectedText": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales"
+      },
+      "captureRecord": {
+        "selectionId": "37e43feda63c352249cb765449803288",
+        "instance": "browser",
+        "timestamp": "2026-10-02T18:39:23.482Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/other",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/other",
+          "foundationUri": "http://id.who.int/icd/entity/161690729",
+          "code": "2A02.0Y",
+          "title": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales",
+          "bestMatchText": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales",
+          "selectedText": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A02.0Y",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729/other",
+          "foundationUri": "http://id.who.int/icd/entity/161690729",
+          "label": "Otros gliomas especificados de médula espinal, pares craneales o de nervios paraespinales"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Glioblastoma de médula espinal, pares craneales o de nervios paraespinales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioblastoma de médula espinal, pares craneanos o de nervios paraespinales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioma maligno de médula espinal, pares craneales o de nervios paraespinales"
+            }
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "7ff9670a40fb6971375bdef0e68ea330",
+      "revision": 1,
+      "createdAt": "2026-10-02T17:50:34.093Z",
+      "updatedAt": "2026-10-02T17:50:34.093Z",
+      "selectionId": "e0cd8af52d581f8b122d3b9dc8611a60",
+      "textOriginal": "Se podría reducir el eje de postcoordinación. Las opciones son:\n- acotar a una agrupación propia reutilizable como neoplasias mesenquimales\n- Limitar a las opciones tipo \"tumores de vasos sanguineos, neoplasias fibromatosas, tumor de los vasos linfáticos.\", que son categorías agrupadoras ya existentes en el eje de histopatología.\n- Similar a la opción 2, pero añadir la aparición sin agrupación de las neoplasias mas frecuentemente encontradas en el CNS que tienen caracterización molecular (Soft tissue tumours:\nSoft tissue tumours\n-- Fibroblastic and myofibroblastic tumours\n---- Solitary fibrous tumour\n-- Vascular tumours\n---- Haemangiomas and vascular malformations\n---- Haemangioblastoma\n-- Skeletal muscle tumours\n---- Rhabdomyosarcoma\n-- Tumours of uncertain differentiation\n---- Intracranial mesenchymal tumour, FET::CREB fusion-positive\n---- CIC-rearranged sarcoma\n---- Primary intracranial sarcoma, DICER1-mutant\n---- Ewing sarcoma\nChondro-osseous tumours\n-- Chondrogenic tumours\n---- Mesenchymal chondrosarcoma\n---- Chondrosarcoma\nNotochordal tumours\n-- Chordoma\n\nConsiderar expandir o crear una entidad que sea homologable al capítulo (CNS por sobre meninges)",
+      "note": "Se podría reducir el eje de postcoordinación. Las opciones son:\n- acotar a una agrupación propia reutilizable como neoplasias mesenquimales\n- Limitar a las opciones tipo \"tumores de vasos sanguineos, neoplasias fibromatosas, tumor de los vasos linfáticos.\", que son categorías agrupadoras ya existentes en el eje de histopatología.\n- Similar a la opción 2, pero añadir la aparición sin agrupación de las neoplasias mas frecuentemente encontradas en el CNS que tienen caracterización molecular (Soft tissue tumours:\nSoft tissue tumours\n-- Fibroblastic and myofibroblastic tumours\n---- Solitary fibrous tumour\n-- Vascular tumours\n---- Haemangiomas and vascular malformations\n---- Haemangioblastoma\n-- Skeletal muscle tumours\n---- Rhabdomyosarcoma\n-- Tumours of uncertain differentiation\n---- Intracranial mesenchymal tumour, FET::CREB fusion-positive\n---- CIC-rearranged sarcoma\n---- Primary intracranial sarcoma, DICER1-mutant\n---- Ewing sarcoma\nChondro-osseous tumours\n-- Chondrogenic tumours\n---- Mesenchymal chondrosarcoma\n---- Chondrosarcoma\nNotochordal tumours\n-- Chordoma\n\nConsiderar expandir o crear una entidad que sea homologable al capítulo (CNS por sobre meninges)",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1063986779",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1063986779",
+        "foundationUri": "http://id.who.int/icd/entity/1063986779",
+        "code": "2A01.1",
+        "title": "Tumor mesenquimal de las meninges",
+        "bestMatchText": "Tumor mesenquimal de las meninges",
+        "selectedText": "Tumor mesenquimal de las meninges"
+      },
+      "captureRecord": {
+        "selectionId": "e0cd8af52d581f8b122d3b9dc8611a60",
+        "instance": "browser",
+        "timestamp": "2026-10-02T17:29:38.147Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1063986779",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1063986779",
+          "foundationUri": "http://id.who.int/icd/entity/1063986779",
+          "code": "2A01.1",
+          "title": "Tumor mesenquimal de las meninges",
+          "bestMatchText": "Tumor mesenquimal de las meninges",
+          "selectedText": "Tumor mesenquimal de las meninges"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A01.1",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1063986779",
+          "foundationUri": "http://id.who.int/icd/entity/1063986779",
+          "label": "Tumor mesenquimal de las meninges"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor mesenquimal de las meninges"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores meníngeos mesenquimatosos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores mesenquimales de las meninges"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "mesenquimomas meníngeos"
+            }
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "904e8b727fe04b5254f9bd0a2ccc0620",
+      "revision": 1,
+      "createdAt": "2026-10-01T19:58:56.628Z",
+      "updatedAt": "2026-10-01T19:58:56.628Z",
+      "selectionId": "0c9e99bc569f48738cad474b2bbab2c5",
+      "textOriginal": "Categoría residual no especificada no debería dar la opción de especificarla mediante postcoordinación de histopatología (Si es correcto postcoordinar a nivel de topografía)",
+      "note": "Categoría residual no especificada no debería dar la opción de especificarla mediante postcoordinación de histopatología (Si es correcto postcoordinar a nivel de topografía)",
+      "tags": [
+        "Postcoordination",
+        "Histopathology",
+        "ResidualEntity"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/unspecified",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/unspecified",
+        "foundationUri": "http://id.who.int/icd/entity/915334913",
+        "code": "2A00.2Z",
+        "title": "Tumores del tejido neuroepitelial del encéfalo, sin especificación",
+        "bestMatchText": "Tumores del tejido neuroepitelial del encéfalo, sin especificación",
+        "selectedText": "Tumores del tejido neuroepitelial del encéfalo, sin especificación"
+      },
+      "captureRecord": {
+        "selectionId": "0c9e99bc569f48738cad474b2bbab2c5",
+        "instance": "browser",
+        "timestamp": "2026-10-01T19:58:55.518Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/unspecified",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/915334913",
+          "code": "2A00.2Z",
+          "title": "Tumores del tejido neuroepitelial del encéfalo, sin especificación",
+          "bestMatchText": "Tumores del tejido neuroepitelial del encéfalo, sin especificación",
+          "selectedText": "Tumores del tejido neuroepitelial del encéfalo, sin especificación"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.2Z",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/915334913",
+          "label": "Tumores del tejido neuroepitelial del encéfalo, sin especificación"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "234297066858e8bd6465fe8dc7dd6bad",
+      "revision": 2,
+      "createdAt": "2026-10-01T19:57:11.919Z",
+      "updatedAt": "2026-10-02T15:41:49.795Z",
+      "selectionId": "91e6158d64555d25854c3a0fae208edf",
+      "textOriginal": "Se puede acotar las opciones de postcoordinación de histopatología:\n1. Eliminar todas las histopatologías que deberían estar disponibles para \"tumores mixtos gliales-neuronales\"\n2. Eliminar las histopatologías que corresponden a neoplasias que no corresponden al encéfalo (Retinoblastoma / C69.2 - Neuroblastoma olfatorio / C30.0).",
+      "note": "Se puede acotar las opciones de postcoordinación de histopatología:\n1. Eliminar todas las histopatologías que deberían estar disponibles para \"tumores mixtos gliales-neuronales\"\n2. Eliminar las histopatologías que corresponden a neoplasias que no corresponden al encéfalo (Retinoblastoma / C69.2 - Neuroblastoma olfatorio / C30.0).\n3. Eliminar histopatologías que corresponden a neoplasias que si están dentro del grupo de neoplasias neuroepiteliomatosas del encéfalo pero que están pre-coordinadas en un stem propio (Central neurocitoma of Brain - 2A00.3)",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/other",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/other",
+        "foundationUri": "http://id.who.int/icd/entity/915334913",
+        "code": "2A00.2Y",
+        "title": "Otros tumores especificados del tejido neuroepitelial del encéfalo",
+        "bestMatchText": "Otros tumores especificados del tejido neuroepitelial del encéfalo",
+        "selectedText": "Otros tumores especificados del tejido neuroepitelial del encéfalo"
+      },
+      "captureRecord": {
+        "selectionId": "91e6158d64555d25854c3a0fae208edf",
+        "instance": "browser",
+        "timestamp": "2026-10-01T19:56:47.424Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/other",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/other",
+          "foundationUri": "http://id.who.int/icd/entity/915334913",
+          "code": "2A00.2Y",
+          "title": "Otros tumores especificados del tejido neuroepitelial del encéfalo",
+          "bestMatchText": "Otros tumores especificados del tejido neuroepitelial del encéfalo",
+          "selectedText": "Otros tumores especificados del tejido neuroepitelial del encéfalo"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.2Y",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913/other",
+          "foundationUri": "http://id.who.int/icd/entity/915334913",
+          "label": "Otros tumores especificados del tejido neuroepitelial del encéfalo"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores de los plexos coroideos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma anaplásico de plexo coroideo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de plexos coroideo SAI"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de los plexos coroideos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo en el cuarto ventrículo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de los plexos coroideos en el cuarto ventrículo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1696749652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo (lesión de grado 1)"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1696749652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo atípico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1640044333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de plexos coroideos atípico (lesión de grado 2)"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1640044333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma atípico de los plexos coroideos"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1640044333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Carcinoma del plexo coroideo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1128449352"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Carcinoma de los plexos coroideos (lesión grado 3)"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1128449352"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "b93e9520f6e9ec9cb6ee40fcf07f38b4",
+      "revision": 1,
+      "createdAt": "2026-10-01T19:35:35.481Z",
+      "updatedAt": "2026-10-01T19:35:35.481Z",
+      "selectionId": "544752277bea0c6a4118c0a3cec2768e",
+      "textOriginal": "Se puede acotar postcoordinación de topografía a categoría no terminal \nXA26E8 Ventrículo cerebral con sus hijos.",
+      "note": "Se puede acotar postcoordinación de topografía a categoría no terminal \nXA26E8 Ventrículo cerebral con sus hijos.",
+      "tags": [
+        "Postcoordination",
+        "Histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502",
+        "foundationUri": "http://id.who.int/icd/entity/1959912502",
+        "code": "2A00.22",
+        "title": "Tumores de los plexos coroideos",
+        "bestMatchText": "Tumores de los plexos coroideos",
+        "selectedText": "Tumores de los plexos coroideos"
+      },
+      "captureRecord": {
+        "selectionId": "544752277bea0c6a4118c0a3cec2768e",
+        "instance": "browser",
+        "timestamp": "2026-10-01T19:28:10.719Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502",
+          "foundationUri": "http://id.who.int/icd/entity/1959912502",
+          "code": "2A00.22",
+          "title": "Tumores de los plexos coroideos",
+          "bestMatchText": "Tumores de los plexos coroideos",
+          "selectedText": "Tumores de los plexos coroideos"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.22",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502",
+          "foundationUri": "http://id.who.int/icd/entity/1959912502",
+          "label": "Tumores de los plexos coroideos"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores de los plexos coroideos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma anaplásico de plexo coroideo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de plexos coroideo SAI"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de los plexos coroideos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo en el cuarto ventrículo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de los plexos coroideos en el cuarto ventrículo"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1696749652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo (lesión de grado 1)"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1696749652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma del plexo coroideo atípico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1640044333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma de plexos coroideos atípico (lesión de grado 2)"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1640044333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Papiloma atípico de los plexos coroideos"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1640044333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Carcinoma del plexo coroideo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1128449352"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Carcinoma de los plexos coroideos (lesión grado 3)"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1128449352"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "031ecd8c409b90c2f22211509ce9c1fe",
+      "revision": 1,
+      "createdAt": "2026-10-01T19:21:52.325Z",
+      "updatedAt": "2026-10-01T19:21:52.325Z",
+      "selectionId": "21c43e609f74ba33ef6f994340dee00f",
+      "textOriginal": "Se puede acotar las opciones de postcoordinación a \n93610/1 XH1K94 Pineocytoma, NOS\n93620/3 XH1ZH1 Pineoblastoma, NOS\n93621/3 XH1S48 Pineal parenchymal tumour of intermediate differentiation\n93622/3 XH2S71 Mixed pineal tumour \n93623/3 XH3D20 Transitional pineal tumour\n93624/3 Pineoblastoma, miRNA processing-altered_1\n93625/3 Pineoblastoma, miRNA processing-altered_2\n93626/3 Pineoblastoma, RB1-altered (pineal retinoblastoma)\n93627/3 Pineoblastoma, MYC/FOXR2-activated\n93950/3 XH3904 Papillary tumour of pineal region\n\nPinealoma (XH8QA9 - 9360/1) no aparece en ICD-O (término histórico que agrupa a tumores de la glándula pineal sin especificar comportamiento. // Podría inactivarse.",
+      "note": "Se puede acotar las opciones de postcoordinación a \n93610/1 XH1K94 Pineocytoma, NOS\n93620/3 XH1ZH1 Pineoblastoma, NOS\n93621/3 XH1S48 Pineal parenchymal tumour of intermediate differentiation\n93622/3 XH2S71 Mixed pineal tumour \n93623/3 XH3D20 Transitional pineal tumour\n93624/3 Pineoblastoma, miRNA processing-altered_1\n93625/3 Pineoblastoma, miRNA processing-altered_2\n93626/3 Pineoblastoma, RB1-altered (pineal retinoblastoma)\n93627/3 Pineoblastoma, MYC/FOXR2-activated\n93950/3 XH3904 Papillary tumour of pineal region\n\nPinealoma (XH8QA9 - 9360/1) no aparece en ICD-O (término histórico que agrupa a tumores de la glándula pineal sin especificar comportamiento. // Podría inactivarse.",
+      "tags": [
+        "postcoordination",
+        "histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435",
+        "foundationUri": "http://id.who.int/icd/entity/1728662435",
+        "code": "2A00.20",
+        "title": "Tumores de la glándula pineal o de la región pineal",
+        "bestMatchText": "Tumores de la glándula pineal o de la región pineal",
+        "selectedText": "Tumores de la glándula pineal o de la región pineal"
+      },
+      "captureRecord": {
+        "selectionId": "21c43e609f74ba33ef6f994340dee00f",
+        "instance": "browser",
+        "timestamp": "2026-10-01T19:21:42.216Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435",
+          "foundationUri": "http://id.who.int/icd/entity/1728662435",
+          "code": "2A00.20",
+          "title": "Tumores de la glándula pineal o de la región pineal",
+          "bestMatchText": "Tumores de la glándula pineal o de la región pineal",
+          "selectedText": "Tumores de la glándula pineal o de la región pineal"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.20",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435",
+          "foundationUri": "http://id.who.int/icd/entity/1728662435",
+          "label": "Tumores de la glándula pineal o de la región pineal"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores de la glándula pineal o de la región pineal"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias de la glándula pineal o de la región pineal"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores de la epífisis cerebral o de la región pineal"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores del cuerpo pineal o de la región pineal"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasmas de la glándula pineal o de la región pineal"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores malignos diversos de la glándula pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/581659989"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasmas malignos diversos de la glándula pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/581659989"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias malignas diversas de la glándula pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/581659989"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "cánceres diversos de la glándula pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/581659989"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores malignos diversos del cuerpo pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/581659989"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores malignos diversos de la epífisis cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/581659989"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor papilar de la región pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1307433667"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor papilar de la región del cuerpo pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1307433667"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor papilar de la región de la epífisis cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1307433667"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor papilar pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1307433667"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma papilar de la región pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1307433667"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia papilar de la región pineal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1307433667"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor parenquimatoso pineal de diferenciación intermedia"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1915762610"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor parenquimatoso del cuerpo pineal de diferenciación intermedia"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1915762610"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia parenquimatosa pineal de diferenciación intermedia"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1915762610"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor parenquimatoso de la epífisis cerebral de diferenciación intermedia"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1915762610"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma parenquimatoso pineal de diferenciación intermedia"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1915762610"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Neoplasias epiteliales malignas de la glándula pineal, tipo no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/575890292"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores epiteliales malignos de la glándula pineal, tipo no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/575890292"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias epiteliales malignas de la epífisis cerebral, tipo no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/575890292"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasmas epiteliales malignos de la glándula pineal, tipo no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/575890292"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "carcinomas de la glándula pineal, tipo no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/575890292"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias epiteliales malignas del cuerpo pineal, tipo no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/575890292"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Neoplasia primaria del cerebro, pineoblastoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1492986330"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "pinealoblastoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1492986330"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia primaria encefálica, pineoblastoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1492986330"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia primaria del encéfalo, pineoblastoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1492986330"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia primaria cerebral, pinealoblastoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1492986330"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Pineocitoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2055142333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "pinealoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2055142333"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "pinealocitoma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2055142333"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "f3ff3d7cd4a9cf188c85dbc49afd0829",
+      "revision": 2,
+      "createdAt": "2026-10-01T19:20:54.515Z",
+      "updatedAt": "2026-10-01T19:27:42.151Z",
+      "selectionId": "bc34bd846b5843fb2fb70b1908de2270",
+      "textOriginal": "Se puede acotar postcoordinación de histopatología a:\n9505/1 XH5FJ3 Ganglioglioma\n9505/3 Ganglioglioma, anaplastic\n9492/0 XH0C11 Gangliocytoma\n9412/1 XH6TQ7 Desmoplastic infantile ganglioglioma\n9412/1 XH7M44 Desmoplastic infantile astrocytoma\n9413/0 XH0H76 Dysembryoplastic neuroepithelial tumour\n9509/1 XH3XU4 Papillary glioneuronal tumour\n9509/1 XH2JU8 Rosette-forming glioneuronal tumour\n9493/0 XH6K00 Dysplastic cerebellar gangliocytoma (Lhermitte–Duclos disease)\n9506/1 XH0C11 Central neurocytoma\n9506/1 XH2HS1 Extraventricular neurocytoma\n9506/1 XH2GB0 Cerebellar liponeurocytoma\n\nY añadir \n9509/1          Myxoid glioneuronal tumour†\n9509/3*        Diffuse leptomeningeal glioneuronal tumour\n9509/0*        Multinodular and vacuolating neuronal tumour",
+      "note": "Se puede acotar postcoordinación de histopatología a:\n9505/1 XH5FJ3 Ganglioglioma\n9505/3 Ganglioglioma, anaplastic\n9492/0 XH0C11 Gangliocytoma\n9412/1 XH6TQ7 Desmoplastic infantile ganglioglioma\n9412/1 XH7M44 Desmoplastic infantile astrocytoma\n9413/0 XH0H76 Dysembryoplastic neuroepithelial tumour\n9509/1 XH3XU4 Papillary glioneuronal tumour\n9509/1 XH2JU8 Rosette-forming glioneuronal tumour\n9493/0 XH6K00 Dysplastic cerebellar gangliocytoma (Lhermitte–Duclos disease)\n9506/1 XH0C11 Central neurocytoma\n9506/1 XH2HS1 Extraventricular neurocytoma\n9506/1 XH2GB0 Cerebellar liponeurocytoma\n\nY añadir \n9509/1          Myxoid glioneuronal tumour†\n9509/3*        Diffuse leptomeningeal glioneuronal tumour\n9509/0*        Multinodular and vacuolating neuronal tumour\n\ndiffuse leptomeningeal glioneuronal tumour podría tener compromiso de leptomeninges espinal, por lo que se debe ampliar opción de postcoordinación de anatomía.",
+      "tags": [
+        "postcoordination",
+        "histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1792897751",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1792897751",
+        "foundationUri": "http://id.who.int/icd/entity/1792897751",
+        "code": "2A00.21",
+        "title": "Tumores mixtos gliales-neuronales",
+        "bestMatchText": "Tumores mixtos gliales-neuronales",
+        "selectedText": "Tumores mixtos gliales-neuronales"
+      },
+      "captureRecord": {
+        "selectionId": "bc34bd846b5843fb2fb70b1908de2270",
+        "instance": "browser",
+        "timestamp": "2026-10-01T18:56:41.820Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1792897751",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1792897751",
+          "foundationUri": "http://id.who.int/icd/entity/1792897751",
+          "code": "2A00.21",
+          "title": "Tumores mixtos gliales-neuronales",
+          "bestMatchText": "Tumores mixtos gliales-neuronales",
+          "selectedText": "Tumores mixtos gliales-neuronales"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.21",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1792897751",
+          "foundationUri": "http://id.who.int/icd/entity/1792897751",
+          "label": "Tumores mixtos gliales-neuronales"
+        },
+        "indexTerm": [
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores mixtos gliales-neuronales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumores glioneuronales mixtos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores neuronales y gliales neuronales mixtos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores mixtos gliales-neuronales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasmas mixtos glioneurales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumores neuronales y neurogliales mixtos"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasias mixtas glioneurales"
+            }
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ganglioglioma anaplásico del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/813272495"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioglioma anaplásico cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/813272495"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioma ganglionar encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/813272495"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioglioma anaplásico del cerebro"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/813272495"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioneuroma anaplásico del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/813272495"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ganglioglioma o astrocitoma infantil desmoplásico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1156758652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioma ganglionar o astrocitoma infantil desmoplásico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1156758652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioneuroma o astrocitoma infantil desmoplásico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1156758652"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor disembrioplástico neuroepitelial del cerebro"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2066698505"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia neuroepitelial disembrioplástica del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2066698505"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor disembrioplástico neuroepitelial del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2066698505"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor neuroepitelial disembrioplástico del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2066698505"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma neuroepitelial disembrioplástica del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2066698505"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor neuroepitelial disembrioplástico encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/2066698505"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor glioneuronal papilar del cerebro"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/433042746"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia glioneuronal papilar del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/433042746"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "tumor glioneuronal papilar del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/433042746"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma glioneuronal papilar del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/433042746"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Tumor glioneuronal formador de rosetas del cuarto ventrículo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/777819208"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasma glioneuronal formador de rosetas del cuarto ventrículo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/777819208"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neoplasia glioneuronal formadora de rosetas del cuarto ventrículo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/777819208"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Gangliocitoma del cerebro"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neuroganglioma cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neurocitoma encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioneuroma del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioma encefálicol"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neuroma ganglionar encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1996187773"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ganglioglioma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1287417975"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioneuroma de sitio no especificado"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1287417975"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neuroglioma ganglionar"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1287417975"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioneuroma"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1287417975"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioma ganglionar"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1287417975"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ganglioglioma nasal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/40917416"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioneuroma nsal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/40917416"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neuroglioma ganglionar nasal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/40917416"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "glioma ganglionar nasal"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/40917416"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Ganglioneuroma del cerebro"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "neuroastrocitoma de localización no especificada"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioneuroma del encéfalo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioneuroma cerebral"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "ganglioneuroma encefálico"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/215959075"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "Gangliocitoma displásico del cerebelo"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1557864133"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "enfermedad de Lhermitte-Duclos"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1557864133"
+          },
+          {
+            "label": {
+              "@language": "es",
+              "@value": "gangliocitoma displásico cerebeloso"
+            },
+            "foundationReference": "http://id.who.int/icd/entity/1557864133"
+          }
+        ],
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "0295d6f2716f31145729679dcda5dcbb",
+      "revision": 1,
+      "createdAt": "2026-09-24T03:42:56.047Z",
+      "updatedAt": "2026-09-24T03:42:56.047Z",
+      "selectionId": "c66033b2049839e161ce61767185eb54",
+      "textOriginal": "No debe ofrecerse la posibilidad de postcoordinar histopatología en el residual .Z, ya que este tiene precoordinado el atributo CNS embryonal tumour, NEC/NOS (NEC si los estudios moleculares salieron negativos y NOS si no se pudieron realizar). Asi mismo, no se debe ofrecer como posibilidad de postcoordinacion 9473/3 CNS embryonal tumour, NEC/NOS en la entidad residual .Y",
+      "note": "No debe ofrecerse la posibilidad de postcoordinar histopatología en el residual .Z, ya que este tiene precoordinado el atributo CNS embryonal tumour, NEC/NOS (NEC si los estudios moleculares salieron negativos y NOS si no se pudieron realizar). Asi mismo, no se debe ofrecer como posibilidad de postcoordinacion 9473/3 CNS embryonal tumour, NEC/NOS en la entidad residual .Y",
+      "tags": [
+        "postcoordination",
+        "histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "code": "2A00.1Z",
+        "title": "Tumores embrionarios del cerebro, sin especificación",
+        "bestMatchText": "Tumores embrionarios del cerebro, sin especificación",
+        "selectedText": "Tumores embrionarios del cerebro, sin especificación"
+      },
+      "captureRecord": {
+        "selectionId": "c66033b2049839e161ce61767185eb54",
+        "instance": "browser",
+        "timestamp": "2026-09-24T03:41:05.909Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/1994022806",
+          "code": "2A00.1Z",
+          "title": "Tumores embrionarios del cerebro, sin especificación",
+          "bestMatchText": "Tumores embrionarios del cerebro, sin especificación",
+          "selectedText": "Tumores embrionarios del cerebro, sin especificación"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.1Z",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/unspecified",
+          "foundationUri": "http://id.who.int/icd/entity/1994022806",
+          "label": "Tumores embrionarios del cerebro, sin especificación"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "instance": "browser"
+    },
+    {
+      "feedbackId": "d463a74f266181e0fca30a6f1e2608c1",
+      "revision": 4,
+      "createdAt": "2026-09-24T03:34:53.041Z",
+      "updatedAt": "2026-09-24T03:40:54.554Z",
+      "selectionId": "e5c662590026a9823e7b549fb4313f56",
+      "textOriginal": "Reducir postcoordinacion de histopatología:\nEmbryonal tumours\nMedulloblastomas, molecularly defined\n9475/3          Medulloblastoma, WNT-activated\n9471/3          Medulloblastoma, SHH-activated and TP53-wildtype\n9476/3          Medulloblastoma, SHH-activated and TP53-mutant\n9477/3          Medulloblastoma, non-WNT/non-SHH\nMedulloblastomas, histologically defined\n9470/3          Medulloblastoma, histologically defined\n9471/3                Desmoplastic nodular medulloblastoma\n9471/3                Medulloblastoma with extensive nodularity\n9474/3                Large cell medulloblastoma\n9474/3                Anaplastic medulloblastoma \nOther CNS embryonal tumours\n9508/3          Atypical teratoid/rhabdoid tumour\nn/a                 Cribriform neuroepithelial tumour (provisional entity)\n9478/3          Embryonal tumour with multilayered rosettes\n9500/3          CNS neuroblastoma, FOXR2-activated†\n9500/3          CNS tumour with BCOR internal tandem duplication†\n9473/3          CNS embryonal tumour, NEC/NOS",
+      "note": "Reducir postcoordinacion de histopatología:\nEmbryonal tumours\nMedulloblastomas, molecularly defined\n9475/3          Medulloblastoma, WNT-activated\n9471/3          Medulloblastoma, SHH-activated and TP53-wildtype\n9476/3          Medulloblastoma, SHH-activated and TP53-mutant\n9477/3          Medulloblastoma, non-WNT/non-SHH\nMedulloblastomas, histologically defined\n9470/3          Medulloblastoma, histologically defined\n9471/3                Desmoplastic nodular medulloblastoma\n9471/3                Medulloblastoma with extensive nodularity\n9474/3                Large cell medulloblastoma\n9474/3                Anaplastic medulloblastoma \nOther CNS embryonal tumours\n9508/3          Atypical teratoid/rhabdoid tumour\nn/a                 Cribriform neuroepithelial tumour (provisional entity)\n9478/3          Embryonal tumour with multilayered rosettes\n9500/3          CNS neuroblastoma, FOXR2-activated†\n9500/3          CNS tumour with BCOR internal tandem duplication†",
+      "tags": [
+        "postcoordination",
+        "histopathology"
+      ],
+      "verdict": "review",
+      "rawSelectionPayload": {
+        "iNo": "browser_1",
+        "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "code": "2A00.1Y",
+        "title": "Otros tumores embrionarios especificados del cerebro",
+        "bestMatchText": "Otros tumores embrionarios especificados del cerebro",
+        "selectedText": "Otros tumores embrionarios especificados del cerebro"
+      },
+      "captureRecord": {
+        "selectionId": "e5c662590026a9823e7b549fb4313f56",
+        "instance": "browser",
+        "timestamp": "2026-09-24T03:40:52.229Z",
+        "entity": {
+          "iNo": "browser_1",
+          "uri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+          "foundationUri": "http://id.who.int/icd/entity/1994022806",
+          "code": "2A00.1Y",
+          "title": "Otros tumores embrionarios especificados del cerebro",
+          "bestMatchText": "Otros tumores embrionarios especificados del cerebro",
+          "selectedText": "Otros tumores embrionarios especificados del cerebro"
+        },
+        "query": {
+          "original": null,
+          "normalized": ""
+        },
+        "searchCandidates": [],
+        "describeData": {
+          "code": "2A00.1Y",
+          "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other",
+          "foundationUri": "http://id.who.int/icd/entity/1994022806",
+          "label": "Otros tumores embrionarios especificados del cerebro"
+        },
+        "indexTerm": null,
+        "otherPostcoordinationEnabled": false,
+        "captureLimitations": "No se pudieron observar candidatos de búsqueda en el DOM al momento de la selección (lista vacía o widget ya la había limpiado)."
+      },
+      "otherPostcoordinationEnabled": false,
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "instance": "browser"
+    }
+  ],
+  "curationDecisions": [
+    {
+      "curationId": "f6168637eb7b74b793cea3879783204c",
+      "createdAt": "2026-10-04T00:57:13.882Z",
+      "updatedAt": "2026-10-04T00:57:13.882Z",
+      "expression": "2A02.2&XA84W1",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoTopography",
+      "proposedCode": "C72.0",
+      "proposedStatus": "fallback",
+      "proposedRoute": "F6",
+      "decision": "changed",
+      "correctedCode": "C72.1",
+      "rationale": "Cola de caballo (o cauda equina) XA84W1 tiene su ICD-O topográfico específico.",
+      "stemCode": "2A02.2",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasia primaria de médula espinal de tipo desconocido o no especificado",
+        "selectedText": "Neoplasia primaria de médula espinal de tipo desconocido o no especificado [Cola de caballo]",
+        "code": "2A02.2&XA84W1",
+        "foundationUri": "http://id.who.int/icd/entity/783234001 & http://id.who.int/icd/entity/677972541",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/783234001 & http://id.who.int/icd/release/11/2026-01/mms/677972541"
+      }
+    },
+    {
+      "curationId": "9ff9e893454a21f6fed3176cf6a7c814",
+      "createdAt": "2026-10-04T00:32:24.086Z",
+      "updatedAt": "2026-10-04T00:32:24.086Z",
+      "expression": "2A02.12",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "C72.3",
+      "proposedStatus": "fallback",
+      "proposedRoute": "F2",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A02.12",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasia maligna del nervio óptico",
+        "selectedText": "Neoplasia maligna del nervio óptico",
+        "code": "2A02.12",
+        "foundationUri": "http://id.who.int/icd/entity/1830847427",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427"
+      }
+    },
+    {
+      "curationId": "537b83ff139c455bc14c4f21d79fefd5",
+      "createdAt": "2026-10-04T00:32:12.183Z",
+      "updatedAt": "2026-10-04T00:32:12.183Z",
+      "expression": "2A02.12",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoTopography",
+      "proposedCode": "C72.3",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F6",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A02.12",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasia maligna del nervio óptico",
+        "selectedText": "Neoplasia maligna del nervio óptico",
+        "code": "2A02.12",
+        "foundationUri": "http://id.who.int/icd/entity/1830847427",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1830847427"
+      }
+    },
+    {
+      "curationId": "c60e5de4c9e15e8e45fe6965748a5a78",
+      "createdAt": "2026-10-04T00:24:03.902Z",
+      "updatedAt": "2026-10-04T00:24:03.902Z",
+      "expression": "2A02.11",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoTopography",
+      "proposedCode": "C47.9",
+      "proposedStatus": "fallback",
+      "proposedRoute": "F6",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Código correcto, con label incorrecto. El label es Peripheral nerve, NOS o Ganglia o Ganglia, NOS.",
+      "stemCode": "2A02.11",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Neuroblastoma paravertebral",
+        "selectedText": "Neuroblastoma paravertebral",
+        "code": "2A02.11",
+        "foundationUri": "http://id.who.int/icd/entity/135512034",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/135512034"
+      }
+    },
+    {
+      "curationId": "9b4dd164d1eaa80689f0a58cb7f6e89a",
+      "createdAt": "2026-10-04T00:17:03.881Z",
+      "updatedAt": "2026-10-04T00:24:33.845Z",
+      "expression": "2A02.11",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "C47.9",
+      "proposedStatus": "candidate",
+      "proposedRoute": "F5",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Código correcto, con label incorrecto. El label es Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified",
+      "stemCode": "2A02.11",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Neuroblastoma paravertebral",
+        "selectedText": "Neuroblastoma paravertebral",
+        "code": "2A02.11",
+        "foundationUri": "http://id.who.int/icd/entity/135512034",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/135512034"
+      }
+    },
+    {
+      "curationId": "2536f4c07f990c0d27641d256f231899",
+      "createdAt": "2026-10-03T23:57:07.522Z",
+      "updatedAt": "2026-10-03T23:57:07.522Z",
+      "expression": "2A02.10",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoMorphology4",
+      "proposedCode": "93641/3",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F7_icdo4",
+      "decision": "changed",
+      "correctedCode": "95400/3",
+      "rationale": "Código correcto: Malignant peripheral nerve sheath tumor, NOS (95400/3), \ncódigo ICD-11 pre-coordinado: XH2XP8",
+      "stemCode": "2A02.10",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+        "selectedText": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+        "code": "2A02.10",
+        "foundationUri": "http://id.who.int/icd/entity/71413945",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/71413945"
+      }
+    },
+    {
+      "curationId": "fc8c743b96ce5be4e32aae51c40a6886",
+      "createdAt": "2026-10-03T23:56:20.053Z",
+      "updatedAt": "2026-10-03T23:56:20.053Z",
+      "expression": "2A02.10",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoMorphology",
+      "proposedCode": "9364/3",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F7",
+      "decision": "changed",
+      "correctedCode": "9540/3",
+      "rationale": "Código correcto: Malignant peripheral nerve sheath tumor, NOS (9540/3), \ncódigo ICD-11 pre-coordinado: XH2XP8",
+      "stemCode": "2A02.10",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+        "selectedText": "Tumor maligno de la vaina del nervio periférico de los nervios craneales o paraespinales",
+        "code": "2A02.10",
+        "foundationUri": "http://id.who.int/icd/entity/71413945",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/71413945"
+      }
+    },
+    {
+      "curationId": "c52330a4fab9cbc90be7a0f4f9b31b49",
+      "createdAt": "2026-10-02T18:56:35.698Z",
+      "updatedAt": "2026-10-02T18:56:35.699Z",
+      "expression": "2A02.1",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoMorphology",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "F7",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A02.1",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de los nervios craneales o paraespinales",
+        "selectedText": "Tumores de los nervios craneales o paraespinales",
+        "code": "2A02.1",
+        "foundationUri": "http://id.who.int/icd/entity/1352310002",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1352310002"
+      }
+    },
+    {
+      "curationId": "a7f6577a744d91c67645bd368d1a9e69",
+      "createdAt": "2026-10-02T18:01:16.893Z",
+      "updatedAt": "2026-10-02T18:01:16.893Z",
+      "expression": "2A02.0",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoMorphology",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "F7",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Está bien que no resuelva ICD-10 ni ICD-O por 2 motivos. No hay comportamiento derivable, y tampoco topografía. Spinal Cord y cranial nerves comparten código agrupador (Por ej, C72 en entidades malignas), pero paraspinal nerves cae dentro de la categoría de nervios periféricos (C47)",
+      "stemCode": "2A02.0",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales",
+        "selectedText": "Gliomas de la médula espinal, de los pares craneales o de nervios paraespinales",
+        "code": "2A02.0",
+        "foundationUri": "http://id.who.int/icd/entity/161690729",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/161690729"
+      }
+    },
+    {
+      "curationId": "575e6460f40a0f939dfa3948728a0c8e",
+      "createdAt": "2026-10-02T17:56:47.720Z",
+      "updatedAt": "2026-10-02T17:56:47.720Z",
+      "expression": "2A01.2",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoMorphology",
+      "proposedCode": "8000/1",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F7",
+      "decision": "flagged",
+      "correctedCode": null,
+      "rationale": "Preferible que no resuelva ICD-O morfo en ninguna de sus versiones. Uncertain o unclassified tumor es un atributo de neoplasia borderline o de comportamiento incierto, y se reserva como descriptor de neoplasias conocidas que su evolución es efectivamente incierta, pero no puede usarse como descriptor para neoplasias que en las que su morfología es desconocida o no especificada y producto de eso no es posible derivar su comportamiento.",
+      "stemCode": "2A01.2",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasia primaria de las meninges de tipo desconocido o no especificado",
+        "selectedText": "Neoplasia primaria de las meninges de tipo desconocido o no especificado",
+        "code": "2A01.2",
+        "foundationUri": "http://id.who.int/icd/entity/1297170956",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1297170956"
+      }
+    },
+    {
+      "curationId": "ca46419fbba505116648e0e4e9fe7e4a",
+      "createdAt": "2026-10-02T17:29:31.945Z",
+      "updatedAt": "2026-10-02T17:29:31.945Z",
+      "expression": "2A01.0Z",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "D32.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Resolución correcta, pero ligada a la situación de resoluciones de linealizaciones sin foundation. Una solución puede ser forzar una entidad con append forzado /unspecified y /other para evitar la resolución con el foundation del padre",
+      "stemCode": "2A01.0Z",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Meningiomas, sin especificación",
+        "selectedText": "Meningiomas, sin especificación",
+        "code": "2A01.0Z",
+        "foundationUri": "http://id.who.int/icd/entity/672106711",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/672106711/unspecified"
+      }
+    },
+    {
+      "curationId": "97a6b7d1494e4752f52e85e940f6baa4",
+      "createdAt": "2026-10-02T16:13:10.951Z",
+      "updatedAt": "2026-10-02T16:13:10.951Z",
+      "expression": "2A01.0Y",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "D32.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "flagged",
+      "correctedCode": null,
+      "rationale": "No debería resolver ICD-10 ni morfología ICD-O. Al corresponder a un término residual .Y, obliga a realizar la especificación de histopatología, por lo tanto no debe aplicar el default NOS (sin otra especificación). Como se debe especificar y no se tiene el comportamiento, ICD-10 tampoco debería resolver. Lo correcto es eliminar el mapeo default de la categoría .Y, pero se debe revisar si el error es que la linealización tiene mapeo o el default se aplica por el uso del foundation del padre. Si error es por el uso del foundation del padre (que resuelve correctamente a /0, aunque no es una categoría terminal y por lo tanto no debería poder seleccionarse), evaluar si la solucion es borrar los defaults asignados a 2A01.00 o agregar una regla sobre la jerarquía del resolver en los casos de entidades residuales sin foundation.",
+      "stemCode": "2A01.0Y",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Otros meningiomas especificados",
+        "selectedText": "Otros meningiomas especificados",
+        "code": "2A01.0Y",
+        "foundationUri": "http://id.who.int/icd/entity/672106711",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/672106711/other"
+      }
+    },
+    {
+      "curationId": "73f6a922b162f35db66fb1771ef2ea37",
+      "createdAt": "2026-10-02T16:00:44.156Z",
+      "updatedAt": "2026-10-02T16:00:44.156Z",
+      "expression": "2A01.00",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "C70.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Correcta codificación de ICD-10 por comportamiento maligno precoordinado.",
+      "stemCode": "2A01.00",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Meningioma primario maligno",
+        "selectedText": "Meningioma primario maligno",
+        "code": "2A01.00",
+        "foundationUri": "http://id.who.int/icd/entity/1478862889",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1478862889"
+      }
+    },
+    {
+      "curationId": "934f78cbac035eed752c282b0a72e130",
+      "createdAt": "2026-10-02T15:59:47.396Z",
+      "updatedAt": "2026-10-02T15:59:47.396Z",
+      "expression": "2A01.0",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "D32.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Correcto. A diferencia de otros grupos de códigos de categoría superior no terminal (non-leaf), esta categoría se puede mapear a un código de comportamiento benigno (/0). Meningiomas en general corresponde a neoplasias de comportamiento benigno, salvo algunos subtipos especiales. Por eso, Meningiomas SAI está codificado en ICD-O 3.2 e ICD-4 como /0 bajo su termino preferido.",
+      "stemCode": "2A01.0",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Meningiomas",
+        "selectedText": "Meningiomas",
+        "code": "2A01.0",
+        "foundationUri": "http://id.who.int/icd/entity/672106711",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/672106711"
+      }
+    },
+    {
+      "curationId": "b044bc6d76ca26b33da0b058c41cd8a5",
+      "createdAt": "2026-10-02T15:51:02.431Z",
+      "updatedAt": "2026-10-02T15:51:02.431Z",
+      "expression": "2A01",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "F2",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A01",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasias primarias de las meninges",
+        "selectedText": "Neoplasias primarias de las meninges",
+        "code": "2A01",
+        "foundationUri": "http://id.who.int/icd/entity/220111447",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/220111447"
+      }
+    },
+    {
+      "curationId": "99daf11f4352e71fcb1eb815bae36d05",
+      "createdAt": "2026-10-02T15:50:06.990Z",
+      "updatedAt": "2026-10-02T15:50:06.990Z",
+      "expression": "2A00.5",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "none",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Correcto",
+      "stemCode": "2A00.5",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasia primaria de cerebro de tipo desconocido o no especificado",
+        "selectedText": "Neoplasia primaria de cerebro de tipo desconocido o no especificado",
+        "code": "2A00.5",
+        "foundationUri": "http://id.who.int/icd/entity/677986724",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/677986724"
+      }
+    },
+    {
+      "curationId": "9cd1ab0ba3077b25fb6751bae660c94f",
+      "createdAt": "2026-10-02T15:38:52.371Z",
+      "updatedAt": "2026-10-02T15:38:52.371Z",
+      "expression": "2A00.3",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoMorphology4",
+      "proposedCode": "95060/1",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F7_icdo4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "El código es correcto pero el label debería ser Central neurocytoma, que es un término Related y no Sinónimo.",
+      "stemCode": "2A00.3",
+      "family": "brain",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Neurocitoma central del cerebro",
+        "selectedText": "Neurocitoma central del cerebro",
+        "code": "2A00.3",
+        "foundationUri": "http://id.who.int/icd/entity/1247650801",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1247650801"
+      }
+    },
+    {
+      "curationId": "681646eb8e157e50b9554c511ffe3ed4",
+      "createdAt": "2026-10-01T19:40:11.927Z",
+      "updatedAt": "2026-10-01T19:40:11.927Z",
+      "expression": "2A00.22&XA1804&XH0RF9",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "D33.1",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Resolución correcta. Se debe corregir el label de CIE-10 y CIE-O topográfico, ya que Plexo coroídeo de cuarto ventrículo es un termino relacionado y no sinónimo del término preferido \"Brain Stem\"",
+      "stemCode": "2A00.22",
+      "family": "brain",
+      "node": "infratentorial",
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de los plexos coroideos",
+        "selectedText": "Tumores de los plexos coroideos [Cuarto ventrículo] [Papiloma de plexo coroideo, SAI]",
+        "code": "2A00.22&XA1804&XH0RF9",
+        "foundationUri": "http://id.who.int/icd/entity/1959912502 & http://id.who.int/icd/entity/704596284 & http://id.who.int/icd/entity/186702659",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502 & http://id.who.int/icd/release/11/2026-01/mms/704596284 & http://id.who.int/icd/release/11/2026-01/mms/186702659"
+      }
+    },
+    {
+      "curationId": "8c42aebcf0a377407089fd076dea9c37",
+      "createdAt": "2026-10-01T19:36:35.482Z",
+      "updatedAt": "2026-10-01T19:36:35.482Z",
+      "expression": "2A00.22&XA1H64&XH0RF9",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "D33.0",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Correcta resolución de entidad benigna.",
+      "stemCode": "2A00.22",
+      "family": "brain",
+      "node": "supratentorial",
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de los plexos coroideos",
+        "selectedText": "Tumores de los plexos coroideos [Tercer ventrículo] [Papiloma de plexo coroideo, SAI]",
+        "code": "2A00.22&XA1H64&XH0RF9",
+        "foundationUri": "http://id.who.int/icd/entity/1959912502 & http://id.who.int/icd/entity/1054289404 & http://id.who.int/icd/entity/186702659",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502 & http://id.who.int/icd/release/11/2026-01/mms/1054289404 & http://id.who.int/icd/release/11/2026-01/mms/186702659"
+      }
+    },
+    {
+      "curationId": "b029466b6d2f3ecc13488a2fb87cbead",
+      "createdAt": "2026-10-01T19:33:22.903Z",
+      "updatedAt": "2026-10-01T19:33:22.903Z",
+      "expression": "2A00.22",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icdoTopography",
+      "proposedCode": "C71.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F6",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Se elige termino residual NOS porque no se especifica topografía. Puede ser Ventrículo cerebral (C71.5) o Cuarto Ventrículo (C71.7)",
+      "stemCode": "2A00.22",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de los plexos coroideos",
+        "selectedText": "Tumores de los plexos coroideos",
+        "code": "2A00.22",
+        "foundationUri": "http://id.who.int/icd/entity/1959912502",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502"
+      }
+    },
+    {
+      "curationId": "b950760dc3250ecb0c1d7080cea59064",
+      "createdAt": "2026-10-01T19:29:00.272Z",
+      "updatedAt": "2026-10-01T19:29:00.272Z",
+      "expression": "2A00.22",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "none",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Incluye entidades malignas (Carcinoma de plexos coroídeos) y benignas (papiloma de plexos coroideos)",
+      "stemCode": "2A00.22",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de los plexos coroideos",
+        "selectedText": "Tumores de los plexos coroideos",
+        "code": "2A00.22",
+        "foundationUri": "http://id.who.int/icd/entity/1959912502",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1959912502"
+      }
+    },
+    {
+      "curationId": "d2468f1994438af001096a0d52bf455f",
+      "createdAt": "2026-10-01T19:20:42.628Z",
+      "updatedAt": "2026-10-01T19:20:42.628Z",
+      "expression": "2A00.21",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "none",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Stem incluye entidades benignas, de comportamiento incierto y una entidad maligno, por lo que no se puede resolver ICD-10.",
+      "stemCode": "2A00.21",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores mixtos gliales-neuronales",
+        "selectedText": "Tumores mixtos gliales-neuronales",
+        "code": "2A00.21",
+        "foundationUri": "http://id.who.int/icd/entity/1792897751",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1792897751"
+      }
+    },
+    {
+      "curationId": "1e5900e24bf3f4aa4677e23160d38e54",
+      "createdAt": "2026-10-01T18:54:28.904Z",
+      "updatedAt": "2026-10-01T18:54:28.904Z",
+      "expression": "2A00.20&XH3D20",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": "C75.3",
+      "proposedStatus": "candidate",
+      "proposedRoute": "F5",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A00.20",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de la glándula pineal o de la región pineal",
+        "selectedText": "Tumores de la glándula pineal o de la región pineal [Tumor pineal de transición]",
+        "code": "2A00.20&XH3D20",
+        "foundationUri": "http://id.who.int/icd/entity/1728662435 & http://id.who.int/icd/entity/249272720",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435 & http://id.who.int/icd/release/11/2026-01/mms/249272720"
+      }
+    },
+    {
+      "curationId": "77b461c68a1213a293320a63a9f9f74c",
+      "createdAt": "2026-10-01T18:53:30.712Z",
+      "updatedAt": "2026-10-01T19:21:17.818Z",
+      "expression": "2A00.20",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "none",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Stem incluye entidades de comportamiento incierto y malignos.",
+      "stemCode": "2A00.20",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores de la glándula pineal o de la región pineal",
+        "selectedText": "Tumores de la glándula pineal o de la región pineal",
+        "code": "2A00.20",
+        "foundationUri": "http://id.who.int/icd/entity/1728662435",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1728662435"
+      }
+    },
+    {
+      "curationId": "ab6cb60bbd0933294f4617faf43929bf",
+      "createdAt": "2026-10-01T18:29:45.043Z",
+      "updatedAt": "2026-10-01T18:29:45.043Z",
+      "expression": "2A00.2",
+      "mapVersion": "v2.0-compiler-2026-09-24",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "none",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A00.2",
+      "family": "brain",
+      "node": null,
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores del tejido neuroepitelial del encéfalo",
+        "selectedText": "Tumores del tejido neuroepitelial del encéfalo",
+        "code": "2A00.2",
+        "foundationUri": "http://id.who.int/icd/entity/915334913",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/915334913"
+      }
+    },
+    {
+      "curationId": "50c76e8c20f0b5c10e4499d7c1099535",
+      "createdAt": "2026-09-24T03:19:04.870Z",
+      "updatedAt": "2026-10-07T17:27:34.195Z",
+      "expression": "2A00.1Y",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "C71.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "En este caso, a pesar de que la entidad es similar a Gliomas del cerebro, en este caso si se puede determinar el CIE-10, ya que la categoría de tumores embrionarios contiene solo histologias malignas.",
+      "stemCode": "2A00.1Y",
+      "family": "brain",
+      "node": "brain_9",
+      "rawEntity": {
+        "query": null,
+        "title": "Otros tumores embrionarios especificados del cerebro",
+        "selectedText": "Otros tumores embrionarios especificados del cerebro",
+        "code": "2A00.1Y",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806/other"
+      }
+    },
+    {
+      "curationId": "abde7e932b8870485682c2002025b82f",
+      "createdAt": "2026-09-24T03:14:31.500Z",
+      "updatedAt": "2026-10-01T17:22:13.945Z",
+      "expression": "2A00.1",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "C71.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": "Se debe corregir el label. Debería decir \"Malignant neoplasm of brain, unspecified\"",
+      "stemCode": "2A00.1",
+      "family": "brain",
+      "node": "brain_9",
+      "rawEntity": {
+        "query": null,
+        "title": "Tumores embrionarios del cerebro",
+        "selectedText": "Tumores embrionarios del cerebro",
+        "code": "2A00.1",
+        "foundationUri": "http://id.who.int/icd/entity/1994022806",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/1994022806"
+      }
+    },
+    {
+      "curationId": "a2bad534bff9625f821e07310d666401",
+      "createdAt": "2026-09-24T03:13:24.539Z",
+      "updatedAt": "2026-09-24T03:13:24.539Z",
+      "expression": "2A00.0Z",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "D43.2",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "flagged",
+      "correctedCode": null,
+      "rationale": "El stem no declara comportamiento propio y no se postcoordinó  histología que permita derivarlo dinámicamente; el capítulo CIE-10 depende de ese comportamiento y queda sin resolver -- no se usa ningún valor de referencia como si fuera la respuesta.\nEl stem es un código terminal residual de tipo \"no especificado\", por lo tanto debe estar bajo el nodo \"unspecified\". En general un nodo residual .Z debe tener restricciones segun el contexto. En este caso, unspecified no puede postcoordinar histopatología.",
+      "stemCode": "2A00.0Z",
+      "family": "brain",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Gliomas de cerebro, sin especificación",
+        "selectedText": "Gliomas de cerebro, sin especificación",
+        "code": "2A00.0Z",
+        "foundationUri": "http://id.who.int/icd/entity/422307135",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/422307135/unspecified"
+      }
+    },
+    {
+      "curationId": "84b64e38a34cb259bfc628321b761c0a",
+      "createdAt": "2026-09-24T02:59:50.046Z",
+      "updatedAt": "2026-09-24T02:59:50.046Z",
+      "expression": "2A00.0Y&XA92Y6&XH2HK4",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "C71.3",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A00.0Y",
+      "family": "brain",
+      "node": "brain_3",
+      "rawEntity": {
+        "query": null,
+        "title": "Otros gliomas especificados del cerebro",
+        "selectedText": "Otros gliomas especificados del cerebro [Lóbulo parietal] [Astrocitoma difuso, IDH mutante]",
+        "code": "2A00.0Y&XA92Y6&XH2HK4",
+        "foundationUri": "http://id.who.int/icd/entity/422307135 & http://id.who.int/icd/entity/342165446 & http://id.who.int/icd/entity/696403494",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/422307135/other & http://id.who.int/icd/release/11/2026-01/mms/342165446 & http://id.who.int/icd/release/11/2026-01/mms/696403494"
+      }
+    },
+    {
+      "curationId": "6fc50a0f3416e7b90c101016e92f7a1a",
+      "createdAt": "2026-09-24T02:55:12.244Z",
+      "updatedAt": "2026-09-24T02:58:56.346Z",
+      "expression": "2A00.0Y&XA92Y6",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "D43.0",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "flagged",
+      "correctedCode": null,
+      "rationale": "El stem no declara comportamiento propio y no se postcoordinó (o no hay) histología que permita derivarlo dinámicamente; el capítulo CIE-10 depende de ese comportamiento y queda sin resolver -- no se usa ningún valor de referencia como si fuera la respuesta.\nEl stem es un código terminal residual de tipo \"otros especificado\", por lo tanto debe estar bajo el nodo \"other\" y no \"unspecified\", y en lo posible debe ser postcoordinado con histopatología. Para el caso de 2A00.0Y&XA92Y6, la postcoordinación de anatomía no puede asumir un profile \"nonmalignant\"",
+      "stemCode": "2A00.0Y",
+      "family": "brain",
+      "node": "supratentorial",
+      "rawEntity": {
+        "query": null,
+        "title": "Otros gliomas especificados del cerebro",
+        "selectedText": "Otros gliomas especificados del cerebro [Lóbulo parietal]",
+        "code": "2A00.0Y&XA92Y6",
+        "foundationUri": "http://id.who.int/icd/entity/422307135 & http://id.who.int/icd/entity/342165446",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/422307135/other & http://id.who.int/icd/release/11/2026-01/mms/342165446"
+      }
+    },
+    {
+      "curationId": "933c7ac715a1164306599bdc71075b23",
+      "createdAt": "2026-09-24T02:54:09.259Z",
+      "updatedAt": "2026-09-24T02:54:09.259Z",
+      "expression": "2A00.0Y",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "D43.2",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "flagged",
+      "correctedCode": null,
+      "rationale": "El stem no declara comportamiento propio y no se postcoordinó (o no hay) histología que permita derivarlo dinámicamente; el capítulo CIE-10 depende de ese comportamiento y queda sin resolver -- no se usa ningún valor de referencia como si fuera la respuesta.\nEl stem es un código terminal residual de tipo \"otros especificado\", por lo tanto debe estar bajo el nodo \"other\" y no \"unspecified\", y en lo posible debe ser postcoordinado con histopatología.",
+      "stemCode": "2A00.0Y",
+      "family": "brain",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Otros gliomas especificados del cerebro",
+        "selectedText": "Otros gliomas especificados del cerebro",
+        "code": "2A00.0Y",
+        "foundationUri": "http://id.who.int/icd/entity/422307135",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/422307135/other"
+      }
+    },
+    {
+      "curationId": "a0da27461c9bc43dec342f75ffe219e9",
+      "createdAt": "2026-09-24T02:37:10.359Z",
+      "updatedAt": "2026-09-24T02:37:10.359Z",
+      "expression": "2A00.0",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": null,
+      "proposedStatus": "unmapped",
+      "proposedRoute": "none",
+      "decision": "accepted",
+      "correctedCode": null,
+      "rationale": null,
+      "stemCode": "2A00.0",
+      "family": "brain",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Gliomas de cerebro",
+        "selectedText": "Gliomas de cerebro",
+        "code": "2A00.0",
+        "foundationUri": "http://id.who.int/icd/entity/422307135",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/422307135"
+      }
+    },
+    {
+      "curationId": "067d97f1239d076104bf8305887a5afc",
+      "createdAt": "2026-09-24T02:34:40.765Z",
+      "updatedAt": "2026-09-24T02:34:40.765Z",
+      "expression": "2A01",
+      "mapVersion": "v2.0-compiler-2026-09-22",
+      "axis": "icd10",
+      "proposedCode": "D42.9",
+      "proposedStatus": "resolved",
+      "proposedRoute": "F4",
+      "decision": "flagged",
+      "correctedCode": null,
+      "rationale": "El stem solo tiene como concepto precoordinado la topografía. No existe concepto precoordinado de morfología, y por lo tanto tampoco de comportamiento. Sin comportamiento no es posible definir una categoría ICD-10, por lo tanto ese campo debe ser \"null\".",
+      "stemCode": "2A01",
+      "family": "meninges",
+      "node": "unspecified",
+      "rawEntity": {
+        "query": null,
+        "title": "Neoplasias primarias de las meninges",
+        "selectedText": "Neoplasias primarias de las meninges",
+        "code": "2A01",
+        "foundationUri": "http://id.who.int/icd/entity/220111447",
+        "linearizationUri": "http://id.who.int/icd/release/11/2026-01/mms/220111447"
+      }
+    }
+  ]
+}

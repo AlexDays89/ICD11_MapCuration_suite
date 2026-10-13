@@ -1,0 +1,12 @@
+{
+  "property": "Stem terminal sin postcoordinación conserva su default declarado, resuelto vía F4 con la anatomía/histología precoordinada.",
+  "selection": { "code": "2C30.1" },
+  "expect": {
+    "status": "resolved",
+    "icd10.code": "C43.9",
+    "icd10.route": "F4",
+    "icdoTopography.code": "C44.9",
+    "icdoMorphology.code": "8721/3",
+    "stem.isLeaf": true
+  }
+}

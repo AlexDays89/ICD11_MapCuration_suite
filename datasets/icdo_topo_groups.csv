@@ -1,0 +1,23 @@
+key;icdo3_topography;source;status
+skin|lip;C44.0;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|eyelid;C44.1;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|ear;C44.2;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|face;C44.3;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|scalp_neck;C44.4;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|trunk;C44.5;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|upper_limb;C44.6;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|lower_limb;C44.7;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+skin|unspecified;C44.9;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|head_neck;C49.0;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|upper_limb;C49.1;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|lower_limb;C49.2;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|thorax;C49.3;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|abdomen;C49.4;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|pelvis;C49.5;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|trunk;C49.6;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+soft_tissue|unspecified;C49.9;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+adipose.superficial|head_neck;C49.0;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+adipose.superficial|trunk;C49.6;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+adipose.superficial|upper_limb;C49.1;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+adipose.superficial|lower_limb;C49.2;SEER site/histology validation 2022 + tissue profile;reviewed_profile
+adipose.superficial|unspecified;C49.9;SEER site/histology validation 2022 + tissue profile;reviewed_profile

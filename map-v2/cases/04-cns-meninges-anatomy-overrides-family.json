@@ -1,0 +1,10 @@
+{
+  "property": "Postcoordinar una extensión anatómica meníngea dedicada (XA0AK4) cambia la familia efectiva de 'brain' a 'meninges' puramente por el perfil propio de esa extensión en anatomy_relations.csv, sin alias por dominio.",
+  "selection": { "code": "2A00.00&XA0AK4&XH7F82" },
+  "expect": {
+    "status": "resolved",
+    "family": "meninges",
+    "icd10.code": "C70.9",
+    "icd10.route": "F4"
+  }
+}

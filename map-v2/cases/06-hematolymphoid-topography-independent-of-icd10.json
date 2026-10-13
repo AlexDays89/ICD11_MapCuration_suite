@@ -1,0 +1,10 @@
+{
+  "property": "Neoplasia hematolinfoide: la topografia CIE-O (medula osea, sitio propio del stem) es independiente del CIE-10, incluso cuando el CIE-10 no está resuelto (categoria no terminal).",
+  "selection": { "code": "2A20" },
+  "expect": {
+    "status": "non_terminal",
+    "icd10.status": "unmapped",
+    "icdoTopography.code": "C42.1",
+    "icdoTopography.status": "fallback"
+  }
+}
