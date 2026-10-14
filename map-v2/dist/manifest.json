@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "version": "v2.0-compiler-2026-10-13",
-  "generatedAt": "2026-10-13T23:21:01.347Z",
+  "version": "v2.0-compiler-2026-10-14",
+  "generatedAt": "2026-10-14T02:40:42.231Z",
   "releases": {
     "icd11": {
       "linearization": "mms",
@@ -23,12 +23,12 @@
     }
   },
   "sourceManifest": {
-    "generatedAt": "2026-10-13T23:21:01.348Z",
+    "generatedAt": "2026-10-14T02:40:42.233Z",
     "sourceDir": "datasets",
     "files": {
       "stems": {
         "filename": "icd11_stem_defaults.csv",
-        "sha256": "2e3ca9b75984e439027820dcb37d65f1400ca642d5c7b8b27a04b10f5509d455",
+        "sha256": "aece4d8b289432ea9b33a899dbb5cda09886bdee1e0d600aa84f4d402eeadd10",
         "rowCount": 1290,
         "headers": [
           "id",
@@ -169,7 +169,7 @@
       },
       "histopathologyAxis": {
         "filename": "ICD11_histopathology_axis.csv",
-        "sha256": "ffaa281e37e7778ad883aea1d14d44818d50a0c847144d262d977edfc567ec5f",
+        "sha256": "70bef410340899fcbf56be177831d5cafdea547ed913760b6d682f12c4d8f68d",
         "rowCount": 1885,
         "headers": [
           "id",
@@ -256,9 +256,9 @@
   },
   "problems": [],
   "outputHashes": {
-    "map.ttl": "2082be396b5445beb0384dd4c4c29c8258cfc961c09855a3994948c47f3d5300",
-    "map.rdf": "3e827c4d002dd5c7ba9edfe54919f6566000aec01b9af8e79e10a4a656bebec2",
-    "map.normalized.yaml": "f543117e0be4c4a21908d8a38b533c87f3239ac76ac023face426ddf695cdbb9",
-    "map.bundle.json": "b3e195f79755f6a0fe5c2ec061787eebc63815236487a2d46b60e4390ed72b40"
+    "map.ttl": "d36edabc2f5c2dd6b77ce382df2ccfaf2dc34c489e0a865289df4cef2ccacfb6",
+    "map.rdf": "4325cec6d2d6fb9363cfaa172616b7cedb7c48b94f244c70f34bbb94ed1905a1",
+    "map.normalized.yaml": "b8e3b6fe05939fda7f873d5380a80735bc3abbdad0bed379d8c7a65673d8449f",
+    "map.bundle.json": "086415288fe7522a3d684c5729a17635875fbc9362012026582853339b222876"
   }
 }

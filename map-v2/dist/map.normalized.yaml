@@ -1,6 +1,6 @@
 # Generado por compiler/build.js. Vista de inspección, no editable a mano.
 schema_version: "1"
-map_version: "v2.0-compiler-2026-10-13"
+map_version: "v2.0-compiler-2026-10-14"
 releases:
   icd11:
     linearization: mms
@@ -22,7 +22,7 @@ authoring:
   files:
     stems:
       filename: icd11_stem_defaults.csv
-      sha256: 2e3ca9b75984e439027820dcb37d65f1400ca642d5c7b8b27a04b10f5509d455
+      sha256: aece4d8b289432ea9b33a899dbb5cda09886bdee1e0d600aa84f4d402eeadd10
       rows: 1290
     icd10Domains:
       filename: ICD10_domains.csv
@@ -46,7 +46,7 @@ authoring:
       rows: 1285
     histopathologyAxis:
       filename: ICD11_histopathology_axis.csv
-      sha256: ffaa281e37e7778ad883aea1d14d44818d50a0c847144d262d977edfc567ec5f
+      sha256: 70bef410340899fcbf56be177831d5cafdea547ed913760b6d682f12c4d8f68d
       rows: 1885
     icdoTopoGroups:
       filename: icdo_topo_groups.csv

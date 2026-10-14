@@ -1459,9 +1459,11 @@
     <map2v2:domain>heme</map2v2:domain>
     <map2v2:family>heme</map2v2:family>
     <map2v2:precoordinatedTopography rdf:resource="http://icdmaps.local/map-v2#anatomy/XA9XK1"/>
+    <map2v2:precoordinatedMorphology rdf:resource="http://icdmaps.local/map-v2#histology/XH07H5"/>
     <map2v2:icd10Default>C92.7</map2v2:icd10Default>
     <map2v2:icd10NeedsRefinement rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</map2v2:icd10NeedsRefinement>
     <map2v2:icdo3TopographyDefault>C42.1</map2v2:icdo3TopographyDefault>
+    <map2v2:icdo3MorphologyCode>9965</map2v2:icdo3MorphologyCode>
     <map2v2:icdo3BehaviourCode>3</map2v2:icdo3BehaviourCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://icdmaps.local/map-v2#stem/2A51">
@@ -1475,9 +1477,11 @@
     <map2v2:domain>heme</map2v2:domain>
     <map2v2:family>heme</map2v2:family>
     <map2v2:precoordinatedTopography rdf:resource="http://icdmaps.local/map-v2#anatomy/XA9XK1"/>
+    <map2v2:precoordinatedMorphology rdf:resource="http://icdmaps.local/map-v2#histology/XH6QD4"/>
     <map2v2:icd10Default>C92.7</map2v2:icd10Default>
     <map2v2:icd10NeedsRefinement rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</map2v2:icd10NeedsRefinement>
     <map2v2:icdo3TopographyDefault>C42.1</map2v2:icdo3TopographyDefault>
+    <map2v2:icdo3MorphologyCode>9966</map2v2:icdo3MorphologyCode>
     <map2v2:icdo3BehaviourCode>3</map2v2:icdo3BehaviourCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://icdmaps.local/map-v2#stem/2A52">
@@ -1491,9 +1495,11 @@
     <map2v2:domain>heme</map2v2:domain>
     <map2v2:family>heme</map2v2:family>
     <map2v2:precoordinatedTopography rdf:resource="http://icdmaps.local/map-v2#anatomy/XA9XK1"/>
+    <map2v2:precoordinatedMorphology rdf:resource="http://icdmaps.local/map-v2#histology/XH1WR8"/>
     <map2v2:icd10Default>C92.7</map2v2:icd10Default>
     <map2v2:icd10NeedsRefinement rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</map2v2:icd10NeedsRefinement>
     <map2v2:icdo3TopographyDefault>C42.1</map2v2:icdo3TopographyDefault>
+    <map2v2:icdo3MorphologyCode>9967</map2v2:icdo3MorphologyCode>
     <map2v2:icdo3BehaviourCode>3</map2v2:icdo3BehaviourCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://icdmaps.local/map-v2#stem/2A5Z">
