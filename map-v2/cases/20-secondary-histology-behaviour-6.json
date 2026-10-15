@@ -1,0 +1,11 @@
+{
+  "property": "Stem secundario (metástasis) con histopatología postcoordinada: el /3 de la histología se codifica como /6 en CIE-O-3.2 y CIE-O-4 (regla de metástasis del mapa v1).",
+  "selection": { "code": "2D91&XH74S1" },
+  "expect": {
+    "icd10.code": "C78.6",
+    "icdoMorphology.code": "8140/6",
+    "icdoMorphology.behaviourCode": "6",
+    "icdoMorphology4.code": "81400/6",
+    "icdoMorphology4.behaviourCode": "6"
+  }
+}

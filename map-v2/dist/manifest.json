@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "version": "v2.0-compiler-2026-10-14",
-  "generatedAt": "2026-10-14T02:40:42.231Z",
+  "version": "v2.0-compiler-2026-10-15",
+  "generatedAt": "2026-10-15T14:44:38.353Z",
   "releases": {
     "icd11": {
       "linearization": "mms",
@@ -23,7 +23,7 @@
     }
   },
   "sourceManifest": {
-    "generatedAt": "2026-10-14T02:40:42.233Z",
+    "generatedAt": "2026-10-15T14:44:38.354Z",
     "sourceDir": "datasets",
     "files": {
       "stems": {
@@ -258,7 +258,7 @@
   "outputHashes": {
     "map.ttl": "d36edabc2f5c2dd6b77ce382df2ccfaf2dc34c489e0a865289df4cef2ccacfb6",
     "map.rdf": "4325cec6d2d6fb9363cfaa172616b7cedb7c48b94f244c70f34bbb94ed1905a1",
-    "map.normalized.yaml": "b8e3b6fe05939fda7f873d5380a80735bc3abbdad0bed379d8c7a65673d8449f",
-    "map.bundle.json": "086415288fe7522a3d684c5729a17635875fbc9362012026582853339b222876"
+    "map.normalized.yaml": "2ebfd3e752311705db2b2519f3da08d31c33fe66a8331c80011dd2d3bef36eba",
+    "map.bundle.json": "eddddf2029728a21aeea31553efa2899c95e80e523bc1a920f0935e14742b0af"
   }
 }

@@ -1,6 +1,6 @@
 # Generado por compiler/build.js. Vista de inspección, no editable a mano.
 schema_version: "1"
-map_version: "v2.0-compiler-2026-10-14"
+map_version: "v2.0-compiler-2026-10-15"
 releases:
   icd11:
     linearization: mms

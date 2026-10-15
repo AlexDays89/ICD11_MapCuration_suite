@@ -1,8 +1,8 @@
 {
   "meta": {
     "schemaVersion": "1",
-    "version": "v2.0-compiler-2026-10-14",
-    "generatedAt": "2026-10-14T02:40:42.231Z",
+    "version": "v2.0-compiler-2026-10-15",
+    "generatedAt": "2026-10-15T14:44:38.353Z",
     "releases": {
       "icd11": {
         "linearization": "mms",

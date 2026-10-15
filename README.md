@@ -56,10 +56,6 @@ Nunca exportar un `.xlsx` que no se haya regenerado desde el CSV vigente: un Exc
 
 El compilador protege contra los dos errores vistos: se detiene si encuentra un booleano que no sea `true`/`false` en minúsculas, e informa en `PROBLEMAS detectados` cualquier `icdo3_topography_default` que no sea un código de topografía CIE-O.
 
-## Vacíos conocidos en los datos
-
-En `datasets/ICD10_domains.csv`, las filas `C92.0`, `C92.1`, `C92.4` y `C92.5` tienen vacías las columnas `definition`, `note`, `coding_hint`, `text`, `meta_json` y `rubrics_json` desde su origen (el compilador no las usa). Sus notas de inclusión y exclusión sí están completas en `icd10_domain_notes.csv`.
-
 ## Antes de publicar
 
 Los datasets y artefactos derivan de CIE-11, CIE-10 y CIE-O, clasificaciones de la OMS con sus propias condiciones de uso y redistribución. Conviene revisarlas, y elegir una licencia para el código, antes de hacer público el repositorio.

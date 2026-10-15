@@ -60,6 +60,28 @@ export const REFERENCE_FILES = {
   icdo4MorphologyTerms: join('icdo4', 'icdo4_morphology_terms.csv'),
 };
 
+// 2026-10-16: opening a CSV directly in Excel (es-CL) reads ICD-11 codes
+// like "2E92" as numbers in scientific notation, and saving it back writes
+// "2,00E+92" -- caught live in icd11_stem_defaults.csv, where it silently
+// dropped stem 2E92 from the map. No real value in these datasets looks
+// like that, so any such cell stops the build instead of being read as a
+// code that never matches anything.
+const SCIENTIFIC_NOTATION = /^\d+([.,]\d+)?E[+-]\d+$/i;
+
+function assertNoScientificNotation(filename, headers, records) {
+  const hits = [];
+  for (const rec of records) {
+    for (const h of headers) {
+      if (SCIENTIFIC_NOTATION.test((rec[h] || '').trim())) hits.push(`fila ${rec.__row}, columna ${h}: "${rec[h]}"`);
+    }
+  }
+  if (hits.length) {
+    throw new Error(
+      `${filename}: ${hits.length} celda(s) en notación científica, un código dañado por Excel (ej. 2E92 -> 2,00E+92). Corrija el CSV antes de compilar:\n  ${hits.slice(0, 20).join('\n  ')}`
+    );
+  }
+}
+
 export function importSources() {
   const sourceManifest = { generatedAt: new Date().toISOString(), sourceDir: repoRelative(SOURCE_DIR), files: {}, referenceDir: repoRelative(REFERENCE_DIR), referenceFiles: {} };
   const data = {};
@@ -67,6 +89,7 @@ export function importSources() {
     const path = join(SOURCE_DIR, filename);
     const hash = sha256File(path);
     const { headers, records } = parseCsvFile(path);
+    assertNoScientificNotation(filename, headers, records);
     data[key] = records;
     sourceManifest.files[key] = { filename, sha256: hash, rowCount: records.length, headers };
   }

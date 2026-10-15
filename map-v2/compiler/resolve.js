@@ -383,7 +383,16 @@ function resolveIcdoMorphology({ stem, histology, histologyCode, behaviour, mess
   }
   const baseCode = morphoCode.includes('/') ? morphoCode.split('/')[0] : morphoCode;
   const full = morphoCode.includes('/') ? morphoCode : behaviourCode ? `${morphoCode}/${behaviourCode}` : morphoCode;
-  return { code: full, baseCode, behaviourCode, label, status: STATUS.RESOLVED, route: 'F7', source };
+  return { ...asSecondary(stem, { code: full, behaviourCode }, messages), baseCode, label, status: STATUS.RESOLVED, route: 'F7', source };
+}
+
+// a secondary stem describes the metastatic site
+// a postcoordinated histology's own primary behaviour "/3" (the XH axis
+// always carries /3 -- e.g. 2D91&XH74S1 gave 8140/3) must become "/6".
+function asSecondary(stem, { code, behaviourCode }, messages) {
+  if (stem.origin !== 'secondary' || behaviourCode !== '3' || !code.endsWith('/3')) return { code, behaviourCode };
+  messages.push(`F7: stem secundario (metástasis); el comportamiento /3 de la histopatología se codifica como /6 (${code} -> ${code.slice(0, -1)}6).`);
+  return { code: `${code.slice(0, -1)}6`, behaviourCode: '6', primaryCode: code };
 }
 
 // F7 companion: ICD-O-4 morphology + behaviour, shown ALONGSIDE ICD-O-3.2
@@ -417,18 +426,24 @@ function resolveIcdoMorphology4({ stem, histology, histologyCode, behaviour, mes
     return { code: null, label: null, status: STATUS.CONFLICT, route: 'F7_icdo4', catalogCode: morphoCode };
   }
   const baseCode = morphoCode.includes('/') ? morphoCode.split('/')[0] : morphoCode;
-  const full = morphoCode.includes('/') ? morphoCode : behaviourCode ? `${morphoCode}/${behaviourCode}` : morphoCode;
+  const asIs = morphoCode.includes('/') ? morphoCode : behaviourCode ? `${morphoCode}/${behaviourCode}` : morphoCode;
+  const secondary = asSecondary(stem, { code: asIs, behaviourCode }, messages);
+  const full = secondary.code;
+  behaviourCode = secondary.behaviourCode;
   // icdo4_morphology_labels.csv is keyed by the FULL "code/behaviour" (that's
   // how the ICD-O-4 tabular itself distinguishes e.g. 87210/0 vs 87210/3 as
   // different rows), not by the bare base code -- look up `full`, not `baseCode`.
-  const preferredLabel = bundle.icdo4MorphologyLabels[full] ?? null;
+  // A /6 rewritten by asSecondary() has no row of its own in the tabular,
+  // so its terms are looked up under the primary /3 code it came from.
+  const labelKey = secondary.primaryCode || full;
+  const preferredLabel = bundle.icdo4MorphologyLabels[labelKey] ?? null;
   // A code's Preferred term is not always the entity that was selected:
   // 95060/1 is "Sellar neurocytoma" (Preferred) but also "Central
   // neurocytoma" (Related), and the ICD-11 histology XH0C11 IS the latter.
   // When the selected histology's own title is literally one of the code's
   // terms, show that term (with its level); otherwise the Preferred one.
   const title = histology && source === histologyCode ? (histology.titleEn || '').trim().toLowerCase() : '';
-  const matched = title ? (bundle.icdo4MorphologyTerms?.[full] || []).find((t) => t.term.trim().toLowerCase() === title) : null;
+  const matched = title ? (bundle.icdo4MorphologyTerms?.[labelKey] || []).find((t) => t.term.trim().toLowerCase() === title) : null;
   const label = matched ? matched.term : preferredLabel;
   const labelLevel = matched ? matched.level : preferredLabel ? 'Preferred' : null;
   return { code: full, baseCode, behaviourCode, label, labelLevel, preferredLabel, status: STATUS.RESOLVED, route: 'F7_icdo4', source };
