@@ -386,12 +386,9 @@ function resolveIcdoMorphology({ stem, histology, histologyCode, behaviour, mess
   return { ...asSecondary(stem, { code: full, behaviourCode }, messages), baseCode, label, status: STATUS.RESOLVED, route: 'F7', source };
 }
 
-// Metastasis rule carried over from map v1 (APA CIE11_FLUJO.md "Fix
-// metástasis"): a secondary stem describes the metastatic site, so a
-// postcoordinated histology's own primary behaviour "/3" (the XH axis
+// a secondary stem describes the metastatic site
+// a postcoordinated histology's own primary behaviour "/3" (the XH axis
 // always carries /3 -- e.g. 2D91&XH74S1 gave 8140/3) must become "/6".
-// v1 keyed this on the ICD-10 result being C77-C79; here it is keyed on
-// the stem's own `origin`, which is what actually declares it secondary.
 function asSecondary(stem, { code, behaviourCode }, messages) {
   if (stem.origin !== 'secondary' || behaviourCode !== '3' || !code.endsWith('/3')) return { code, behaviourCode };
   messages.push(`F7: stem secundario (metástasis); el comportamiento /3 de la histopatología se codifica como /6 (${code} -> ${code.slice(0, -1)}6).`);

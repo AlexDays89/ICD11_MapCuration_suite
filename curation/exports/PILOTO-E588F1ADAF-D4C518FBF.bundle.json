@@ -1,0 +1,802 @@
+{
+  "resourceType": "Bundle",
+  "meta": {
+    "profile": [
+      "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-bundle-generar-notificacion|0.4.0"
+    ],
+    "tag": [
+      {
+        "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+        "code": "piloto-r2bo"
+      },
+      {
+        "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+        "code": "seudonimizado",
+        "display": "r2bo-anon-0.1.0"
+      },
+      {
+        "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+        "code": "r2bo-builder-0.1.0"
+      }
+    ]
+  },
+  "identifier": {
+    "system": "https://hcsba.cl/fhir/r2bo-piloto/notificacion",
+    "value": "PILOTO-E588F1ADAF-D4C518FBF"
+  },
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:0c568cf7-23d8-526d-9e0d-03348e9d2e48",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-solicitud-informe-apa|0.4.0"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hcsba.cl/fhir/r2bo-piloto/solicitud",
+            "value": "PILOTO-E588F1ADAF"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "116784002",
+              "display": "Biopsy"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1fd7228c-4b8f-5d49-8fa5-37afac18f66c"
+        },
+        "requester": {
+          "reference": "urn:uuid:dee79bdd-b494-59a0-ade6-98eb5bdd4a2e"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:693d8114-919b-50a2-a68e-933a4e221bf3"
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Neoplasia exofítica renal derecha"
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "urn:uuid:86c77666-decf-5e46-ab4d-91a1b6f40f81"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest?identifier=https%3A%2F%2Fhcsba.cl%2Ffhir%2Fr2bo-piloto%2Fsolicitud|PILOTO-E588F1ADAF"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1fd7228c-4b8f-5d49-8fa5-37afac18f66c",
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/nid/StructureDefinition/MINSALPaciente|0.4.9"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSTipoIdentificador",
+                  "code": "1",
+                  "display": "RUN"
+                }
+              ]
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.22.1.152.1",
+            "value": "18765432-7"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "PRUEBA",
+            "_family": {
+              "extension": [
+                {
+                  "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+                  "valueString": "ADMISIÓN"
+                }
+              ]
+            },
+            "given": [
+              "SOFÍA"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1990-04-18",
+        "deceasedBoolean": false
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient",
+        "ifNoneExist": "identifier=urn%3Aoid%3A2.16.840.1.113883.2.22.1.152.1|18765432-7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dee79bdd-b494-59a0-ade6-98eb5bdd4a2e",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-rol-profesional-minsal|0.4.0"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "active": true,
+        "practitioner": {
+          "reference": "urn:uuid:38e82814-cd93-5b29-ad16-fa497dffd0a3"
+        },
+        "organization": {
+          "reference": "urn:uuid:693d8114-919b-50a2-a68e-933a4e221bf3"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSTituloProfesional",
+                "version": "0.4.9",
+                "code": "1",
+                "display": "MÉDICO CIRUJANO"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "urn:uuid:6c1ff05a-01d1-5a67-8147-59a9fa1f264e"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "PractitionerRole",
+        "ifNoneExist": "practitioner.identifier=urn%3Aoid%3A2.16.840.1.113883.2.22.1.152.1|16813529-7&organization.identifier=https%3A%2F%2Finteroperabilidad.minsal.cl%2Ffhir%2Fig%2Feis%2FStructureDefinition%2Fdeis-identifier|111100"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86cda60a-5630-565c-bdc1-f237dc38a9fb",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-rol-profesional-minsal|0.4.0"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "active": true,
+        "practitioner": {
+          "reference": "urn:uuid:f36c859c-1576-5863-9826-63eddb0de221"
+        },
+        "organization": {
+          "reference": "urn:uuid:693d8114-919b-50a2-a68e-933a4e221bf3"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSTituloProfesional",
+                "version": "0.4.9",
+                "code": "1",
+                "display": "MÉDICO CIRUJANO"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "PractitionerRole",
+        "ifNoneExist": "practitioner.identifier=urn%3Aoid%3A2.16.840.1.113883.2.22.1.152.1|17408317-7&organization.identifier=https%3A%2F%2Finteroperabilidad.minsal.cl%2Ffhir%2Fig%2Feis%2FStructureDefinition%2Fdeis-identifier|111100"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c1ff05a-01d1-5a67-8147-59a9fa1f264e",
+      "resource": {
+        "resourceType": "Location",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-servicio-solicitante|0.4.0"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hcsba.cl/fhir/r2bo-piloto/servicio",
+            "value": "111100-UROLOGIA-ADULTO"
+          }
+        ],
+        "status": "active",
+        "name": "UROLOGIA ADULTO",
+        "managingOrganization": {
+          "reference": "urn:uuid:693d8114-919b-50a2-a68e-933a4e221bf3"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Location",
+        "ifNoneExist": "identifier=https%3A%2F%2Fhcsba.cl%2Ffhir%2Fr2bo-piloto%2Fservicio|111100-UROLOGIA-ADULTO"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38e82814-cd93-5b29-ad16-fa497dffd0a3",
+      "resource": {
+        "resourceType": "Practitioner",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/nid/StructureDefinition/MINSALPrestadorProfesional|0.4.9"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+                  "code": "01",
+                  "display": "RUN"
+                }
+              ]
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.22.1.152.1",
+            "value": "16813529-7"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "LARENAS",
+            "_family": {
+              "extension": [
+                {
+                  "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+                  "valueString": "HUGUET"
+                }
+              ]
+            },
+            "given": [
+              "FRANCISCA"
+            ]
+          }
+        ],
+        "birthDate": "1988-06-23",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "value": "cert"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSTituloProfesional",
+                  "version": "0.4.9",
+                  "code": "1",
+                  "display": "MÉDICO CIRUJANO"
+                }
+              ],
+              "text": "MÉDICO CIRUJANO"
+            }
+          },
+          {
+            "identifier": [
+              {
+                "value": "esp"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSEspecialidadMed",
+                  "version": "0.4.9",
+                  "code": "54",
+                  "display": "UROLOGÍA"
+                }
+              ],
+              "text": "UROLOGÍA"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner",
+        "ifNoneExist": "identifier=urn%3Aoid%3A2.16.840.1.113883.2.22.1.152.1|16813529-7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f36c859c-1576-5863-9826-63eddb0de221",
+      "resource": {
+        "resourceType": "Practitioner",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/nid/StructureDefinition/MINSALPrestadorProfesional|0.4.9"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+                  "code": "01",
+                  "display": "RUN"
+                }
+              ]
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.22.1.152.1",
+            "value": "17408317-7"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "BOSCH",
+            "_family": {
+              "extension": [
+                {
+                  "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+                  "valueString": "RAMÍREZ"
+                }
+              ]
+            },
+            "given": [
+              "VALENTINA",
+              "ANDREA"
+            ]
+          }
+        ],
+        "birthDate": "1990-07-24",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "value": "cert"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSTituloProfesional",
+                  "version": "0.4.9",
+                  "code": "1",
+                  "display": "MÉDICO CIRUJANO"
+                }
+              ],
+              "text": "MÉDICO CIRUJANO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner",
+        "ifNoneExist": "identifier=urn%3Aoid%3A2.16.840.1.113883.2.22.1.152.1|17408317-7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:693d8114-919b-50a2-a68e-933a4e221bf3",
+      "resource": {
+        "resourceType": "Organization",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/nid/StructureDefinition/MINSALPrestadorOrganizacional|0.4.9"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://interoperabilidad.minsal.cl/fhir/ig/eis/StructureDefinition/deis-identifier",
+            "value": "111100"
+          }
+        ],
+        "active": true,
+        "name": "Hospital Clínico San Borja Arriarán"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization",
+        "ifNoneExist": "identifier=https%3A%2F%2Finteroperabilidad.minsal.cl%2Ffhir%2Fig%2Feis%2FStructureDefinition%2Fdeis-identifier|111100"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86c77666-decf-5e46-ab4d-91a1b6f40f81",
+      "resource": {
+        "resourceType": "Specimen",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-muestra-biopsia|0.4.0"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hcsba.cl/fhir/r2bo-piloto/muestra",
+            "value": "PILOTO-E588F1ADAF-M1"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:1fd7228c-4b8f-5d49-8fa5-37afac18f66c"
+        },
+        "receivedTime": "2026-08-06",
+        "note": [
+          {
+            "text": "Órgano: RIÑON"
+          },
+          {
+            "text": "Muestra enviada: Tumor renal derecho"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Specimen?identifier=https%3A%2F%2Fhcsba.cl%2Ffhir%2Fr2bo-piloto%2Fmuestra|PILOTO-E588F1ADAF-M1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:53b3b42a-ffec-59a6-856c-7e3167b4d801",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-informe-biopsia|0.4.0"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "piloto-r2bo"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "seudonimizado",
+              "display": "r2bo-anon-0.1.0"
+            },
+            {
+              "system": "https://hcsba.cl/fhir/r2bo-piloto/tag",
+              "code": "r2bo-builder-0.1.0"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hcsba.cl/fhir/r2bo-piloto/informe",
+            "value": "PILOTO-E588F1ADAF-D4C518FBF"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "urn:uuid:0c568cf7-23d8-526d-9e0d-03348e9d2e48"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "PAT",
+                "display": "Pathology (gross & histopath, not surgical)"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "726566009",
+              "display": "Pathology biopsy report"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1fd7228c-4b8f-5d49-8fa5-37afac18f66c"
+        },
+        "issued": "2026-08-31T00:00:00.000Z",
+        "performer": [
+          {
+            "reference": "urn:uuid:86cda60a-5630-565c-bdc1-f237dc38a9fb"
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "urn:uuid:86c77666-decf-5e46-ab4d-91a1b6f40f81"
+          }
+        ],
+        "conclusion": "* NEFRECTOMÍA PARCIAL DERECHA:\n\n- CARCINOMA RENAL DE CÉLULAS CLARAS, GRADO 1 (WHO / ISUP)\n\n- TAMAÑO TUMORAL: 12 X 11 MM.\n\n- EXTENSIÓN TUMORAL: LIMITADO AL RIÑÓN.\n\n- CARACTERÍSTICAS RABDOIDES O SARCOMATOIDES: NO OBSERVADAS.\n\n- NECROSIS TUMORAL: NO OBSERVADO.\n\n- INVASIÓN LINFOVASCULAR: NO OBSERVADA.\n\n- MÁRGEN QUIRÚRGICO: NEGATIVO, A 1 MM.",
+        "conclusionCode": [
+          {
+            "id": "Morfologico",
+            "extension": [
+              {
+                "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-extension-grado-diferenciacion",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/CodeSystem/r2bo-grado-diferenciacion-CS",
+                      "code": "1"
+                    }
+                  ]
+                }
+              }
+            ],
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                "code": "8310/3",
+                "display": "Clear cell renal cell carcinoma, NOS"
+              }
+            ],
+            "text": "Clear cell renal cell carcinoma, NOS"
+          },
+          {
+            "id": "Topografico",
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                "code": "C64.9",
+                "display": "Riñón, SAI"
+              }
+            ],
+            "text": "Riñón, SAI"
+          },
+          {
+            "id": "patologia",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "C64",
+                "display": "Malignant neoplasm of kidney, except renal pelvis"
+              },
+              {
+                "system": "http://id.who.int/icd/release/11/mms",
+                "version": "2026-01",
+                "code": "2C90.0&XK9K&XH46F1",
+                "display": "Carcinoma de células renales del riñón, excepto de la pelvis renal"
+              }
+            ],
+            "text": "Malignant neoplasm of kidney, except renal pelvis"
+          }
+        ],
+        "presentedForm": [
+          {
+            "contentType": "application/pdf",
+            "language": "es-CL",
+            "data": "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bWVudCAwCj4+Ci9Gb250RGVzY3JpcHRvciAyMyAwIFIKL1cgWzAgWzkwOCA3MTMuMzc4OTA2IDU3MC4zMTI1IDUxNi4xMTMyODEgNTYxLjUyMzQzOCAyNDMuMTY0MDYzIDMyNy4xNDg0MzggNTQzLjk0NTMxMyAyNDMuMTY0MDYzIDI0OC4wNDY4NzUgNjUwLjg3ODkwNiAyNDcuNTU4NTk0IDU1Mi4yNDYwOTQgNTIzLjQzNzUgNTkzLjc1IDYyMy4wNDY4NzUgMzM4Ljg2NzE4OCAyMzkuMjU3ODEzIDY1Mi4zNDM3NSA1NDMuOTQ1MzEzIDcxMy4zNzg5MDYgNTU0LjE5OTIxOSA1NzAuMzEyNSA2MzAuODU5Mzc1IDI3MS45NzI2NTYgNTM4LjU3NDIxOSA2ODcuOTg4MjgxIDU5Ni42Nzk2ODggMjc2LjM2NzE4OCA1NjguMzU5Mzc1IDU2Mi4wMTE3MTkgNTYyLjAxMTcxOSA1NTIuNzM0Mzc1IDU2Mi4wMTE3MTkgNjU2LjI1IDU2Mi4wMTE3MTkgNTMwLjI3MzQzOCAyNzEuOTcyNjU2IDYxNi4yMTA5MzggNjQ4LjQzNzUgODczLjA0Njg3NSA2ODcuOTg4MjgxIDU2Mi4wMTE3MTkgNTYyLjAxMTcxOSA1NjIuMDExNzE5IDU2Mi4wMTE3MTkgNTUwLjc4MTI1IDU2My45NjQ4NDQgODc2Ljk1MzEyNSA1NjIuMDExNzE5IDU2Mi4wMTE3MTkgNTUxLjI2OTUzMSAzNzMuNTM1MTU2IDU2MS41MjM0MzggNDg0LjM3NSA2ODEuMTUyMzQ0IDM0Ny42NTYyNSA1NjEuNTIzNDM4IDcxMy4zNzg5MDYgNTMwLjI3MzQzOCAyNjMuNjcxODc1IDYzNi43MTg3NSA0OTYuMDkzNzUgNDk2LjA5Mzc1IDI0Mi4xODc1IDQxMi41OTc2NTYgNTUxLjc1NzgxMyAxOTYuNzc3MzQ0IDU2OC4zNTkzNzUgMzQyLjI4NTE1NiA0NzMuMTQ0NTMxIDM0OC4xNDQ1MzEgNDMwLjY2NDA2MyA1NjguMzU5Mzc1IDg4Ny4yMDcwMzEgNjI2Ljk1MzEyNSA2NTIuMzQzNzUgNjg3Ljk4ODI4MSA2NDguNDM3NSA2MjIuMDcwMzEzIDYyNy40NDE0MDYgNTUyLjI0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",
+            "size": 27090,
+            "hash": "V1GP4XeeHCv/NGA7Vy4rBYAFpHM=",
+            "title": "Informe de biopsia PILOTO-E588F1ADAF-D4C518FBF"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "DiagnosticReport",
+        "ifNoneExist": "identifier=https%3A%2F%2Fhcsba.cl%2Ffhir%2Fr2bo-piloto%2Finforme|PILOTO-E588F1ADAF-D4C518FBF"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useId, useRef, useState } from 'react';
-import { useECT } from './ECTProvider.jsx';
+import { useECT } from './ectContext.js';
 import { scrapeCandidates } from '../captureLog.js';
 
 // Ported from ideas/codificador_oms_v2/components/CIE11/EmbeddedCodingTool.tsx

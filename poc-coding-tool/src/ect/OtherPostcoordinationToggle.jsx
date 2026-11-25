@@ -1,5 +1,5 @@
 import React from 'react';
-import { useECT } from './ECTProvider.jsx';
+import { useECT } from './ectContext.js';
 
 // The user's explicit ask: a button to enable/disable "other
 // postcoordination" *before* picking a code. Native ECT behaviour rejects

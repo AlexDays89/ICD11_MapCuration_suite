@@ -4,12 +4,14 @@ Aplicación estática (React + Vite, sin backend) con dos páginas, Browser y Co
 
 ## Cómo funciona
 
-1. El widget se configura contra la instancia pública de desarrollo y pruebas de la OMS (`src/ectConfig.js`). No requiere registro ni credenciales.
+1. El widget y las consultas de detalle usan la API de producción de la OMS (`https://id.who.int`), autenticada con OAuth2 (client credentials). El servidor de Vite (`vite dev` / `vite preview`) obtiene y cachea el token con las credenciales de `.env` (`server/icdTokenMiddleware.js`) y lo entrega en `GET /api/icd-token`; el navegador lo pide ahí (`getIcdToken` en `src/ectConfig.js`) y llama a la API con `Authorization: Bearer`. El `client_secret` nunca llega al navegador.
 2. Al seleccionar una entidad, `src/maplab/MapPanel.jsx` carga `/map-v2.bundle.json` y llama a `resolveSelection` de `src/maplab/resolve.js`. Ambos archivos se copian desde `../map-v2/dist` con `scripts/copy-map-v2.mjs`, que corre solo antes de `dev` y `build`; no se editan aquí ni se versionan.
 3. El panel muestra cuatro ejes: CIE-10, topografía CIE-O-3.2, morfología CIE-O-3.2 y morfología CIE-O-4.
 4. Bajo el resultado, el panel de curación (`src/curation/`) registra por eje una decisión (aceptar, corregir, marcar) con su justificación, y la caja de feedback (`src/feedback/`) registra observaciones para la OMS. Todo queda en el `localStorage` del navegador y se exporta a JSON desde la propia interfaz.
 
 ## Uso
+
+Antes de la primera ejecución, copiar `poc-coding-tool/.env.example` a `poc-coding-tool/.env` y completar `ICD_CLIENT_ID` e `ICD_CLIENT_SECRET` (se obtienen en https://icd.who.int/icdapi). Si se publica el build estático (`dist/`) en otro servidor, ese servidor debe ofrecer el mismo `GET /api/icd-token`.
 
 Desde la raíz del repositorio:
 

@@ -1,13 +1,18 @@
 import { useCallback, useState } from 'react';
-import { WHO_MMS_BASE } from '../ectConfig.js';
+import { WHO_MMS_BASE, getIcdToken } from '../ectConfig.js';
 
-// Ported from ideas/codificador_oms_v2/hooks/useEntityDetail.ts, with the
-// Next.js `/api/who-proxy` route dropped: this project's WHO_MMS_BASE points
-// at the public dev/test host, confirmed (via curl, not assumed) to answer
-// with `Access-Control-Allow-Origin: *` on /mms/{id}, /mms/describe and
-// /mms/codeinfo, so the browser can fetch it directly.
+// Llamadas directas del navegador a la API CIE-11 de la OMS, autenticadas
+// con el token OAuth2 que entrega el servidor local (ver ectConfig.js).
 async function whoFetch(url) {
-  const res = await fetch(url, { headers: { Accept: 'application/json', 'Accept-Language': 'es', 'API-Version': 'v2' } });
+  const token = await getIcdToken();
+  const res = await fetch(url, {
+    headers: {
+      Accept: 'application/json',
+      'Accept-Language': 'es',
+      'API-Version': 'v2',
+      Authorization: `Bearer ${token}`,
+    },
+  });
   if (!res.ok) throw new Error(`WHO API HTTP ${res.status}: ${url}`);
   return res.json();
 }

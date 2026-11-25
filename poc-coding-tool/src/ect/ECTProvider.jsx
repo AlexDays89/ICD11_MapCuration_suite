@@ -1,61 +1,30 @@
-import React, { createContext, useContext, useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as ECT from '@whoicd/icd11ect';
 import '@whoicd/icd11ect/style.css';
-import { ECT_API_SERVER_URL, ICD11_RELEASE } from '../ectConfig.js';
-
-// Ported from ideas/codificador_oms_v2/components/CIE11/ECTProvider.tsx --
-// same configure-once / per-instance-overwrite pattern, adapted to plain
-// JSX (no primereact/Next) and to WHO's public dev/test API instead of a
-// production OAuth2-proxied one (see ectConfig.js).
-const ECTContext = createContext(null);
-
-export function useECT() {
-  const ctx = useContext(ECTContext);
-  if (!ctx) throw new Error('useECT must be used within an ECTProvider');
-  return ctx;
-}
+import { ECT_API_SERVER_URL, ICD11_RELEASE, getIcdToken } from '../ectConfig.js';
+import { ECTContext } from './ectContext.js';
 
 export function ECTProvider({ children }) {
   const [isConfigured, setIsConfigured] = useState(false);
   const configuredRef = useRef(false);
 
-  // otherPostcoordination is a GLOBAL flag inside the installed
-  // @whoicd/icd11ect@1.8.0 package (verified by reading its own minified
-  // source: `Ve.otherPostcoordination`, checked only against the global
-  // settings object, never merged from `Ve.overwrite[iNo]` the way
-  // per-instance settings like chaptersFilter/language are) -- so toggling
-  // it can't go through `overwriteConfiguration(iNo, ...)` like every other
-  // per-instance setting; it needs `ECT.Handler.configure(...)` again.
-  // That call itself runs `disableSearchboxes()` first (also verified in
-  // the same source), which tears down every bound instance's rendered
-  // widget -- re-`bind()`ing the same iNo afterwards was NOT enough to
-  // restore it in manual testing (widget stayed stuck on "Loading..."
-  // indefinitely). What does work: force React to fully unmount and
-  // remount the widget components (EmbeddedBrowser/EmbeddedCodingTool key
-  // off `otherPostcoordination` in BrowserPage/CodingToolPage), which
-  // re-renders their container div from scratch and re-runs their own
-  // mount effect (configureInstance + bindInstance against a clean node).
   const settingsRef = useRef({
     apiServerUrl: ECT_API_SERVER_URL,
-    apiSecured: false,
+    apiSecured: true,
     language: 'es',
     source: 'mms',
     minorVersion: ICD11_RELEASE,
     autoBind: false,
     enableSelectButton: 'all',
     otherPostcoordination: false,
+    browserHierarchyRootURIs: ['http://id.who.int/icd/entity/1630407678', 'http://id.who.int/icd/entity/979408586'],
   });
   const [otherPostcoordination, setOtherPostcoordinationState] = useState(false);
 
-  // ECT hands back `selectedEntity.iNo` as its OWN internal id (can be an
-  // inner id like "InnerCodingTool browser_1", not necessarily the exact
-  // instanceId we passed to `bind()`) -- confirmed here empirically (a
-  // direct `window['__ect_handler_' + iNo]` lookup missed real selections
-  // during manual testing). Ported the fuzzy-match fallback from
-  // ECTProvider.tsx: try an exact key first, then substring-contains either
-  // direction across every registered handler, then (if only one instance
-  // is registered at all) call that one directly.
+
   const callbacksRef = useRef({
+
+    getNewTokenFunction: () => getIcdToken(),
     selectedEntityFunction: (selectedEntity) => {
       const iNo = String(selectedEntity.iNo || '');
       const codingToolKeys = Object.keys(window).filter((k) => k.startsWith('__ect_handler_'));

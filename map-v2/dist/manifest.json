@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "version": "v2.0-compiler-2026-10-15",
-  "generatedAt": "2026-10-15T14:44:38.353Z",
+  "version": "v2.0-compiler-2026-11-09",
+  "generatedAt": "2026-11-09T11:40:31.163Z",
   "releases": {
     "icd11": {
       "linearization": "mms",
@@ -23,7 +23,7 @@
     }
   },
   "sourceManifest": {
-    "generatedAt": "2026-10-15T14:44:38.354Z",
+    "generatedAt": "2026-11-09T11:40:31.165Z",
     "sourceDir": "datasets",
     "files": {
       "stems": {
@@ -215,7 +215,7 @@
     "referenceFiles": {
       "icdo3TopographyLabels": {
         "filename": "icdo3.2\\icdo3_topography_labels.csv",
-        "sha256": "9ad3e90ada5d27f11de80675723d713dc91a711604a1e9bf3baeb649ffb9b810",
+        "sha256": "99affe2f2d2b50c9c67a71e936f0a293a411de6264364986a5dcea7a8c438801",
         "rowCount": 406,
         "headers": [
           "code",
@@ -225,7 +225,7 @@
       },
       "icdo4MorphologyLabels": {
         "filename": "icdo4\\icdo4_morphology_labels.csv",
-        "sha256": "a7d02d445e0d3e20525d9de7b41bb0d625f4f46ab9163a6f4aad07e0b66df584",
+        "sha256": "6cf9a0876d4c1e4ba7f1389a86ac20a2147a696296fac1c6a59da4dd91de2b56",
         "rowCount": 2308,
         "headers": [
           "code",
@@ -234,7 +234,7 @@
       },
       "icdo4MorphologyTerms": {
         "filename": "icdo4\\icdo4_morphology_terms.csv",
-        "sha256": "6d2ca3fb5b98f220c1f3a761a786f74b489ed24271377e3b85e88f2aaa8487f4",
+        "sha256": "2f8051b732efbf459491f3d82fc5865043bf04268bd9113331ddfbcb4187c8fa",
         "rowCount": 4600,
         "headers": [
           "code",
@@ -258,7 +258,7 @@
   "outputHashes": {
     "map.ttl": "d36edabc2f5c2dd6b77ce382df2ccfaf2dc34c489e0a865289df4cef2ccacfb6",
     "map.rdf": "4325cec6d2d6fb9363cfaa172616b7cedb7c48b94f244c70f34bbb94ed1905a1",
-    "map.normalized.yaml": "2ebfd3e752311705db2b2519f3da08d31c33fe66a8331c80011dd2d3bef36eba",
-    "map.bundle.json": "eddddf2029728a21aeea31553efa2899c95e80e523bc1a920f0935e14742b0af"
+    "map.normalized.yaml": "6da15f90a61d99fc0fc346e33f5f2a4e018252d632234a63acca562db0b30f64",
+    "map.bundle.json": "ae64a02d633618d9f8fb63e54142d36593827c7c285632b74cf1a1bb09610e5c"
   }
 }

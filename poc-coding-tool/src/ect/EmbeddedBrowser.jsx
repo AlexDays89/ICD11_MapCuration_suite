@@ -1,17 +1,7 @@
 import React, { useCallback, useEffect, useId, useRef } from 'react';
-import { useECT } from './ECTProvider.jsx';
+import { useECT } from './ectContext.js';
 import { scrapeCandidates } from '../captureLog.js';
 
-// Ported from ideas/codificador_oms_v2/components/CIE11/EmbeddedBrowser.tsx.
-// Only the standard (full hierarchy tree + search) mode is ported -- that
-// file's `browserHierarchyAvailable:false` "input-only" mode injected
-// buttons into ECT's popup via a MutationObserver, a workaround specific to
-// a stripped-down layout this project doesn't need; the real WHO Browser
-// widget (tree + search) is what "mount the Browser as-is" asks for here.
-// `height` is the knob the user explicitly asked for so the widget doesn't
-// take over the whole page -- same `settings.height` the widget already
-// honors (confirmed in laboratorio-mapas/MapLab.tsx, which sets it to
-// "650px" on its own single ECT instance).
 export function EmbeddedBrowser({
   instanceId: propInstanceId,
   settings = {},
@@ -23,9 +13,6 @@ export function EmbeddedBrowser({
   initialChapter,
   width = '100%',
   height = '600px',
-  // Height handed to the WHO widget itself. It only sizes the tree/entity
-  // body -- the search box is drawn above it -- so a page that wants the
-  // whole widget to fit `height` exactly passes a smaller value here.
   widgetHeight = height,
 }) {
   const { isConfigured, configureInstance, bindInstance, clearInstance } = useECT();

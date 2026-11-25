@@ -3,7 +3,7 @@ import { EmbeddedBrowser } from '../ect/EmbeddedBrowser.jsx';
 import { EntityDetail } from '../ect/EntityDetail.jsx';
 import { OtherPostcoordinationToggle } from '../ect/OtherPostcoordinationToggle.jsx';
 import { useEntityDetail } from '../ect/useEntityDetail.js';
-import { useECT } from '../ect/ECTProvider.jsx';
+import { useECT } from '../ect/ectContext.js';
 import { MapPanel } from '../maplab/MapPanel.jsx';
 import { FeedbackBox } from '../feedback/FeedbackBox.jsx';
 import { buildCaptureRecord } from '../captureLog.js';
